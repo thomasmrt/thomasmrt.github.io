@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Timeline</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600'>
+
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+
+  
+</head>
+
+<body>
+  <div id="overlay" onclick="off()">
+    <div id="text">Liste des Etapes</div>
+  </div>
+  <div class="header">
+  <div class="content">
+    <h1> Une randonnée quelque part </h1>
+    <h2> Sous titre</h2>
+      <h3><a href="#" onclick="on()"> 10 étapes </a></h3>
+  </div>
+  </div>
+  
+  <div class="timeline">
+    {% for elem in data %}
+      <div class="entry">
+        <div class="title">
+          <h3>{{elem['buble']}}</h3>
+        </div>
+        <div class="body">
+          <h2>{{elem['title']}}</h2>
+          {% for c in elem['content'] %}
+            {% if c['type']=='text' %}
+                <p> {{c['value']}} </p>
+            {% elif c['type']=='image' %}
+            <img src="{{ url_for('static', filename='img/'+c['value']) }}">
+            {% endif %} 
+
+
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+      <div class="entry">
+        <div class="title">
+          <h3>Jour 23</h3>
+
+        </div>
+        <div class="body">
+          <h2>Titre de l'étape</h2>
+          <p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
+          <ul>
+            <li>Rerum sit libero possimus amet excepturi</li>
+            <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
+            <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
+          </ul>
+          <ul>
+            <li>Rerum sit libero possimus amet excepturi</li>
+            <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
+            <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
+          </ul>
+          <ul>
+            <li>Rerum sit libero possimus amet excepturi</li>
+            <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
+            <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
+          </ul>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="step">
+        <p></p>
+        </div>
+        <div class="body">
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla egestas mauris sit amet tristique. Suspendisse dapibus ex in quam vehicula, sodales dictum nisi tincidunt. Aliquam mi sapien, luctus sollicitudin tortor eu, tincidunt eleifend nisl. Maecenas sit amet sapien dui. Maecenas nec lacinia neque. Ut convallis magna est, a lobortis erat elementum sit amet. Nulla et lectus non ex sagittis sagittis sit amet et mi. Donec at vehicula ante, aliquet ultrices nulla. Phasellus dictum arcu a posuere cursus. Nullam vitae pharetra ipsum, nec euismod mauris. Praesent malesuada luctus felis vitae faucibus. </p>
+        </div>
+        
+      </div>
+      <div class="col">
+        <p> Lorem ipsm df df df d f df sdgkjfg f gfdgkjdf gdfjg df gdfg</p>
+      </div>
+
+
+    </div>
+  
+
+<script>
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+} 
+</script>  
+</body>
+</html>
