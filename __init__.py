@@ -58,14 +58,12 @@ app.secret_key = b'_you_will_never_guess'
 @app.route('/')
 @app.route('/index')
 def home():
-
     data = get_data()
     print(data)
     return render_template('index.html', data=data)
-    
-
 
 if __name__ == "__main__":
-    print(get_data())    
+    FREEZER_RELATIVE_URLS = True   
     freezer = Freezer(app)
+    freezer.run()
     freezer.freeze()
