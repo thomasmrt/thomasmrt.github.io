@@ -66,7 +66,6 @@ def home():
 
 
 if __name__ == "__main__":
-    print(get_data())
-    
+    print(get_data())    
     freezer = Freezer(app)
     freezer.freeze()
