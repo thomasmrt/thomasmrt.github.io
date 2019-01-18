@@ -36,7 +36,7 @@
             {% if c['type']=='text' %}
                 <p> {{c['value']}} </p>
             {% elif c['type']=='image' %}
-            <img src="{{ url_for('static', filename='img/'+c['value']) }}">
+            <img src="{{ url_for('static', filename='img/'+c['value'][0]) }}">
             {% endif %} 
 
 
