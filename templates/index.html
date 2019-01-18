@@ -7,7 +7,7 @@
   
   <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600'>
 
-      <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
 
   
 </head>
@@ -25,21 +25,25 @@
   </div>
   
   <div class="timeline">
+    {% for elem in data %}
       <div class="entry">
         <div class="title">
-          <h3>Jour 1</h3>
-
+          <h3>{{elem['buble']}}</h3>
         </div>
         <div class="body">
-          <h2>Paris - Oslo - Bodo</h2>
-          <ul>
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-            <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-          </ul>
-          <img src="static/img/pic01.png">
+          <h2>{{elem['title']}}</h2>
+          {% for c in elem['content'] %}
+            {% if c['type']=='text' %}
+                <p> {{c['value']}} </p>
+            {% elif c['type']=='image' %}
+            <img src="{{ url_for('static', filename='img/'+c['value']) }}">
+            {% endif %} 
+
+
+          {% endfor %}
         </div>
       </div>
+    {% endfor %}
       <div class="entry">
         <div class="title">
           <h3>Jour 23</h3>
