@@ -10,16 +10,19 @@ def get_data():
     PATH = Path(r'C:\Users\thoma\Documents\GitHub\thomasmrt.github.io\static\data')
     wb = load_workbook(filename = PATH / 'data.xlsx')
     ws = wb['Taillefer']
-    data = []
+    data = {'stages':[], 'main_title':None, 'sub_title':None, 'background': None}
     i = 2
     while ws.cell(row=i, column=1).value != None:
-        
-        if ws.cell(row=i, column=1).value == 'section_start':            
+        if ws.cell(row=i, column=1).value == 'main_info':
+            data['main_title'] = ws.cell(row=i, column=2).value
+            data['sub_title'] = ws.cell(row=i, column=3).value
+            data['background'] = ws.cell(row=i, column=4).value
+        elif ws.cell(row=i, column=1).value == 'section_start':            
             stage = {'title': None, 'buble': None,'content':[], 'info': None}
     
 
         elif ws.cell(row=i, column=1).value == 'section_end':
-            data.append(stage)
+            data['stages'].append(stage)
 
         
         elif ws.cell(row=i, column=1).value == 'title':
