@@ -61,6 +61,10 @@ a:hover{
   font-size: 2em;
 
 }
+.image.fit{
+  display: block;
+  width: 100%;
+}
 
 .timeline {
   margin: auto;

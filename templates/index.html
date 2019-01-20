@@ -6,7 +6,7 @@
   
   
   <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600'>
-
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
 
   
@@ -36,7 +36,16 @@
             {% if c['type']=='text' %}
                 <p> {{c['value']}} </p>
             {% elif c['type']=='image' %}
-            <img src="{{ url_for('static', filename='img/'+c['value'][0]) }}">
+              <div class="row">
+              {% for i in range(c['nb']) %}
+                <div class="col-{{c['row']}}">
+                
+                  <img src="{{c['value'][i]}}">
+                
+                </div>
+              
+              {% endfor%}
+              </div>
             {% endif %} 
 
 

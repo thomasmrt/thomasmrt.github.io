@@ -7,9 +7,9 @@ from openpyxl import load_workbook
 from path import Path
 
 def get_data():
-    PATH = Path(r'C:\Users\safco103866\Desktop\Tools\site\thomasmrt.github.io\static\data')
+    PATH = Path(r'C:\Users\thoma\Documents\GitHub\thomasmrt.github.io\static\data')
     wb = load_workbook(filename = PATH / 'data.xlsx')
-    ws = wb['Lofoten']
+    ws = wb['Taillefer']
     data = []
     i = 2
     while ws.cell(row=i, column=1).value != None:
@@ -36,7 +36,7 @@ def get_data():
                 image.append(ws.cell(row=i, column=k).value)
                 k+=1
             
-            stage['content'].append({'type': 'image','value': image })
+            stage['content'].append({'type': 'image','value': image, 'nb': len(image), 'row': int(12/len(image)) })
 
        
         elif ws.cell(row=i, column=1).value == 'info':
@@ -46,8 +46,9 @@ def get_data():
             gpx = ws.cell(row=i, column=6).value
             stage['info'] = [distance, deniv, temps, gpx]
     
-       
+        
         i+=1
+        print(i, ws.cell(row=i, column=1).value)
 
     return data
 
@@ -56,14 +57,16 @@ app.secret_key = b'_you_will_never_guess'
 
 
 @app.route('/')
-@app.route('/index')
+@app.route('/index.html')
 def home():
     data = get_data()
     print(data)
     return render_template('index.html', data=data)
 
 if __name__ == "__main__":
-    FREEZER_RELATIVE_URLS = True   
-    freezer = Freezer(app)
-    freezer.run()
-    freezer.freeze()
+    data = get_data()
+    print(data)
+    app.run(debug=True)
+#    freezer = Freezer(app)
+#    freezer.run()
+#    freezer.freeze()
