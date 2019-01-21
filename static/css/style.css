@@ -62,6 +62,32 @@ a:hover{
 
 }
 
+.image.fit{
+  padding:30px;
+}
+
+.row {
+    margin-top: -10px;
+    margin-left: -10px;    
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+}
+
+.row > * {
+    padding: 10px 0 0 10px;
+}
+.row > .col-12 {
+    width: 100%;
+    }
+.row > .col-6 {
+    width: 50%;
+}
+.row > .col-4 {
+    width: 33.3333333333%;
+}
+
 .timeline {
   margin: auto;
   width: 100%;
