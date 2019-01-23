@@ -6,10 +6,10 @@ from flask import Flask, render_template, redirect, request, session,  url_for, 
 from openpyxl import load_workbook
 from path import Path
 
-def get_data():
+def get_data(name):
     PATH = Path(r'C:\Users\thoma\Documents\GitHub\thomasmrt.github.io\static\data')
     wb = load_workbook(filename = PATH / 'data.xlsx')
-    ws = wb['Taillefer']
+    ws = wb[name]
     data = {'stages':[], 'main_title':None, 'sub_title':None, 'background': None}
     i = 2
     while ws.cell(row=i, column=1).value != None:
@@ -17,6 +17,7 @@ def get_data():
             data['main_title'] = ws.cell(row=i, column=2).value
             data['sub_title'] = ws.cell(row=i, column=3).value
             data['background'] = ws.cell(row=i, column=4).value
+            data['date'] = ws.cell(row=i, column=5).value
         elif ws.cell(row=i, column=1).value == 'section_start':            
             stage = {'title': None, 'buble': None,'content':[], 'info': None}
     
@@ -62,7 +63,7 @@ app.secret_key = b'_you_will_never_guess'
 @app.route('/')
 @app.route('/index.html')
 def home():
-    data = get_data()
+    data = get_data(name='Taillefer')
     print(data)
     return render_template('index.html', data=data)
 
