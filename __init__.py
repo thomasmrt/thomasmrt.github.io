@@ -7,7 +7,7 @@ from openpyxl import load_workbook
 from path import Path
 
 def get_data(name):
-    PATH = Path(r'C:\Users\thoma\Documents\GitHub\thomasmrt.github.io\static\data')
+    PATH = Path(r'static\data')
     wb = load_workbook(filename = PATH / 'data.xlsx')
     ws = wb[name]
     data = {'stages':[], 'main_title':None, 'sub_title':None, 'background': None}
