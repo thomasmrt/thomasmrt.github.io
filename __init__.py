@@ -67,9 +67,9 @@ def home():
     return render_template('index.html', data=data)
 
 if __name__ == "__main__":
-    data = get_data()
-    print(data)
-    app.run(debug=True)
-#    freezer = Freezer(app)
+#    data = get_data()
+#    print(data)
+#    app.run(debug=True)
+    freezer = Freezer(app)
 #    freezer.run()
-#    freezer.freeze()
+    freezer.freeze()
