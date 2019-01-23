@@ -7,7 +7,7 @@ from openpyxl import load_workbook
 from path import Path
 
 def get_data(name):
-    PATH = Path(r'C:\Users\thoma\Documents\GitHub\thomasmrt.github.io\static\data')
+    PATH = Path(r'static\data')
     wb = load_workbook(filename = PATH / 'data.xlsx')
     ws = wb[name]
     data = {'stages':[], 'main_title':None, 'sub_title':None, 'background': None}
@@ -68,9 +68,9 @@ def home():
     return render_template('index.html', data=data)
 
 if __name__ == "__main__":
-    data = get_data()
-    print(data)
-    app.run(debug=True)
-#    freezer = Freezer(app)
+#    data = get_data()
+#    print(data)
+#    app.run(debug=True)
+    freezer = Freezer(app)
 #    freezer.run()
-#    freezer.freeze()
+    freezer.freeze()
