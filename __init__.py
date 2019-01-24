@@ -61,9 +61,16 @@ app.secret_key = b'_you_will_never_guess'
 
 
 @app.route('/')
-@app.route('/index.html')
-def home():
+@app.route('/taillefer.html')
+def taillefer():
     data = get_data(name='Taillefer')
+    print(data)
+    return render_template('index.html', data=data)
+
+@app.route('/')
+@app.route('/lofoten.html')
+def lofoten():
+    data = get_data(name='Lofoten')
     print(data)
     return render_template('index.html', data=data)
 
