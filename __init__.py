@@ -10,7 +10,7 @@ def get_data(name):
     PATH = Path(r'static\data')
     wb = load_workbook(filename = PATH / 'data.xlsx')
     ws = wb[name]
-    data = {'stages':[], 'main_title':None, 'sub_title':None, 'background': None}
+    data = {'stages':[], 'nstage':1,'main_title':None, 'sub_title':None, 'background': None}
     i = 2
     while ws.cell(row=i, column=1).value != None:
         if ws.cell(row=i, column=1).value == 'main_info':
@@ -53,7 +53,7 @@ def get_data(name):
         
         i+=1
         print(i, ws.cell(row=i, column=1).value)
-
+    data['nstage']=len(data['satges'])
     return data
 
 app = Flask(__name__)
