@@ -84,7 +84,7 @@ def queyras():
 if __name__ == "__main__":
 #    data = get_data()
 #    print(data)
-#    app.run(debug=True)
-    freezer = Freezer(app)
+    app.run(debug=True)
+#    freezer = Freezer(app)
 #    freezer.run()
-    freezer.freeze()
+#    freezer.freeze()

@@ -27,7 +27,7 @@
   <div id="overlay" onclick="off()">
     <div id="text"><h2>Liste des Etapes</h3>
     {% for elem in data['stages'] %}
-    <h3>{{elem['title']}}</h3>
+      {% if elem['title'] %} <h3>{{elem['title']}}</h3> {% endif %}
     {% endfor%}
     
     </div>
@@ -59,7 +59,7 @@
         </div>
         {% endif %}
         <div class="body">
-        {% if elem['buble'] %}   <h2>{{elem['title']}}</h2> {% endif %}
+        {% if elem['title'] %}   <h2>{{elem['title']}}</h2> {% endif %}
           {% for c in elem['content'] %}
             {% if c['type']=='text' %}
                 <p> {{c['value']}} </p>
@@ -81,43 +81,7 @@
         </div>
       </div>
     {% endfor %}
-      <div class="entry">
-        <div class="title">
-          <h3>Jour 23</h3>
 
-        </div>
-        <div class="body">
-          <h2>Titre de l'étape</h2>
-          <p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
-          <ul>
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-            <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-          </ul>
-          <ul>
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-            <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-          </ul>
-          <ul>
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-            <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-          </ul>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="step">
-        <p></p>
-        </div>
-        <div class="body">
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla egestas mauris sit amet tristique. Suspendisse dapibus ex in quam vehicula, sodales dictum nisi tincidunt. Aliquam mi sapien, luctus sollicitudin tortor eu, tincidunt eleifend nisl. Maecenas sit amet sapien dui. Maecenas nec lacinia neque. Ut convallis magna est, a lobortis erat elementum sit amet. Nulla et lectus non ex sagittis sagittis sit amet et mi. Donec at vehicula ante, aliquet ultrices nulla. Phasellus dictum arcu a posuere cursus. Nullam vitae pharetra ipsum, nec euismod mauris. Praesent malesuada luctus felis vitae faucibus. </p>
-        </div>
-        
-      </div>
-      <div class="col">
-        <p> Lorem ipsm df df df d f df sdgkjfg f gfdgkjdf gdfjg df gdfg</p>
-      </div>
 
 
     </div>
