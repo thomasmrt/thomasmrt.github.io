@@ -53,7 +53,7 @@ def get_data(name):
         
         i+=1
         print(i, ws.cell(row=i, column=1).value)
-
+    data['nb_stages'] = len(data['stages'])
     return data
 
 app = Flask(__name__)

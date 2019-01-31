@@ -25,7 +25,7 @@
 
 <body>
   <div id="overlay" onclick="off()">
-    <div id="text"><h2>Liste des Etapes</h3>
+    <div id="text"><h2>Liste des Etapes</h2>
     {% for elem in data['stages'] %}
       {% if elem['title'] %} <h3>{{elem['title']}}</h3> {% endif %}
     {% endfor%}
@@ -44,7 +44,7 @@
             <h3> {{data['date']}}</h3>
           </div>
           <div class="col-4">
-            <h3><a href="#" onclick="on()"> 10 étapes </a></h3>
+            <h3><a href="#" onclick="on()"> {{data['nb_stages']}} étapes </a></h3>
           </div>
         </div>
       </div>
