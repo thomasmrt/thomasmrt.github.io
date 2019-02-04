@@ -73,7 +73,7 @@ def home():
     return render_template('home.html', trips=trips)
 
 
-@app.route('/trips/<tripname>')
+@app.route('/trips/<tripname>/')
 def trips(tripname):
     data = get_data(name=tripname)
     return render_template('index.html', data=data)
