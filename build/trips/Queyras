@@ -25,25 +25,25 @@
 
 <body>
   <div id="overlay" onclick="off()">
-    <div id="text"><h2>Liste des Etapes</h3>
+    <div id="text"><h2>Liste des Etapes</h2>
     
-    <h3>None</h3>
+      
     
-    <h3>Ceillac - Saint Véran - Chapelel du Clausis</h3>
+       <h3>Ceillac - Saint Véran - Chapelel du Clausis</h3> 
     
-    <h3>Chapelle du Clausis -  Refuge Agnel -  La Monta</h3>
+       <h3>Chapelle du Clausis -  Refuge Agnel -  La Monta</h3> 
     
-    <h3>La Monta - Abries</h3>
+       <h3>La Monta - Abries</h3> 
     
-    <h3> Abries - Les Fonds</h3>
+       <h3> Abries - Les Fonds</h3> 
     
-    <h3>Les Fonds - Souliers</h3>
+       <h3>Les Fonds - Souliers</h3> 
     
-    <h3>Souliers - Furfande</h3>
+       <h3>Souliers - Furfande</h3> 
     
-    <h3>Furfande - Bramousse – Ceillac</h3>
+       <h3>Furfande - Bramousse – Ceillac</h3> 
     
-    <h3> Lac Saint Anne</h3>
+       <h3> Lac Saint Anne</h3> 
     
     
     </div>
@@ -60,7 +60,7 @@
             <h3> Juillet 2018</h3>
           </div>
           <div class="col-4">
-            <h3><a href="#" onclick="on()"> 10 étapes </a></h3>
+            <h3><a href="#" onclick="on()"> 9 étapes </a></h3>
           </div>
         </div>
       </div>
@@ -989,43 +989,7 @@
         </div>
       </div>
     
-      <div class="entry">
-        <div class="title">
-          <h3>Jour 23</h3>
 
-        </div>
-        <div class="body">
-          <h2>Titre de l'étape</h2>
-          <p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
-          <ul>
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-            <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-          </ul>
-          <ul>
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-            <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-          </ul>
-          <ul>
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-            <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-          </ul>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="step">
-        <p></p>
-        </div>
-        <div class="body">
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla egestas mauris sit amet tristique. Suspendisse dapibus ex in quam vehicula, sodales dictum nisi tincidunt. Aliquam mi sapien, luctus sollicitudin tortor eu, tincidunt eleifend nisl. Maecenas sit amet sapien dui. Maecenas nec lacinia neque. Ut convallis magna est, a lobortis erat elementum sit amet. Nulla et lectus non ex sagittis sagittis sit amet et mi. Donec at vehicula ante, aliquet ultrices nulla. Phasellus dictum arcu a posuere cursus. Nullam vitae pharetra ipsum, nec euismod mauris. Praesent malesuada luctus felis vitae faucibus. </p>
-        </div>
-        
-      </div>
-      <div class="col">
-        <p> Lorem ipsm df df df d f df sdgkjfg f gfdgkjdf gdfjg df gdfg</p>
-      </div>
 
 
     </div>

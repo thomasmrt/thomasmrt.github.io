@@ -205,17 +205,29 @@ a:hover{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.99); /* Black background with opacity */
+  background-color: rgba(0,0,0,0.9); /* Black background with opacity */
   z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
 } 
 
 #text{
+
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 50px;
+
   color: white;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
+}
+
+#text h2{
+  color: #fff;
+  text-align:center;
+  font-size: 3em;
+}
+
+#text h2{
+  color: #fff;
+  font-size: 2em;
 }

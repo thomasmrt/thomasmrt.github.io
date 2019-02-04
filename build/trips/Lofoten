@@ -11,7 +11,7 @@
 
   <style type="text/css">
   .header{
-  background-image: url("None");
+  background-image: url("https://lh3.googleusercontent.com/ykMPu8fYsO9j8hTKM7wwwuTBvUCxsCjekf9DUqQAf8cQ565VQVmhRtrTqXmhlmikGPtmpxiWxJXHCepxip3cH92s8ubpRN8D4F4XiidluDZqMZXSzXk3OVwZ47olH-YBY56j_xLWImHvK_YpSTGlGTDg0lvS7qg9E8K8R2P7oB6dwpv4TSU045Y2iBy_T_FPIdbz-CHN3imKTpVAI23DwwEUGW7_nKM9lLYizPvFa9JbjeY7ao8zr2cKdzy0ilJAVQdfVHjH1kn6bg5t5ORfAKxc62aHrNlQkGtFbFrs1zL7i0Xmyo4WA_QWdezkStyb1HTexMSkmphD8Psrrr54u0L0rBXZ7dvjsobjO7M6Mu7h2kvmmCiZEooxjSJrJqx9o1qWO3ymEx5FHDCukta6KAJ7GoNnL32tc5F47BfVgFsUaeJRDW_7stvh-KuEQZosPllSULAjkPpAX_SM3Xznn4Sgu1lgrbzvQ2m0-DGyLe0H-_lIFselJlCs0Bf1M7EayTwrtuAenD23zeRJplDC8gOqZEwgK0T2xeOLjugiI1PlZ5bjGUz7afdNqufujS8fWhwZjq3ypG6261nd1_-WS0HveGM9_vDYPbTbJTb-lmT261Ui8udJ-VK7erNBspL0j_BZdcoyObsWPTVL9eJPKMaejMmMF4KS=w1680-h880-no");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -25,35 +25,35 @@
 
 <body>
   <div id="overlay" onclick="off()">
-    <div id="text"><h2>Liste des Etapes</h3>
+    <div id="text"><h2>Liste des Etapes</h2>
     
-    <h3>Paris - Oslo - Bodo - Svolvaer</h3>
+       <h3>Paris - Oslo - Bodo - Svolvaer</h3> 
     
-    <h3>Svolvaer</h3>
+       <h3>Svolvaer</h3> 
     
-    <h3>Sandsletta- Svolvaer</h3>
+       <h3>Sandsletta- Svolvaer</h3> 
     
-    <h3>Svolvaer - Kleppstad</h3>
+       <h3>Svolvaer - Kleppstad</h3> 
     
-    <h3>Vikjorda - Lac de Store Kengg&amp;#229;rsvatnet</h3>
+       <h3>Vikjorda - Lac de Store Kengg&amp;#229;rsvatnet</h3> 
     
-    <h3>Lac de Store Kengg&amp;#229;rsvatnet - Leknes - Napp</h3>
+       <h3>Lac de Store Kengg&amp;#229;rsvatnet - Leknes - Napp</h3> 
     
-    <h3>Napp - Nusfjord</h3>
+       <h3>Napp - Nusfjord</h3> 
     
-    <h3>Nusfjord - Ramberg</h3>
+       <h3>Nusfjord - Ramberg</h3> 
     
-    <h3>Ramberg - Selfjord</h3>
+       <h3>Ramberg - Selfjord</h3> 
     
-    <h3>Selfjord - Reine - Moskenes</h3>
+       <h3>Selfjord - Reine - Moskenes</h3> 
     
-    <h3>A i Lofoten</h3>
+       <h3>A i Lofoten</h3> 
     
-    <h3>Munkan</h3>
+       <h3>Munkan</h3> 
     
-    <h3>Veinstinden</h3>
+       <h3>Veinstinden</h3> 
     
-    <h3>Oslo</h3>
+       <h3>Oslo</h3> 
     
     
     </div>
@@ -61,16 +61,16 @@
   </div>
   <div class="header">
       <div class="content">
-        <h1> None </h1>
+        <h1> Grande traversée des Lofoten </h1>
         <div class="row">
           <div class="col-4">
-            <h3> None</h3>
+            <h3> Norvège</h3>
           </div>
           <div class="col-4">
-            <h3> </h3>
+            <h3> Juillet 2017</h3>
           </div>
           <div class="col-4">
-            <h3><a href="#" onclick="on()"> 10 étapes </a></h3>
+            <h3><a href="#" onclick="on()"> 14 étapes </a></h3>
           </div>
         </div>
       </div>
@@ -1272,7 +1272,7 @@
       <div class="entry">
         
         <div class="title">
-          <h3>Post Rando</h3>
+          <h3>+1</h3>
         </div>
         
         <div class="body">
@@ -1384,43 +1384,7 @@
         </div>
       </div>
     
-      <div class="entry">
-        <div class="title">
-          <h3>Jour 23</h3>
 
-        </div>
-        <div class="body">
-          <h2>Titre de l'étape</h2>
-          <p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
-          <ul>
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-            <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-          </ul>
-          <ul>
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-            <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-          </ul>
-          <ul>
-            <li>Rerum sit libero possimus amet excepturi</li>
-            <li>Exercitationem enim dolores sunt praesentium dolorum praesentium</li>
-            <li>Modi aut dolores dignissimos sequi sit ut aliquid molestias deserunt illo</li>
-          </ul>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="step">
-        <p></p>
-        </div>
-        <div class="body">
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla egestas mauris sit amet tristique. Suspendisse dapibus ex in quam vehicula, sodales dictum nisi tincidunt. Aliquam mi sapien, luctus sollicitudin tortor eu, tincidunt eleifend nisl. Maecenas sit amet sapien dui. Maecenas nec lacinia neque. Ut convallis magna est, a lobortis erat elementum sit amet. Nulla et lectus non ex sagittis sagittis sit amet et mi. Donec at vehicula ante, aliquet ultrices nulla. Phasellus dictum arcu a posuere cursus. Nullam vitae pharetra ipsum, nec euismod mauris. Praesent malesuada luctus felis vitae faucibus. </p>
-        </div>
-        
-      </div>
-      <div class="col">
-        <p> Lorem ipsm df df df d f df sdgkjfg f gfdgkjdf gdfjg df gdfg</p>
-      </div>
 
 
     </div>

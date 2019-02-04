@@ -6,6 +6,12 @@ from flask import Flask, render_template, redirect, request, session,  url_for, 
 from openpyxl import load_workbook
 from path import Path
 
+def get_trips():
+    PATH = Path(r'static\data')
+    wb = load_workbook(filename = PATH / 'data.xlsx')
+    trips = wb.sheetnames
+    return trips
+
 def get_data(name):
     PATH = Path(r'static\data')
     wb = load_workbook(filename = PATH / 'data.xlsx')
@@ -61,30 +67,41 @@ app.secret_key = b'_you_will_never_guess'
 
 
 @app.route('/')
-@app.route('/taillefer/index.html')
-def taillefer():
-    data = get_data(name='Taillefer')
-    print(data)
+def home():   
+    trips = get_trips()
+    print(trips)
+    return render_template('home.html', trips=trips)
+
+
+@app.route('/trips/<tripname>')
+def trips(tripname):
+    data = get_data(name=tripname)
     return render_template('index.html', data=data)
 
-@app.route('/')
-@app.route('/lofoten/index.html')
-def lofoten():
-    data = get_data(name='Lofoten')
-    print(data)
-    return render_template('index.html', data=data)
-
-@app.route('/')
-@app.route('/queyras/index.html')
-def queyras():
-    data = get_data(name='Queyras')
-    print(data)
-    return render_template('index.html', data=data)
+#@app.route('/taillefer')
+#def taillefer():
+#    data = get_data(name='Taillefer')
+#    print(data)
+#    return render_template('index.html', data=data)
+#
+#
+#@app.route('/lofoten/index.html')
+#def lofoten():
+#    data = get_data(name='Lofoten')
+#    print(data)
+#    return render_template('index.html', data=data)
+#
+#
+#@app.route('/queyras/index.html')
+#def queyras():
+#    data = get_data(name='Queyras')
+#    print(data)
+#    return render_template('index.html', data=data)
 
 if __name__ == "__main__":
 #    data = get_data()
 #    print(data)
-    app.run(debug=True)
-#    freezer = Freezer(app)
+#    app.run(debug=True)
+    freezer = Freezer(app)
 #    freezer.run()
-#    freezer.freeze()
+    freezer.freeze()
