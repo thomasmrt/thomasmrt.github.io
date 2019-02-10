@@ -29,7 +29,7 @@ a:hover{
   color: #fff
 }
 .main{
-  background-color: var(--backgroundcolor);
+  background-color: #00f;
   text-align: center;
   width: 70%;
   height: 70vh;  
