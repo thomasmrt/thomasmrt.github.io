@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Timeline</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600'>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <style type="text/css">
+  .header{
+  background-image: url("https://lh3.googleusercontent.com/dRZMHjm1blnLah8TjCK1ungs3UZ3efCln8CKlH5hxc0ZXjgVzIXILSveiqhJh_OYvTbrIlFEETHpsmu8zN2fnlmD4DuijCc84DczW_w1r47GDkA2y36lzAXpyH58irhOgmXehQeuWknzDp63sVINQ-WftEPV_c0V4Dx_JKX_B2VxVQyfxb35_IGfJ7wlHvPglg2eajPTZozu_p-xntzNMRZVxg-W4Yf-AiRf-0ovM8iIe5_VI-H6DU1ERHMGlBLYRqaZ5cRtvKIXrKDuHdNSKWNTxB8JK9OklwnhejI1E2LJ4KuYS_GiLBn1QlpNc9Ugf-CkXx_X24t-3gXvRVfikelqqTZ6ku92DyLbrJLra7CEGcZE66dyTHcmIsj59rLaej1NXdlaXAVpb9iSLAsw3awDjNy7s6OJwW5IcW2T3u02hNTjYg1JV6InwuVA-sC2ccCNQCG7X3WQZ_SjcuoDBWoZolqJEconw1N5mz_YVCpX-aXi907HmbtZbLqeVuoiUV5Jw-j-zFkKqZHE81e2l42OwkDcVyKieYtk6VgvfkO75jCy5SC792JI0tnEdXMlXi_oH7vtD3pfNwxCVR_qYyHmH3rUijPBBqeOXzuKJAizdo5Nygsx9XJcmVSPNwVFZg-NaD65wmJLuToTCoEsnvk5ffxUAACdvC28T-Ftm9cuY0RQ5ioEyxPjfyKAKrEfA09aYRXzovDEMRv7I3Qjt6xkEw=w478-h360-no");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 80vh;  
+  padding: 40px 0px;
+  margin-top:0;
+  position: relative;}
+  </style>
+</head>
+
+<body>
+  <div id="overlay" onclick="off()">
+    <div id="text"><h2>Liste des Etapes</h2>
+    
+      
+    
+    
+    </div>
+    
+  </div>
+  <div class="header">
+      <div class="content">
+        <h1> GR20 Nord-Sud </h1>
+        <div class="row">
+          <div class="col-4">
+            <h3> Corse</h3>
+          </div>
+          <div class="col-4">
+            <h3> Juin 2016</h3>
+          </div>
+          <div class="col-4">
+            <h3><a href="#" onclick="on()"> 1 étapes </a></h3>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+  <div class="timeline">
+    
+      <div class="entry">
+        
+        <div class="title">
+          <h3>Jour 1</h3>
+        </div>
+        
+        <div class="body">
+        
+          
+            
+                <p> Premier réveil trop matinal pour des vacances. Les sacs sont bouclés, c&#39;est parti pour l&#39;aventure. On rejoint la gare Montparnasse en RER pour prendre un bus jusqu&#39;à l&#39;aéroport Orly Ouest. On a été large sur le temps, on poirote pour l&#39;enregistrement des bagages. On passe la sécurité et Antoine casse son téléphone en voulant ranger ses affaires trop rapidement. Encore un peu d&#39;attente avant l&#39;embarquement puis c&#39;est parti pour 1h30 de vol pour arriver à aéroport. Depuis le tarmac la montagne corse nous nargue. </p>
+             
+
+
+          
+        </div>
+      </div>
+    
+
+
+
+    </div>
+  
+
+<script>
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+} 
+</script>  
+</body>
+</html>
