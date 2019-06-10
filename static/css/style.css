@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 :root{
   --maincolor: #b11a13;
   --backgroundcolor: #fff;
@@ -14,12 +14,17 @@ body {
   font-family: 'Source Sans Pro', arial, sans-serif;
   font-weight: 300;
   color: #333;
+
   box-sizing: border-box;
 }
 body * {
   box-sizing: border-box;
+  
 }
-
+p{
+font-size: 1.5em;
+text-align: justify;
+}
 a{
  color: inherit;
  text-decoration: None;
@@ -89,6 +94,13 @@ a:hover{
 .row > .col-4 {
     width: 33.3333333333%;
 }
+
+iframe{
+	width: 100%;
+	height: 50vh;
+    overflow: hidden;
+    border: 0;
+    }
 
 .timeline {
   margin: auto;
