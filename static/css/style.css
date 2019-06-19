@@ -14,6 +14,7 @@ body {
   font-family: 'Source Sans Pro', arial, sans-serif;
   font-weight: 300;
   color: #333;
+  font-size: 20px;
 
   box-sizing: border-box;
 }
@@ -242,4 +243,9 @@ iframe{
 #text h2{
   color: #fff;
   font-size: 2em;
+}
+
+@media screen and (max-width: 736px) {
+p{font-size: 12em;}
+
 }
