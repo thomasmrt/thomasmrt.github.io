@@ -1,485 +1,919 @@
-<!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Timeline</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  
-  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600'>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="/static/css/style.css">
-
-  <style type="text/css">
-  .header{
-  background-image: url("https://lh3.googleusercontent.com/AyyNikKXka7K-mOpuW5B9Gl3hzUCTk86wdR8fFsHY6h-ZADD1VXZmOwbDzEJcToNBHMVBKCuk29MA-1-glNAP0a6sHXYXEqV6Z-sqOtnFHf3T7Zjy-bv3_80BRjY5o6dHns5kMw_ubVkj8r-WHfm7lkWBrEN4J7RDsgLSUxAu_nfkDR9ZowW7V3CErDfjkClP_DCjb1ja4VZBQcyTU6ETjxENKbmt6cM34IpOs2KRTJa-VS-1gl_MrTi5_TEeVjKHCpgiTso2P6s-kXf2F9FbI-V7namZlGOTzvyV4OqMVBYgWalmrRdSYyZ_tF2_TwB0TY4wep1K0GKuyo7V2n2OvKUl0GVhzQxZQftC_Rmmv9O8adGeuWYKYJWoYAZQDceRXYhAEm5kIeiUVRBYAwEPxKwmns1-nMZwjvRgl2hgsYxitCjGJpgzI9hg4iNGAJkA8LeZf2q8CdqqQhgAiLl7Sa-Mx-TXPC1ajDztP55fXJn5Qu1OmyBSeiINUeZ-3hpsViKr1nstnNJGyVUHtdVYspgtp8vZv-i-2pCpwxmHvEdISLbbsZGaYAoN9BLEyVUR0w0gAQ2O_M-hrsLNnp93LDMZDNq7Xf2cgDGU4KTp1GyypDAvleWAhHKhdBF6YjlKpV5w4qCu4pkospss9IixpYNaay_8uJC=w1259-h944-no");
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  width: 100%;
-  height: 80vh;  
-  padding: 40px 0px;
-  margin-top:0;
-  position: relative;}
-  </style>
-</head>
-
-<body>
-  <div id="overlay" onclick="off()">
-    <div id="text"><h2>Liste des Etapes</h2>
-    
-      
-    
-       <h3>Hohneck</h3> 
-    
-       <h3>Grand Ballon</h3> 
-    
-       <h3>Petit Ballon</h3> 
-    
-    
-    </div>
-    
-  </div>
-  <div class="header">
-      <div class="content">
-        <h1> Tour de la Vallée de Munster </h1>
-        <div class="row">
-          <div class="col-4">
-            <h3> Vosges</h3>
-          </div>
-          <div class="col-4">
-            <h3> Juin 2019</h3>
-          </div>
-          <div class="col-4">
-            <h3><a href="#" onclick="on()"> 3 étapes </a></h3>
-          </div>
-        </div>
-      </div>
-  </div>
-  
-  <div class="timeline">
-    
-      <div class="entry">
-        
-        <div class="body">
-        
-          
-            
-                <p> J&#39;avais prévu cette randonnée dans les Vosges lors de l&#39;un des grands ponts de mai mais le temps catastrophique et les température glaciale de l&#39;époque m&#39;avaient poussé a renoncer. Au pont de l&#39;ascension cette fois les conditions s&#39;annoncent parfaites, ciel ensoleillé et temperature adaptée au bivouac. En partant je ne suis pas encore tout a fait fixé sur l&#39;itinéraire que je vais emprunter. J&#39;ai étudié plusieurs options de circuit de trois etapes (sur le papier). Comme il faut bien partir de quelque part, je porte mon choix sur le tour de la vallée de Munster. </p>
-             
-
-
-          
-            
-                <iframe scrolling="no" src="/static/maps/vosges.html" class="noScrolling"></iframe>
-                
-             
-
-
-          
-        </div>
-      </div>
-    
-      <div class="entry">
-        
-        <div class="title">
-          <h3>Jour 1</h3>
-        </div>
-        
-        <div class="body">
-           <h2>Hohneck</h2> 
-          
-            
-                <p> Je pars donc jeudi matin en direction de Munster ou j&#39;arrive un peu avant 13h. Alors que je vais pour finaliser mon sac je remarque qu&#39;il y a de l&#39;eau partout, ma poche a eau s&#39;est vidée de tout son contenu pendant le trajet en voiture. La plupart de l&#39;eau a été absorbée par ma serviette (pas grave), mon livre (adieu le lecture),  et mon rouleau de PQ (mais je ne m&#39;en apercoit pas). Je met le sac sur le dos et commence a marcher dans Munster. Les difficultés ne se font pas attendre. Avant meme d&#39;avoir rejoint le départ prévu de la randonnée la route s&#39;éleve. Une fois dans la foret le chemin commence par suivre le balisage du club vosgien. Ensuite la trace gps que je suis s&#39;écarte ne suit plus le balisage et je fais quelques petites erreurs de parcours. Le chemin continue de monter en pente douce, malgré le ciel couvert et l&#39;abri des arbres il fait quand meme bien chaud. Apres presque deux heures de marche mes reserve d&#39;eau ont déja diminué drastiquement et pas une trace de source. Heureusement quelque temps apres j&#39;apercois une fontaine dans le jardin d&#39;un chalet. Comme celui-ci a l&#39;air vide je me permet de me servir a la fontaine. La vue se dégage sur la gauche et laisse apparaitre la vallée. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/el-X1y8-B_s3pgYJE-BqerfUpA2Cn9MdJL25_qJq6IoAVFZWzh5JWrz_XIuCgAlnnvtHgSjchoa4KWF5Xs5p6-CTaokOH8R3pjaECkRKYpVb28AKPtXsrcYpQLE6HECWrAb01-hC3icytAe8TUh5Eop2IsBAJPgqVELBQQzREHrmqRC-rFGFP2e_Y-5-lxPncWsoXfDfwlzRAINVW9-5iCYUT_u1Hed1srNCeyoZmAvQG4MPs9rqcQWiWcwMyWlVBB6p2DOAErvnWMqMBjd-UE23TPkyxkadph0apA0lkvVuCwAiyb6n_BGUwWtd2_IAUJAtbB7qSE3w6N424MfOGykuZqfHBLVfRinsIQJMXrGq72dzl5Trdhp33Vuxpg0EPwjnejw2ufj8eNeEhqSAmEOumT0A5xixbeaVY-HXx4VNljMXzJA4smwSWqEUNOLVqMNAFcLpBZZ1dX2MvU9J4MpM7sJFmg5bsDtjWYaVQ0I2aCgAq9oGsxG_feczX7ETeCtnDLIr6BZ4kIo_nyFG7NROcgai8v15QESx-VMVQ3V1CzrGSWH1U6zXhUkYgXwj275X1ohSVLrcuES23DKolaRAemywZXOpKmh_hhZups-6wilOjludV_Nx2R26ulayTVk2N2U2umw1GecGRGfNmiu0jYwDmdsJ=w1259-h944-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Je croise quelque randonneurs qui  descendent.  Je passe par la station de ski du Gaschney ou un groupe de trailleurs se prépare pour une séance de cote. La pente se raidit un peu. Bientôt le sommet du Hohneck pointe le bout de son nez. Encore un petit effort et j&#39;y suis. Il y a beacoup de monde dans la montée finale et au sommet. La vue a 360 degrés vaut le coup. Sur le flanc opposé de la vallée quelque névé subsistent. Je fais une petite pause mais je ne m&#39;attarde pas.  </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/mypwFfUxxLAwaOfIPpBClfCu1UGG-UOfQzIG7lIlyheIMdUZvtKUe8vJv1VOZU1rQ2ntS4R6swKeu5Vxc2GnbG0CBecwtEoTPeDoToBJp26OpZ23I2MPGxo-1eEdhPzmhPSvCkk6BfRwDtup0M-1ndgvrrQAT0lLIA-ScpqY27nX_WhsyzNEHCXJQema1eb66UHnToAGIjP1h8_iQIMedxOhYFJ5zp-DcB2gWHMH8v6DBFEWjaNBVmxjnIypkXXgXTcsRWp66p-zVYKQTg_CjpIDD23Wf16tROG9yEfiYDYpPEXwVieKXFA7e3qVzSznMXGuN51emtrclrKKL9qMCA0UZjo_B6w9tsjnvzKatLCVBB_Ow28mVfC0kBo5Ck038R-KTPZAvDxl7IDWatqJelPrYLNKA3lgYSm_OnBqauvS5-2yLw3tzg6HRz3Rfy3SMp60U8v0kwctW4xoEq4IajkR7omWbmU2wjU3-KsBNrpTReS42HIbdKcZ2Ot61O28HnTtsgn_g3G8tgWuOUiLubXTFGLGlDFhbT8v5TXzQdRNgmpsznDZ_LBlyUPeTZxvglUugmNx1GDEJ0y27qYydxnuzGkewS1DwPtxA9cBXsMhlNS0xDpX-19a1ifS2cwnb1LQNubNjpgCQDLGsXwazkXWP3ZNEj-M=w1773-h944-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Le parcours continue sur les cretes. Je me trompe et coupe a travers pour retrouver le bon chemin mais au final les deux se rejoignaient un peu plus loin. Le parcours redescend un peu dans la forêt. Peu après je passe devant le refuge du club vosgien qui aurait pu être mon point de chute ce soir mais comme j&#39;ai commencé à marcher tard je suis encore motivé pour pousser un peu plus. Je continue donc ma route.  </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/YCvlhS5IhaEGCg9_td94RC1aqCTUCjsfndY3j9QoY1WUJzjvUWfl0EDk92AQMdBPlRd0OcU4Ze3_qX6wSUrlnK9YP9qLc3LPV0KgThRQOAi1x1inGKo5Mbuwk_Qo91VSWszglU4PWDZCcVhFR9ugQpqN7qanzW1L8kBS8rOs1MNzizXsLgV5vfevQIyL0hCalJDJidOq5-KvlnTHo11TzeuujVBkGNYsVYRSGpuxW1RP4pudf-gU-N1AUSpsLoIW2UsuTBRmrFMa_DxmUsFDSbymPiS-rSZg23nHqMqahKWptkPKDSx9aeIRvaW43zxIsD1W-YskKSQNlQq6bwIVujTxe6qGAvMJc6yvatXvM-17LPIkCU4wW4wrMd2Ple4Bk6yNwzeG8jQe3DQhk81jJgcIXF9AaXobte11zzE_2LY6r38F5S9h_7lYPlgGll_qXUINd1eAWLYh9qGOoANoToevNJo5R0-R-y7cqOM537uSenhicvpz7zCHgC5NwL_RCYvA-aCC8uaLQb0_mHGFaXQ-G39ZwIR-MEGdgf_2lJXwlAwUiL7e15JVIshYbu7NqIUtrTC3juMCWFua9wFhe5hHcgUYC5vBYMtKRHsYimqc08ia0Mhj8Hw_hutEJBwG3dwMhPnmIeeRtou3knNvZfgzOZt2Zoo-=w1246-h937-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Pendant quelques kilomètre le relief environant n&#39;est pas très favorable au bivouac et certaines zones sont protégé (et donc interdite). Il est 18hy passé, il va quand même être temps de trouver un endroit où poser la tente. Au loin j&#39;aperçois un groupe de tente déjà installée. Effectivement il y a un gros groupe (avec des enfants) qui s&#39;est installé près d&#39;un abri. Je continue encore un peu pour trouver un coin un peu plus isolé. Un peu plus loin il y a un bout de prairie bien à plat mais il y a déjà des randonneurs installés. J&#39;avance encore un peu et trouve un endroit à peu près plat derrière un bosquet. Plus tard le gros groupe que j&#39;ai dépassé plus tôt déplace ces tentes juste à coté de moi, il ne devaient pas avoir le droit de s&#39;intaller à l&#39;endroit précedent. La soirée sera un peu moins calme que prévue. malgré le ciel couvert on a le droit à un jolie couché de soleil.  </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/PF4uy7lRbUeMziDWTgjG5woxjacTv_sSpILeJOOaDlHwTAZmuAmuqje_rkQDCzBeyrWjzKwH_rpc7Vc3pSO7NR1IVlYo4ez3APLiJLUXxBKR6B48sWdMTj5-8CMWB7W6HRXEnGc9UMSffApe8DAiUBcohMcMkoa15JCjzJz2qOgdAA82L9_rTy21tg2r-Q-TWu43PHCTAZYPqL9k3HP_yywWS1WMDLCCigc74A4jhIn9SmpTWtQjuSuVr8SE1T7J-ldpI9S7G5-hNYdTnvIiq1oSROthemfxDgtV_hxjKkKq9APhpayhhohfugOpO6V9Ncmp0JhxG1fF1CkoGIHOrisoOAPbSGGWrHYh-D3dVZPnIBsehi_7IYWVBSrDXKz62bvnBZ89h-4D5v06VuZtqYHX-tPv_C0VUE-wbtre77SwWTmg3xef-uOZjbO9y3DVqjqCKmXEQfcl50ZRn5FDgA7Ijy4uMDaWfeA2ROZPEOTs94gKqt-xaBLKpBd1Kg8YOllc3WmcE-qVBbSyVkS1n7e2qez0E6nituNLfrBlg1mLTNL-cdaS2SRioF4RCIUIXmu4zMol3tgctltUS5Wj2BP73aDr6XSBtb_I8-5v8lZL3xPdj3jlyPJLtcv9N55q5lRq_z39L7sgSkYRflfuQd2cMOiy4mDt=w1248-h936-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-        </div>
-      </div>
-    
-      <div class="entry">
-        
-        <div class="title">
-          <h3>Jour 2</h3>
-        </div>
-        
-        <div class="body">
-           <h2>Grand Ballon</h2> 
-          
-            
-                <p> Je me réveille un peu avant 7h. La nuit a été plutôt bonne. Quelqueq gateaux et un café avalés et c&#39;est reparti. Le ciel est encore couvert mais commence doucement à se dégager. La monagne est encore calme, seulemnt perturbée par le son des cloches au cou des vaches. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/D6iSnpqfJFewOFHhV_YFqL6LC2Ca_EgXFbl4DFuc4Pjmmb7OdVuN8Gn5zPT4iksbzTyZEGTrMl2-OcyxUQDb_mmUCloo_5OeLJsiCmGdd_gDpH6HyenlYHmdFz2qkqa3cH4HTpyHd6HRwPGZQ2CFOszPWpDxcS24ZT19JMpXXj2xWx8Obsf9CbdyfDWyyPw5KgaEQR8ugaVk9iWnws5OTYvFXBgFBIIAHSQtZlfKuzmzlpUqvkQdQvWd9RjvhmMbrsAsZI0iXg-DK21thE1uW8xiWUYR5dc3I82n4MnfH1ccl4a22SxGiD3-SlDYPGiVNKhjqVqmFXuYSOTVGCmYw8ChQKEpaGUlPJOVRXKIuoOP2zoNWr5rEfueqnRH9WcPu3alVzBh47M6ybzKbd9KeMoxrIqiNWbzDu9doHwIGvJmimwkGlkwTlSN9QzAI6mG2PrHdvX2S3rPC5jsGtEqqh-MquAgXae-IGpy2nzFQ-cxo8NQLFvkoC8PAAt-TiK1JexN9g_RTyO1-rxYKP7nrCtWmplj01tMEHUUiU32NWP-A7nd0kDpa1YARwNdebvQjbuMo1DrCY8T_uJmrH6H4EtRJk2IIHoJttbGOcxHitS0q8tXj3sSh1Pbw_cVRs7Aqx9lvKoQlOtxNtJAQBKMrebOBeWpZohu=w1248-h936-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> L&#39;itinéraire que je suis depuis le départ continue sur les crêtes vers le Petit Ballon pour redescendre ensuite sur Munster. Si je continue par là j&#39;aurais boucler  la boucle à la fin de la journée. Je décide donc de dévier mon itinéraire pour aller au moins jusqu&#39;au Markstein. A ce moment là je vois le Grand Ballon dans le lointain et ça me parait  bien loin. Sur les panneaux de balisage le Markstein est annoncé à 2h20, le Grand à 4h10. Ce qui veut dire que je peux y être vers midi (peut-être pas si loin finalement). Le chemin est assez roulant et j&#39;arrive au Markstein vers 9h30.  </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/fPkLfwxMZYXVI--i4G0xVQrRkUHlRXKyLr-VJzKiJ0tKuefwdMTBMSLnYMeWzJQlQs5W8sauwi3PR1yQE3pdMFMjxOK64hGB1-cEhGnEilqmd2aegfNuz2mFnqtSG9v5aN2SaO6aJ9U2DppiFrMGzKRlRyYYyUzE_DEtwMniPR-mVbvYuFdxhZZUXFjGajX5blI939wwm_AV_MdeNkFrb5X9KZMrcg0a02FAs2uYa7aCPQX1gJFah7O5CEmYFf8PZnM7EAYwm2XSVS18mkpYWZg_TiFeW5f0bUQBQ7j9pt7oquZLQA748XFxBScEL53-Jl4JXd6-kPs2DqnXKtzJbXiqiZ34TvR4vNMusjZI8w8wz0gufU7X5FSTKR-dbt4BS0K1w7PJ3v4VXKlPX3kNbCqhVF7ssxPOqRUB89K_yC4J-zco0s4PYmsGYOFHMCiDdJh1Sf-PDXLRFQnjJ7539eGy5R9fC4PV1_rnVxHKQ1rDcxrEtXxKRMCOfD8yu3BvLnhJ6JwzLUUqn6SKlndAeFNsCgkhsOpgVdpwxTt18D99Lm2ghkZavuf8pRVSBncE9ol1hOLZYkqUwPBxnzmyVoKfS4elFnpjGSI6AM0C1LZGDEgNWqaVNfps4rHMSuRwLPPoz6UTekUTROf4GL6bZdf97cTUYQXG=w1248-h936-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> J&#39;hésite encore à pousser jusqu&#39;au Grand Ballon. Je commence à redescendre vers le lac de la Lauch puis me ravise pour aller jusqu&#39;au Grand Ballon. Cela aurait quand même été bête d&#39;être aussi près su sommet des Vosges et de ne pas y aller. La boule du radar au sommet ne semble plus si loin. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/eKLJ9o_IxYEsjHFqauIXs3kab5-GpW8tsA7AOK0Hvoi3HumBN0epYWNnVJrrTfurQ2DeFOOnoTXKoWedxu20HzsMwsdJ9PHu5s58RKXlOYXcOFZQoMVsrkTdvgN-3SEOWipaBv3zegjpT-Cfkm8-0R7WTXCrtcNNYdwJVJnWKOAwDoV3beTX7Oj0Xjvq0SA2RJhI3sKRPRAVoY2nwV-Lp-LoKjJ9EWmJEWny5CL0snTyS2Tk7aQw23s2d14hOLoxuacxqG0o8rtxjtns0d-UvHGNRH8XmWyhD9-7dQB-ANnKU9itKhxtbWZKcw1TSqzSOHJ7c8ZTmggHL68C-cFRtmH0eZWrUCbjyNAHK5hNiD3kLZnTT2G3UjVys8pV30amAt1zQGoNv78krgT5-GZ-PzDPYL6k-8kGRh-LP-76_4dnSYMlOpfK0ER77uaSlXQVQcm8UfXAb26vs3SbPqHPJk6hViPHhXYoZV5dRFL7zCOaT5e5dOIuuIljuNeqRbA7uMLfHhGq2mNOXq7JOgEmktrcW65zG_7DXlIRpaO4ofUSHysUsvanwGnfrOBnMmQ3n0Vx2NUWQbdSQ4tVWP7YD6brmFUaOZ97sXL9KYeXKWpjZnhlVdeIuZCVi4OKpQZpZEy5_sM_dQUrS_P9GnwLDBiPLkdgGC4p=w702-h936-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> A partir de la je suis sur le GR5. Le chemin pour la plupart du temps en forêt est assez roulant. Les choses se corsent un pu en arrivant à la ferme auberge du Haag où commence l&#39;ascesion finale. Le temps est dégagé et il fait bien chaud. Heureusement il y a quand même quelques cumulus pour fournir un peu d&#39;ombre. Et aussi une source d&#39;eau fraiche au milieu de la montée qui fait le plus grand bien. La vue à 360 degrés offerte en haut est magnifique. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/yJgxD84OB6-wQ2tNpPYdBo_YhFqnBir_EUoIYJ6HpUAY4g4hp20rDgo6SDlfKZVkmhahxtZMb3-8dmbbuz9J5YPUzekt_8bX7fayXhq0qAV2g84lDoYhxoQXLKncMw8tp4zOGq1gpUhcBJL5TtGXW6x8RQ-SzEMxSukaVcf-jfUWCrUkB9_Isd66CYjwc-TLMfQmwGNz1g3KLhHjMi66t0LtNRBw0mYD1_qPZ5bFfIwYpCjTVOkA728xkxkdlCLRkzp_1bm2Ab0d9KwWuUoRoSYdWc26BGIrkQ-pyfro8CE1rxY-rdb5c4m7UO4RmadBcxGJhQncDPi9VEY9ilkoGwq-dhOlGrePR2Vmj2dtHC012MADVkimjbQnSVyTz9EoR7PapysvRz2obgbEoV5-mHkBxswWUbrY8covHGrs3L37iN1HSWQR7asLkpqUSEzPy5Uf73loumCtoqeDQJq_9Ig74Ufh8jb-_hPcXkzPf7aJueVaY0j6l3UCZRnSKnlhmWGl6XXY390AtvBUGb9uLcvzEJe603BMfkhplgtwF-0yv6eht84of8hgN_wELVY4VRkqV-KJcR7RUSCLgYv-TnqYGXijdqMhEx6sJ54KTeqlac7u6yOs9d0jPTLE5VLDEHJiTOrYiYGae4GrIjuVkPalGDfifajB=w1248-h936-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/lfpi_r-H8fJvlPaI0bddU7GPzaZJRpyeEc4cdkQ_UoSiGUmYVeWwjbfGemdnw4E5juN9uHf3xNEwXVoiYfExt_kVmEkUOexVqhMPjGgnfuRAG8NNcdL7pOK2qmYebW5f9OsbXKPfyLOUYrcFoiKPMsVW1cK7pG9hNjsPdjEVskWs355PW_jgWDUftd5flYgM1NRLP7U5DIQwbY-tWhdGWjFOYSy-O3G48jvyLt5tDuyf9FvpbwWGGbft8mUBobOqOr1uRlgHWydUYxpnPS5EjC3V54qLRz_hFcZ2NzZrQKOLb6RwLzmq5D7xcJDvcj-ZxVFrDETVhQymEoMPTEUcnOWx05gzs-_Ra6X1EluDQcI1pyEBmM591K8ce096HJQeHTEOXGcEq2pqXjE8AjD6DPiYtz8QtqWjU2_wVUSdRzsOdqptAYMs3Sc7eh5K9fk2Qdc439dY37k41BAAqYD__hEgUUMR79XyikaQ-d36imMfGPbpKPk_abhnvaOBL_VPzucMQR1iHZ_Vb_tCMA75Q9IcZezQy3ONabfG1c0HgPlOYtQ2av790p11GJqj4tjSPMGI3Dacg3YqZziSt_TIlIPIM32jGTr0fpqxNLwBM4FIslizog-2wRAiUwgkhrP3uCo5txfY9MrqOC_pjxjVN9B3FkZR9u4R=w1320-h640-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Comme le site est accessible par la route il y a beaucoup de monde, surtout des motards et des cyclistes. Comme il est bientôt midi, je déjeune sur place. Il faut aussi que je décide de la suite de mon programme c&#39;est-à-dire comment retourner à Munster. L&#39;idéal serait de pouvoir retourner sur l&#39;itinéraire originel sans revenir sur mes pas , sans devoir faire de gros détour et en empruntant un parcours balisé. Malheureusement je ne suis pas sur que cette solution existe. Je choisis de revenir plus ou moins sur mes pas mais en passant par le GR532 qui descend jusqu&#39;au lac de la Launch. La descente est assez éprouvante, surtout les passages en plein soleil. Le Grand Ballon semble déjà loin </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/ReVqqWVX-KC2S-e-xN_eruPt0EKZxIZUeAbdmK43UMhjErvK2dTBiYEHS358CqUmyfKSml6u1tHgi4wbbjWJMMVbnQcISyzcix8M21ke1sq5kpVmU2LVGLat9R4yZRoxKSwp81ddFYstOI9h3eolIV_frhPolOcxNSNzh7n9T7dfWcYJe7jjXJX2_ZhGCy4Rd1Otadhg41HMcYo0JxhKu9ntQpYHjcIfZvWu_RO0Kr7BxyoSe7qdjtl-SPMs54v4AL00I7hkP8bxtJqKPmqV8-IZUYzu2-PbYpa8UNu72wF16De16mmZcTnkNqUlWwBG8ZHpXZiy0JBzjcEi3qpFFXcwIBA2DBi-uydEYmND_0IMVpcQsoLwD0sd_m0VigkUiWTUQrtG-JcPzNJJHu_6_NCQosR_SHd9-XInEkV8D1HqDGHkCavl8d4fsUyNCmvvtmm2INztDGJ9apk-qDgVOG_G3GvLCllBqKJdYWCFmMuRNARllsK4SuyXm58fFwgwv7mExy3ATrYI4YEupO144c-TehHqNbUW-NXpcdyX10fT6ZrDxLAl3PfKuMutmOD66egUNfv0muXzfNYR4K6nq6QAGEv-DGkbn4Bh2a2KwvrDbiB12VWYU6JL1C6K2ecVhENwTaFPq40H2d85cnGArIZIKXQ8AP6V=w1248-h936-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Après une petite pause au lac de la Lauch, il faut reprendre le denivelé que l&#39;on vient de descendre pour remonter sur les crêtes de la vallée de Munster. La fin de la montée est particulièrement difficile pour moi car bien exoposée au soleil. Mais le point de vue offert au col d&#39;Oberlauchen en vaut la peine. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/1W0SR7uGFpV5muWz6tcY3dNzu80zJBQwXXIZs622k-EjcrrT_AbLPaLWkBedcSjsiv5noSjHOdPER2-RKBEhfFN0zo6SU9A7hb_R7ZZXmAUU72o690IZD2TWrn4ga_xgdXJ6y_xb-NDLMOh8a8rU_uMUQDQdSnvoqOkG12gPTc0j_OBo6WDWQGw-IbsJbkRsRl8eJB0sr126zhtERxDTK7rNbHUug_nBhtJ_rFRPd3Jjmb973ePXFMXI4M4dMaBYWHpcFRHdrN6f9PK43KA8_t1Io0MR_La6K5a1uhAXwFlkaBuiYFtU9-qwlMUJqV03a4WQdIcf_2Qcm_1A4Erkman3YWn7WIzb_QG4stbGTfnX4TBgPC9MjN0W0H1-0SnMlLLJc3aFTEheqtrpT8xO8ucqznXuQ3PW0EbDmvX8yflmvxMOjLAliaKOCS7f4P4TEJRc4If0bJyP0eV9cxNtjJHzdNT_q0MyagdpHQzb3nPI1-OEMfvsrDKbqbNWD8CQmaezopgwBDUZrvHQ2zKTbuPXa3CpT_w4dGVIgyA6DCK0vO06UpF4LL2rXLt6-HbAAUmKd5fnb5tUUPVPFNtvyQSfcHKGdiTyzOwplNJRxDyFdkFmg9nkaWuKIPpJuJE6WP2zXeMkAovPOglDBMsyBiypi64tJf6i=w1248-h936-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Je fais une longue pause au niveau du col et hésite même à y poser mon bivouac. Le spot est vraiment idéal: herbe, à plat, vue magnifique, à l&#39;abri des arbres. Mais l&#39;affluence de radonneurs et l&#39;heure encore précose m&#39;insite à repartir. A cette période de l&#39;année le chemin qui mène au sommet du Klizkopf est interdit d&#39;accès pour protéger la faune (période de reproduction). Mais ce n&#39;est pas très grave car il y a un itinéraire alterntif qui passe légèrement plus bas. D&#39;ailleur le bivouac aussi est interdit dans cette zone (réserve biologique de Guebwiller) je ne peut donc pas m&#39;arrêter ou je veux. Il y a un abri au nivveau du col du Lauchen mais l&#39;endroit ne donne pas envie de s&#39;y installer. Je continue encore un peu. Je jette mon dévolu sur un bout de prairie presque plat non loin du Hilsenfirst. Ca fait du bien de poser, la fatigue commençant quand même à se faire sentir après cette grosse journée de marche. J&#39;ai une vue imprenable sur le Grand ballon à droite, le Petit Ballon à gauche et la plaine d&#39;Alsace en face. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-4">
-                
-                  <img src="https://lh3.googleusercontent.com/SkmGYHJwXYBzdVLqir4TK89SAlUs1ZdzxXvp7G6IqnoAjCmI2ugAFinYZ3zx1fWtmrSgHToHAoJw_hFYeYLu52Itcex-NnWbK5ht9Gw08zzllJaNRx9khru4745NoW3qC61HEyJI7O-L2ptb0C5UizwGEoRS2_bsDTiiaVlYzJ44f9sg4LvW8IRs0Gr-e2fo6739UV_i_ZZlPFRH84uvmAiNLBHTVYSRM4G03wBmhWGPwSXnWK4dyHSKJI2VDFxWWEXD6p7HNKaikcHfViS08cq-q4IBtFTZxq3LTU8zLIijdhtjmlwttP0Xy73m93tJ5-machFBIMdG9q8dUv94951Jj6T6Dov-qPjlANkIvlIR6XwYB83ZlIgP6fu1EP50GBPp6i_OOhVaEpBrfVfQA7favxN_ov_3LFyDnACNvWsDSbOjCBw5WyCMa6TMsoD3O7mNX4eHFWwT2cJXGT8GBbmI9tsOw_U4tTLy0tAiCxnA2GnwlMhDTtXAy8gvV61M8OOqX-X596jQm82G28o9jX7rylzn7wq-1z32pgas2wbB8BmUv-mo6wwLozILTUHuN8jsnBtoMzuQrwqU_8btlEXnrcxO03XhU_p_gSk6iIed97fMKL9AOhLku76f6f_QTWDZqFYU3ZtF4wehcD05MbKIh5YTyVLo=w1246-h937-no">
-                
-                </div>
-              
-              
-                <div class="col-4">
-                
-                  <img src="https://lh3.googleusercontent.com/CVDZ2pPMSoq3CVuQXViPs6LX19J7LyYNokCnc10uzJ7NXjtLJDijS9DkGQG9s9Xx8dg0LQxE0vlAAf_HR8E3pq_0bQYBOnqymALcQcH_n5ayqOhPibd8onMN9gPco2hPg6PdsQHFYV5XjzWzpgmlciqLTUJq3hklrLLDBdJKT89LC6htW2iL6Sc3oYOdcNYj3KkAnlxYtmbY2tzgff3lhvdJPJWsUvnwc8p9fO2YaTEp3lnvpvN5Bw9S34Gq2eeyb9UNCxjg6x8fsK3p2a9LcyASzUsPVZOsWbhJvLnt_r4D0dEdj00VULnPaDSEI2cZ8KFQfpXmCCQuhhG4Ezskzx6XGxee2hLFPaenLBw_FoX8i3ZujJZqFrKq7H3IpvdwLe3gjS8_na3fyJ_AhfLafgfqi3plh4n57xNBS_0Bz29sfy-ARVuA2oAMT4g6jTZNdqZtOhuVoudkL9i1z8koM1Ss1TNV_Q72KRFB0cnjhfdZILCE2_UGGxTDxa-78mqOV2NCOkxMnIC0lGXclD0oZNUJ-tfRV0hChN7PbkVPcizHL2HM4KlSTYKfLNwBl9jUUSb0k_zbf-XEif739rm6Zm0pNTRYKjPzC2os10ADnvYNby_dpms2RVP84QEgiGqDcGD8AjFaPgu-tAeJfhbnWdX-ZvDflWbJ=w1246-h937-no">
-                
-                </div>
-              
-              
-                <div class="col-4">
-                
-                  <img src="https://lh3.googleusercontent.com/0A1Ko-jX-Kht_dAl81iciktmhZ5GiK2AlEOeBFjom2-R6lG0kdAaxpuU6Ocue-RLUw4pXOYSS6teBklEhVn2f0ycBQMkqVFumDAXdBybW1LecEb11EvrXWVDFw2q-GwBrR-Xjn8LL5EO-Td1Q70WhoIYF2UP9otuaVPPX7E2i3Mw5t7Kco01bi4V3DXB0O2TYjrQVuyFYKn8eFuu7pbdDmzP4B-5GOjRyQwY4MGlg9WIUx6vj9YZ3htQ9NrmmKCuToNl9vx1bhMJ-Vi2FAzTL3PWIGZZeS6sdabb4FLVBRYoLgFn3OalaKUDbzEl7Q-cZ1-FvRDPMrUKOgKwS9pHhveZ2jPDn-YPvj0mRSDwyzhlW52zdDIwRN-JSWJD73o54K2kmADlFYl9_FUMUO42-cOR24D3HtlfEluDbd_FlhaDYMK9YIfEyTG7N83X1xzjq-UZQuDOwrggNAzGJGGPcWE71LJVfBgxsT1uTsp716hBIIIfkYqQW0jybW1RtWDStlO-fkZZKHccKBBj7BFYeEjv6qmVhWvuiRneT5Uh_FPiYo-uUHpGucDHnfGavxu_-_2Md17nMMpOx2FNH6PZ-mUFFbgFQKIzV3C6noLU6tc0ByNgSFCGD3TQxYi2vNhE490kbsR2X_F3J1WIbVHIbktkBqxaKLpi=w702-h936-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-        </div>
-      </div>
-    
-      <div class="entry">
-        
-        <div class="title">
-          <h3>Jour 3</h3>
-        </div>
-        
-        <div class="body">
-           <h2>Petit Ballon</h2> 
-          
-            
-                <p> Cette nuit a été agitée. Vers 2h du matin je suis réveillé par le cri d&#39;un animal non identifié (un renard peut-être). Je sors de ma tente pour voir et même si il ne semble pas loin au son je ne vois absolument rien. La température extérieur est étonnament agréable et le ciel étoilé est magnifique malgré la pollution lumioneuse des villes en contrebas. Je reste quelque minutes à adminer la voute céleste. Il fait bon mais pas assez pour rester dehors en caleçon. Je rentre à l&#39;abri dans mon sac de couchage. A peine couché qu&#39;un autre son vient perturbé mon sommeil mais cette fois-ci ce n&#39;est pas un animal mais de la musique. Cela semble venir de loin mais je ne saurais dire d&#39;ou exactement. Moi qui pensais être tranquille au milieu de la nature. Je finis par retomber dans les bras de Morphée et m&#39;en échappe à l&#39;aube. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-6">
-                
-                  <img src="https://lh3.googleusercontent.com/UabN8dblLhLIlGdZ80XMwi9_c_oEyvnjXAwDS_ZJqU8wqLEPoxP6WVHphhI1sW9AnR2uQMI6m1PecZyRFiSccqb9eo0BUe1Wf83HdUnuMf134xo4-ZYoyosuCC-lOpefb5ZkmZ_NrCI12h-ZOB8sn2G2AQHQkepEnVl3Y-NGz0qmafLZeBfbt5kbzocFBWSsqZTzKv4zJDS3rEyXTOvbMZgDu1S5ySrA_vgqCi0iAAcNnvFa4X4CMWrX3rYAslA_XE8L1OjwFEDGU3YGqhBLi6DXM6s4IImACUAB2ZhcINTf-gzNZubYwIJc0_t_m7e9fmibfRe1lDvAh9VEGckpdmuxHWsjRJcxzxXuaOWzboemnlLf6k4StNbQMsL9z-5gfutXs9_MNw5hZrDQl8I66L4_imZ7EUuwn1YoSG4dZcigH5sY-4Nv9AfwA1XpNkOkKolg2q9wbGp05TIfjkroHwhQp_FNnlmhayuvD2K_88Af9zYxLa8JuZTVXH_Cl9mBJ0a7g2NCVCjP7fgCiA-tFiho4s42O_nu7YicCCXffsRgbu_u-fr30jMwqjjNFomMK1u2iwh5jxML1UgOgBznswQk8A-sACjsw07tUZDDM4yh5TDmuyewMvQCe_sMHYfGmxWeIQqLjGbrGNY7CEKLPMSy60Cp0B40=w1248-h937-no">
-                
-                </div>
-              
-              
-                <div class="col-6">
-                
-                  <img src="https://lh3.googleusercontent.com/cxWFaLvF7cCydkC4_L_uSmDZXFF-t2B24gAh1RRCwh-dHU0Y9WoR5rtFdPKIwWbOscJieOPQhvLpB8hw0-vC3hY5RDw42pyIAZC6XLc-nBmw5scksUpdrLaZmhpPqsLHd90fsuXZEyrNeRyMDCJ_mZiynh1L9sY9oQheLqEmuI2GC0Xah02VLee8wcHG0KuKARqt17_mzwvdo972sUj3QY4KPWbWZZVYXIeEWJ1E5brYCOo9NRNk0xpgRvId-iDu9UH9Jub28Fsy7W2d5s7tEGsMTiXJnP0P0ImHF55DlbVB9O_2PAQObTgrEI_enGc2enGo_Fuq-w0WSB4D7jdtAEr169RftAK8KeBfr35kWiRLnkgvgXqZxQKlntzL2a74325rzMD3u2vR4M0YBQKj_udK9EMtB-x_5icpHbGcGhZgQBgSsknl_ZQRxrDbo4C9JQUZuhCzix5AyQKkKddDoOYaTgzjoJx_4Z9ZPVkNLHkRtyU_6fWwj7NrqYUWETk8Gd9pMf_Zr7LI8jvbz5JTKvAKaZa0SI_BYzlneNwTsLTrb0Odt0PByUky5jkZy4WuSuYUkUrU-Muhn-vsqVGqrY4o7bgWfKR0d43vCa5uEU6YWRgDiqCM46b8eBgpXeODsBH8CML2M7qIPlV2DP0ZJpNlOJ5t4m_c=w1353-h937-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Vers 7h le ciel est bien dégagé et le soleil brille déja assez fort. La journée va être très chaude. Je reste à l&#39;ombre de ma tente pour prendre mon petit déjeuner. L&#39;étape d&#39;ajourd&#39;hui continue sur les crêtes. Il y a quelque randonneurs qui ont planté leur bivouac dans les environs. Le chemin repasse du côté de la vallée de Munster et j&#39;aperçois le Hohneck de l&#39;autre côté de la vallée. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/qKfq0tlknRRdsKjSVFThGv_LNiriPbeUakrQgKNPOTX1dOblPUxTnZG_m7O-R5-ZUrc6Bh1dDXxzQUzuuUKNx2XSispiUJu-3WFRCICBtmJUzQZp2Tvbc-N0NFyBs8b6z5UJs03uRKxEgAkqYg0CLZIRL-MJSeQn4tFAJoKA3k5fL4c5xjgN3ZAAVAUTEwxRaSNPrmvB6pnHhlc4DcJut0-4EHfZumTNpJ8QVILb3gR61igchdIb0iYTAVET0megWOTt6qdN1Si0CFKXfsUNOQxVFAl1qX_a5kdJ5pFfjFy06q1wJ0uRDszgdqPqn4HB3P8_0xhfxd8jI62ZxIy6qwYmBBbUhjPhNEwirdQJpo8E2iPyXP8RWrwT6abcHYa08IxXrBk-Hs64dCthPoIIR2FhP5llsertxPiDjxeV56T77RK_x6ArQIEzLHjvUVcZdnZgYcE8z5ZRpqVFPoiAnRer35itjamgwt7sBsYTAoly4QJbqfqY3qVwyip96ONm7NEp7fn3BXDrwlS28xWM7VRl9pt1ItBmeVhag1ljpJ2lvuWwYh0Ft5j8hOnzNOd2mNeIJdyWwHvPLOLqKORIB6aw2fceFYONzNRdvDSIBlw24KJ4d9ko7krd4w07BsEQMpynbUlB5M6vSY24qa-O3FnwqF5ll1gR=w1680-h877-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Une belle petite côte et me voila au sommet du Petit Ballon. Il ya plusieurs tente plantés au pied ou au sommet. La vue panoramique sur les sommets vosgiens est superbe. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/TJoP_Vhgu3b9vut_1dAUahHoZ1xv41-pD3qQmYdUbO3QtmRweGpoPDHRKMPkqDG8Wcc4f5UcSq3MWxI7bCtfm5A60C7fB3E4dB8fCxk184s4taAhMCydOZYW_CIZISoJcut1QDtGAoLleTgNqYdlRvtU1lDsruGM5JwgF9FWrWEHFBeQgpbxcg0n89Oud8nOnASGzdDa__VBzKmbFusrsEXww-6vuRpznjG8Lnv_rOE3UNKKjyp_mJuiDipX81669K9-AKFGWwJElcxRabBmYXz6eOzdAOQ104hds8HYntLND7kO4oe8DY5mH2tKx7ne2S8Vts8V0wAGcOZ7x5QaLSAxgay5j9MHzff89ymRGXTOt2h5c5aeaJfDcD_N5sFVbPXSi-ihrlETg8O3RE9vu7vegxBY58DPjfJIXm60l2waShxb4XuUx64u3PNSdwolGn4m-KYtmBpEu0VyNRAVF7sdu6nx-ggYNueWL9vb9OkY56p8r0RCab_buTfUErt7l0pFaQAiCbPazXEStvnXQcZ3TJ71ff2nlZqLbqzc7tvgk5DPNrhbRXh_aES94kQaIeisuQqIsMRnYPBAFv54l3gz8TaG-pCBHbRCvErhsshcpfVuTXsqo64LaMu0buAGxLsE4OaU1uiGkMOzvTBJiXVvss_ewAu1=w1680-h628-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/braoePjeXbXKlsbcbXc8UAXFDE66HTJHR-L84v8rUa1WP62vu6tBFrGRsuv3HzgbHQBRSRdwE1b29KBV7OSYVFZQ4jQfdbpVSkHvlyU4kzhNvg4u65YmYcWwFLJZodlLgA8Pn00igPo7omR9d6G9LnCzaU2OrseJS36uEnCIowG1cBkvyweTR4C_lB7I2Qf7Wl6zI28RBNvJT0LzHBm3vrWES89gj89OlBAVyXVj0YkhB45VjGiNVAGne0O8urmaN1MRDPX1l6sUY6dPYxG8rDLzqr-tQ5b3FP1RExW4rgRoZr9LV7H-j7hCXo8kLPL-cncUKVw7Loe-0l-SfwB9VQyFi4_kSRwdQT5KXG8atitxZ-N_-79qQTNrsGT6_KWpXPH_0DDfyd0mJeo5w6xxp2OUiun1CT-kKGikhN51PRA6IPPgueljDhX_6chsrVOdad4tA5OyV9q1HoPzLclVg4IY1V0dzoOHMPXkk9JGczkvxoSU3KtYk4iA6A0sQIKhRiLo1oMc1lxib7YE8Ul7eP3hhu6DxI0GTDd-1nrgrOaaxJ41f7d6oYwaCZuYmsc1BI2wwU6wYyPXLytxf5RkTTs-ZXAkogES6vy0H1HEXGkStPlijRIEEoXT4gJhbPVj41tkvKORff7lgga61DN7HX4_UymLyTPm=w1680-h694-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> C&#39;était le dernier objectif de la journée et de la randonnée. Il ne me reste plus qu&#39;à redescendre jusqu&#39;à Munster. Le début de la descente en plein soleil est éprouvant. C&#39;est un peu mieux une fois que je rejoins la forêt. LA fin de la descente est assez douce le long d&#39;un ruisseau, c&#39;est plutôt agréable. Bientôt j&#39;aperçois la ville. Plus que quelque hectomètres et la traversée du marché local (épreuve ultime avec l&#39;énorme sac) pour rejoindre la voiture. La route du retour qui passe par le célèbre col de la Schlucht est saturée de cycliste, motos et aussi par un rassemblement de voitures de collection </p>
-             
-
-
-          
-        </div>
-      </div>
-    
-
-
-
-    </div>
-  
-
-<script>
-function on() {
-  document.getElementById("overlay").style.display = "block";
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title> Sam </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/static/css/main.css" />
+
+	
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+			
+				<header>
+					<span class="image avatar"><img src="/static/img/avatar.png" alt="" /></span>
+					<h1 id="logo">Tour de la Vallée de Munster</h1>
+					
+				</header>
+				<nav id="nav">
+				
+					<ul>
+							
+						
+							
+								<li><a href="#Jour 1">Hohneck</a></li>
+							
+						
+							
+								<li><a href="#Jour 2">Grand Ballon</a></li>
+							
+						
+							
+								<li><a href="#Jour 3">Petit Ballon</a></li>
+							
+						
+					</ul>
+				</nav>
+			
+				
+				<footer>
+					<ul class="icons">
+
+						<li><a href="https://www.instagram.com/thmartin/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/thomasmrt" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.strava.com/athletes/5070956" class="icon brands fa-strava"><span class="label">Github</span></a></li>
+						<li><a href="mailto:thomas.martin55@gmail.com"" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						
+							<!-- One -->
+								<section id="one">
+									<div class="image main" data-position="center">
+										<img src="https://lh3.googleusercontent.com/AyyNikKXka7K-mOpuW5B9Gl3hzUCTk86wdR8fFsHY6h-ZADD1VXZmOwbDzEJcToNBHMVBKCuk29MA-1-glNAP0a6sHXYXEqV6Z-sqOtnFHf3T7Zjy-bv3_80BRjY5o6dHns5kMw_ubVkj8r-WHfm7lkWBrEN4J7RDsgLSUxAu_nfkDR9ZowW7V3CErDfjkClP_DCjb1ja4VZBQcyTU6ETjxENKbmt6cM34IpOs2KRTJa-VS-1gl_MrTi5_TEeVjKHCpgiTso2P6s-kXf2F9FbI-V7namZlGOTzvyV4OqMVBYgWalmrRdSYyZ_tF2_TwB0TY4wep1K0GKuyo7V2n2OvKUl0GVhzQxZQftC_Rmmv9O8adGeuWYKYJWoYAZQDceRXYhAEm5kIeiUVRBYAwEPxKwmns1-nMZwjvRgl2hgsYxitCjGJpgzI9hg4iNGAJkA8LeZf2q8CdqqQhgAiLl7Sa-Mx-TXPC1ajDztP55fXJn5Qu1OmyBSeiINUeZ-3hpsViKr1nstnNJGyVUHtdVYspgtp8vZv-i-2pCpwxmHvEdISLbbsZGaYAoN9BLEyVUR0w0gAQ2O_M-hrsLNnp93LDMZDNq7Xf2cgDGU4KTp1GyypDAvleWAhHKhdBF6YjlKpV5w4qCu4pkospss9IixpYNaay_8uJC=w1259-h944-no" alt="" />
+									</div>
+									<div class="container">
+										<header class="major">
+											<h2>Tour de la Vallée de Munster</h2>
+											<p>Vosges - Juin 2019</p>
+										</header>
+									</div>
+								</section>
+
+							<!-- Two -->
+							
+								
+								<section id="#">
+								
+									<div class="container">
+										
+											
+												
+													<p> J&#39;avais prévu cette randonnée dans les Vosges lors de l&#39;un des grands ponts de mai mais le temps catastrophique et les température glaciale de l&#39;époque m&#39;avaient poussé a renoncer. Au pont de l&#39;ascension cette fois les conditions s&#39;annoncent parfaites, ciel ensoleillé et temperature adaptée au bivouac. En partant je ne suis pas encore tout a fait fixé sur l&#39;itinéraire que je vais emprunter. J&#39;ai étudié plusieurs options de circuit de trois etapes (sur le papier). Comme il faut bien partir de quelque part, je porte mon choix sur le tour de la vallée de Munster. </p>
+												 
+
+
+											
+												
+													<iframe scrolling="no" src="/static/maps/vosges.html" class="noScrolling"></iframe>
+													
+												 
+
+
+											
+										
+
+										
+										
+									</div>
+								</section>
+							
+								
+								<section id="Jour 1">
+								
+									<div class="container">
+										   <h3>Hohneck</h3> 
+											
+												
+													<p> Je pars donc jeudi matin en direction de Munster ou j&#39;arrive un peu avant 13h. Alors que je vais pour finaliser mon sac je remarque qu&#39;il y a de l&#39;eau partout, ma poche a eau s&#39;est vidée de tout son contenu pendant le trajet en voiture. La plupart de l&#39;eau a été absorbée par ma serviette (pas grave), mon livre (adieu la lecture),  et mon rouleau de PQ (mais je ne m&#39;en apercoit pas). Je met le sac sur le dos et commence a marcher dans Munster. Les difficultés ne se font pas attendre. Avant meme d&#39;avoir rejoint le départ prévu de la randonnée la route s&#39;éleve. Une fois dans la foret le chemin commence par suivre le balisage du club vosgien. Ensuite la trace gps que je suis s&#39;écarte ne suit plus le balisage et je fais quelques petites erreurs de parcours. Le chemin continue de monter en pente douce, malgré le ciel couvert et l&#39;abri des arbres il fait quand meme bien chaud. Apres presque deux heures de marche mes reserve d&#39;eau ont déja diminué drastiquement et pas une trace de source. Heureusement quelque temps apres j&#39;apercois une fontaine dans le jardin d&#39;un chalet. Comme celui-ci a l&#39;air vide je me permet de me servir a la fontaine. La vue se dégage sur la gauche et laisse apparaitre la vallée. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/el-X1y8-B_s3pgYJE-BqerfUpA2Cn9MdJL25_qJq6IoAVFZWzh5JWrz_XIuCgAlnnvtHgSjchoa4KWF5Xs5p6-CTaokOH8R3pjaECkRKYpVb28AKPtXsrcYpQLE6HECWrAb01-hC3icytAe8TUh5Eop2IsBAJPgqVELBQQzREHrmqRC-rFGFP2e_Y-5-lxPncWsoXfDfwlzRAINVW9-5iCYUT_u1Hed1srNCeyoZmAvQG4MPs9rqcQWiWcwMyWlVBB6p2DOAErvnWMqMBjd-UE23TPkyxkadph0apA0lkvVuCwAiyb6n_BGUwWtd2_IAUJAtbB7qSE3w6N424MfOGykuZqfHBLVfRinsIQJMXrGq72dzl5Trdhp33Vuxpg0EPwjnejw2ufj8eNeEhqSAmEOumT0A5xixbeaVY-HXx4VNljMXzJA4smwSWqEUNOLVqMNAFcLpBZZ1dX2MvU9J4MpM7sJFmg5bsDtjWYaVQ0I2aCgAq9oGsxG_feczX7ETeCtnDLIr6BZ4kIo_nyFG7NROcgai8v15QESx-VMVQ3V1CzrGSWH1U6zXhUkYgXwj275X1ohSVLrcuES23DKolaRAemywZXOpKmh_hhZups-6wilOjludV_Nx2R26ulayTVk2N2U2umw1GecGRGfNmiu0jYwDmdsJ=w1259-h944-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Je croise quelque randonneurs qui  descendent.  Je passe par la station de ski du Gaschney ou un groupe de trailleurs se prépare pour une séance de cote. La pente se raidit un peu. Bientôt le sommet du Hohneck pointe le bout de son nez. Encore un petit effort et j&#39;y suis. Il y a beacoup de monde dans la montée finale et au sommet. La vue a 360 degrés vaut le coup. Sur le flanc opposé de la vallée quelque névé subsistent. Je fais une petite pause mais je ne m&#39;attarde pas.  </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/mypwFfUxxLAwaOfIPpBClfCu1UGG-UOfQzIG7lIlyheIMdUZvtKUe8vJv1VOZU1rQ2ntS4R6swKeu5Vxc2GnbG0CBecwtEoTPeDoToBJp26OpZ23I2MPGxo-1eEdhPzmhPSvCkk6BfRwDtup0M-1ndgvrrQAT0lLIA-ScpqY27nX_WhsyzNEHCXJQema1eb66UHnToAGIjP1h8_iQIMedxOhYFJ5zp-DcB2gWHMH8v6DBFEWjaNBVmxjnIypkXXgXTcsRWp66p-zVYKQTg_CjpIDD23Wf16tROG9yEfiYDYpPEXwVieKXFA7e3qVzSznMXGuN51emtrclrKKL9qMCA0UZjo_B6w9tsjnvzKatLCVBB_Ow28mVfC0kBo5Ck038R-KTPZAvDxl7IDWatqJelPrYLNKA3lgYSm_OnBqauvS5-2yLw3tzg6HRz3Rfy3SMp60U8v0kwctW4xoEq4IajkR7omWbmU2wjU3-KsBNrpTReS42HIbdKcZ2Ot61O28HnTtsgn_g3G8tgWuOUiLubXTFGLGlDFhbT8v5TXzQdRNgmpsznDZ_LBlyUPeTZxvglUugmNx1GDEJ0y27qYydxnuzGkewS1DwPtxA9cBXsMhlNS0xDpX-19a1ifS2cwnb1LQNubNjpgCQDLGsXwazkXWP3ZNEj-M=w1773-h944-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Le parcours continue sur les cretes. Je me trompe et coupe a travers pour retrouver le bon chemin mais au final les deux se rejoignaient un peu plus loin. Le parcours redescend un peu dans la forêt. Peu après je passe devant le refuge du club vosgien qui aurait pu être mon point de chute ce soir mais comme j&#39;ai commencé à marcher tard je suis encore motivé pour pousser un peu plus. Je continue donc ma route.  </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/YCvlhS5IhaEGCg9_td94RC1aqCTUCjsfndY3j9QoY1WUJzjvUWfl0EDk92AQMdBPlRd0OcU4Ze3_qX6wSUrlnK9YP9qLc3LPV0KgThRQOAi1x1inGKo5Mbuwk_Qo91VSWszglU4PWDZCcVhFR9ugQpqN7qanzW1L8kBS8rOs1MNzizXsLgV5vfevQIyL0hCalJDJidOq5-KvlnTHo11TzeuujVBkGNYsVYRSGpuxW1RP4pudf-gU-N1AUSpsLoIW2UsuTBRmrFMa_DxmUsFDSbymPiS-rSZg23nHqMqahKWptkPKDSx9aeIRvaW43zxIsD1W-YskKSQNlQq6bwIVujTxe6qGAvMJc6yvatXvM-17LPIkCU4wW4wrMd2Ple4Bk6yNwzeG8jQe3DQhk81jJgcIXF9AaXobte11zzE_2LY6r38F5S9h_7lYPlgGll_qXUINd1eAWLYh9qGOoANoToevNJo5R0-R-y7cqOM537uSenhicvpz7zCHgC5NwL_RCYvA-aCC8uaLQb0_mHGFaXQ-G39ZwIR-MEGdgf_2lJXwlAwUiL7e15JVIshYbu7NqIUtrTC3juMCWFua9wFhe5hHcgUYC5vBYMtKRHsYimqc08ia0Mhj8Hw_hutEJBwG3dwMhPnmIeeRtou3knNvZfgzOZt2Zoo-=w1246-h937-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Pendant quelques kilomètre le relief environant n&#39;est pas très favorable au bivouac et certaines zones sont protégé (et donc interdite). Il est 18hy passé, il va quand même être temps de trouver un endroit où poser la tente. Au loin j&#39;aperçois un groupe de tente déjà installée. Effectivement il y a un gros groupe (avec des enfants) qui s&#39;est installé près d&#39;un abri. Je continue encore un peu pour trouver un coin un peu plus isolé. Un peu plus loin il y a un bout de prairie bien à plat mais il y a déjà des randonneurs installés. J&#39;avance encore un peu et trouve un endroit à peu près plat derrière un bosquet. Plus tard le gros groupe que j&#39;ai dépassé plus tôt déplace ces tentes juste à coté de moi, il ne devaient pas avoir le droit de s&#39;intaller à l&#39;endroit précedent. La soirée sera un peu moins calme que prévue. malgré le ciel couvert on a le droit à un jolie couché de soleil.  </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/PF4uy7lRbUeMziDWTgjG5woxjacTv_sSpILeJOOaDlHwTAZmuAmuqje_rkQDCzBeyrWjzKwH_rpc7Vc3pSO7NR1IVlYo4ez3APLiJLUXxBKR6B48sWdMTj5-8CMWB7W6HRXEnGc9UMSffApe8DAiUBcohMcMkoa15JCjzJz2qOgdAA82L9_rTy21tg2r-Q-TWu43PHCTAZYPqL9k3HP_yywWS1WMDLCCigc74A4jhIn9SmpTWtQjuSuVr8SE1T7J-ldpI9S7G5-hNYdTnvIiq1oSROthemfxDgtV_hxjKkKq9APhpayhhohfugOpO6V9Ncmp0JhxG1fF1CkoGIHOrisoOAPbSGGWrHYh-D3dVZPnIBsehi_7IYWVBSrDXKz62bvnBZ89h-4D5v06VuZtqYHX-tPv_C0VUE-wbtre77SwWTmg3xef-uOZjbO9y3DVqjqCKmXEQfcl50ZRn5FDgA7Ijy4uMDaWfeA2ROZPEOTs94gKqt-xaBLKpBd1Kg8YOllc3WmcE-qVBbSyVkS1n7e2qez0E6nituNLfrBlg1mLTNL-cdaS2SRioF4RCIUIXmu4zMol3tgctltUS5Wj2BP73aDr6XSBtb_I8-5v8lZL3xPdj3jlyPJLtcv9N55q5lRq_z39L7sgSkYRflfuQd2cMOiy4mDt=w1248-h936-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+										
+
+										
+										
+									</div>
+								</section>
+							
+								
+								<section id="Jour 2">
+								
+									<div class="container">
+										   <h3>Grand Ballon</h3> 
+											
+												
+													<p> Je me réveille un peu avant 7h. La nuit a été plutôt bonne. Quelqueq gateaux et un café avalés et c&#39;est reparti. Le ciel est encore couvert mais commence doucement à se dégager. La monagne est encore calme, seulemnt perturbée par le son des cloches au cou des vaches. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/D6iSnpqfJFewOFHhV_YFqL6LC2Ca_EgXFbl4DFuc4Pjmmb7OdVuN8Gn5zPT4iksbzTyZEGTrMl2-OcyxUQDb_mmUCloo_5OeLJsiCmGdd_gDpH6HyenlYHmdFz2qkqa3cH4HTpyHd6HRwPGZQ2CFOszPWpDxcS24ZT19JMpXXj2xWx8Obsf9CbdyfDWyyPw5KgaEQR8ugaVk9iWnws5OTYvFXBgFBIIAHSQtZlfKuzmzlpUqvkQdQvWd9RjvhmMbrsAsZI0iXg-DK21thE1uW8xiWUYR5dc3I82n4MnfH1ccl4a22SxGiD3-SlDYPGiVNKhjqVqmFXuYSOTVGCmYw8ChQKEpaGUlPJOVRXKIuoOP2zoNWr5rEfueqnRH9WcPu3alVzBh47M6ybzKbd9KeMoxrIqiNWbzDu9doHwIGvJmimwkGlkwTlSN9QzAI6mG2PrHdvX2S3rPC5jsGtEqqh-MquAgXae-IGpy2nzFQ-cxo8NQLFvkoC8PAAt-TiK1JexN9g_RTyO1-rxYKP7nrCtWmplj01tMEHUUiU32NWP-A7nd0kDpa1YARwNdebvQjbuMo1DrCY8T_uJmrH6H4EtRJk2IIHoJttbGOcxHitS0q8tXj3sSh1Pbw_cVRs7Aqx9lvKoQlOtxNtJAQBKMrebOBeWpZohu=w1248-h936-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> L&#39;itinéraire que je suis depuis le départ continue sur les crêtes vers le Petit Ballon pour redescendre ensuite sur Munster. Si je continue par là j&#39;aurais boucler  la boucle à la fin de la journée. Je décide donc de dévier mon itinéraire pour aller au moins jusqu&#39;au Markstein. A ce moment là je vois le Grand Ballon dans le lointain et ça me parait  bien loin. Sur les panneaux de balisage le Markstein est annoncé à 2h20, le Grand à 4h10. Ce qui veut dire que je peux y être vers midi (peut-être pas si loin finalement). Le chemin est assez roulant et j&#39;arrive au Markstein vers 9h30.  </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/fPkLfwxMZYXVI--i4G0xVQrRkUHlRXKyLr-VJzKiJ0tKuefwdMTBMSLnYMeWzJQlQs5W8sauwi3PR1yQE3pdMFMjxOK64hGB1-cEhGnEilqmd2aegfNuz2mFnqtSG9v5aN2SaO6aJ9U2DppiFrMGzKRlRyYYyUzE_DEtwMniPR-mVbvYuFdxhZZUXFjGajX5blI939wwm_AV_MdeNkFrb5X9KZMrcg0a02FAs2uYa7aCPQX1gJFah7O5CEmYFf8PZnM7EAYwm2XSVS18mkpYWZg_TiFeW5f0bUQBQ7j9pt7oquZLQA748XFxBScEL53-Jl4JXd6-kPs2DqnXKtzJbXiqiZ34TvR4vNMusjZI8w8wz0gufU7X5FSTKR-dbt4BS0K1w7PJ3v4VXKlPX3kNbCqhVF7ssxPOqRUB89K_yC4J-zco0s4PYmsGYOFHMCiDdJh1Sf-PDXLRFQnjJ7539eGy5R9fC4PV1_rnVxHKQ1rDcxrEtXxKRMCOfD8yu3BvLnhJ6JwzLUUqn6SKlndAeFNsCgkhsOpgVdpwxTt18D99Lm2ghkZavuf8pRVSBncE9ol1hOLZYkqUwPBxnzmyVoKfS4elFnpjGSI6AM0C1LZGDEgNWqaVNfps4rHMSuRwLPPoz6UTekUTROf4GL6bZdf97cTUYQXG=w1248-h936-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> J&#39;hésite encore à pousser jusqu&#39;au Grand Ballon. Je commence à redescendre vers le lac de la Lauch puis me ravise pour aller jusqu&#39;au Grand Ballon. Cela aurait quand même été bête d&#39;être aussi près su sommet des Vosges et de ne pas y aller. La boule du radar au sommet ne semble plus si loin. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/eKLJ9o_IxYEsjHFqauIXs3kab5-GpW8tsA7AOK0Hvoi3HumBN0epYWNnVJrrTfurQ2DeFOOnoTXKoWedxu20HzsMwsdJ9PHu5s58RKXlOYXcOFZQoMVsrkTdvgN-3SEOWipaBv3zegjpT-Cfkm8-0R7WTXCrtcNNYdwJVJnWKOAwDoV3beTX7Oj0Xjvq0SA2RJhI3sKRPRAVoY2nwV-Lp-LoKjJ9EWmJEWny5CL0snTyS2Tk7aQw23s2d14hOLoxuacxqG0o8rtxjtns0d-UvHGNRH8XmWyhD9-7dQB-ANnKU9itKhxtbWZKcw1TSqzSOHJ7c8ZTmggHL68C-cFRtmH0eZWrUCbjyNAHK5hNiD3kLZnTT2G3UjVys8pV30amAt1zQGoNv78krgT5-GZ-PzDPYL6k-8kGRh-LP-76_4dnSYMlOpfK0ER77uaSlXQVQcm8UfXAb26vs3SbPqHPJk6hViPHhXYoZV5dRFL7zCOaT5e5dOIuuIljuNeqRbA7uMLfHhGq2mNOXq7JOgEmktrcW65zG_7DXlIRpaO4ofUSHysUsvanwGnfrOBnMmQ3n0Vx2NUWQbdSQ4tVWP7YD6brmFUaOZ97sXL9KYeXKWpjZnhlVdeIuZCVi4OKpQZpZEy5_sM_dQUrS_P9GnwLDBiPLkdgGC4p=w702-h936-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> A partir de la je suis sur le GR5. Le chemin pour la plupart du temps en forêt est assez roulant. Les choses se corsent un pu en arrivant à la ferme auberge du Haag où commence l&#39;ascesion finale. Le temps est dégagé et il fait bien chaud. Heureusement il y a quand même quelques cumulus pour fournir un peu d&#39;ombre. Et aussi une source d&#39;eau fraiche au milieu de la montée qui fait le plus grand bien. La vue à 360 degrés offerte en haut est magnifique. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/yJgxD84OB6-wQ2tNpPYdBo_YhFqnBir_EUoIYJ6HpUAY4g4hp20rDgo6SDlfKZVkmhahxtZMb3-8dmbbuz9J5YPUzekt_8bX7fayXhq0qAV2g84lDoYhxoQXLKncMw8tp4zOGq1gpUhcBJL5TtGXW6x8RQ-SzEMxSukaVcf-jfUWCrUkB9_Isd66CYjwc-TLMfQmwGNz1g3KLhHjMi66t0LtNRBw0mYD1_qPZ5bFfIwYpCjTVOkA728xkxkdlCLRkzp_1bm2Ab0d9KwWuUoRoSYdWc26BGIrkQ-pyfro8CE1rxY-rdb5c4m7UO4RmadBcxGJhQncDPi9VEY9ilkoGwq-dhOlGrePR2Vmj2dtHC012MADVkimjbQnSVyTz9EoR7PapysvRz2obgbEoV5-mHkBxswWUbrY8covHGrs3L37iN1HSWQR7asLkpqUSEzPy5Uf73loumCtoqeDQJq_9Ig74Ufh8jb-_hPcXkzPf7aJueVaY0j6l3UCZRnSKnlhmWGl6XXY390AtvBUGb9uLcvzEJe603BMfkhplgtwF-0yv6eht84of8hgN_wELVY4VRkqV-KJcR7RUSCLgYv-TnqYGXijdqMhEx6sJ54KTeqlac7u6yOs9d0jPTLE5VLDEHJiTOrYiYGae4GrIjuVkPalGDfifajB=w1248-h936-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/lfpi_r-H8fJvlPaI0bddU7GPzaZJRpyeEc4cdkQ_UoSiGUmYVeWwjbfGemdnw4E5juN9uHf3xNEwXVoiYfExt_kVmEkUOexVqhMPjGgnfuRAG8NNcdL7pOK2qmYebW5f9OsbXKPfyLOUYrcFoiKPMsVW1cK7pG9hNjsPdjEVskWs355PW_jgWDUftd5flYgM1NRLP7U5DIQwbY-tWhdGWjFOYSy-O3G48jvyLt5tDuyf9FvpbwWGGbft8mUBobOqOr1uRlgHWydUYxpnPS5EjC3V54qLRz_hFcZ2NzZrQKOLb6RwLzmq5D7xcJDvcj-ZxVFrDETVhQymEoMPTEUcnOWx05gzs-_Ra6X1EluDQcI1pyEBmM591K8ce096HJQeHTEOXGcEq2pqXjE8AjD6DPiYtz8QtqWjU2_wVUSdRzsOdqptAYMs3Sc7eh5K9fk2Qdc439dY37k41BAAqYD__hEgUUMR79XyikaQ-d36imMfGPbpKPk_abhnvaOBL_VPzucMQR1iHZ_Vb_tCMA75Q9IcZezQy3ONabfG1c0HgPlOYtQ2av790p11GJqj4tjSPMGI3Dacg3YqZziSt_TIlIPIM32jGTr0fpqxNLwBM4FIslizog-2wRAiUwgkhrP3uCo5txfY9MrqOC_pjxjVN9B3FkZR9u4R=w1320-h640-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Comme le site est accessible par la route il y a beaucoup de monde, surtout des motards et des cyclistes. Comme il est bientôt midi, je déjeune sur place. Il faut aussi que je décide de la suite de mon programme c&#39;est-à-dire comment retourner à Munster. L&#39;idéal serait de pouvoir retourner sur l&#39;itinéraire originel sans revenir sur mes pas , sans devoir faire de gros détour et en empruntant un parcours balisé. Malheureusement je ne suis pas sur que cette solution existe. Je choisis de revenir plus ou moins sur mes pas mais en passant par le GR532 qui descend jusqu&#39;au lac de la Launch. La descente est assez éprouvante, surtout les passages en plein soleil. Le Grand Ballon semble déjà loin </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/ReVqqWVX-KC2S-e-xN_eruPt0EKZxIZUeAbdmK43UMhjErvK2dTBiYEHS358CqUmyfKSml6u1tHgi4wbbjWJMMVbnQcISyzcix8M21ke1sq5kpVmU2LVGLat9R4yZRoxKSwp81ddFYstOI9h3eolIV_frhPolOcxNSNzh7n9T7dfWcYJe7jjXJX2_ZhGCy4Rd1Otadhg41HMcYo0JxhKu9ntQpYHjcIfZvWu_RO0Kr7BxyoSe7qdjtl-SPMs54v4AL00I7hkP8bxtJqKPmqV8-IZUYzu2-PbYpa8UNu72wF16De16mmZcTnkNqUlWwBG8ZHpXZiy0JBzjcEi3qpFFXcwIBA2DBi-uydEYmND_0IMVpcQsoLwD0sd_m0VigkUiWTUQrtG-JcPzNJJHu_6_NCQosR_SHd9-XInEkV8D1HqDGHkCavl8d4fsUyNCmvvtmm2INztDGJ9apk-qDgVOG_G3GvLCllBqKJdYWCFmMuRNARllsK4SuyXm58fFwgwv7mExy3ATrYI4YEupO144c-TehHqNbUW-NXpcdyX10fT6ZrDxLAl3PfKuMutmOD66egUNfv0muXzfNYR4K6nq6QAGEv-DGkbn4Bh2a2KwvrDbiB12VWYU6JL1C6K2ecVhENwTaFPq40H2d85cnGArIZIKXQ8AP6V=w1248-h936-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Après une petite pause au lac de la Lauch, il faut reprendre le denivelé que l&#39;on vient de descendre pour remonter sur les crêtes de la vallée de Munster. La fin de la montée est particulièrement difficile pour moi car bien exoposée au soleil. Mais le point de vue offert au col d&#39;Oberlauchen en vaut la peine. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/1W0SR7uGFpV5muWz6tcY3dNzu80zJBQwXXIZs622k-EjcrrT_AbLPaLWkBedcSjsiv5noSjHOdPER2-RKBEhfFN0zo6SU9A7hb_R7ZZXmAUU72o690IZD2TWrn4ga_xgdXJ6y_xb-NDLMOh8a8rU_uMUQDQdSnvoqOkG12gPTc0j_OBo6WDWQGw-IbsJbkRsRl8eJB0sr126zhtERxDTK7rNbHUug_nBhtJ_rFRPd3Jjmb973ePXFMXI4M4dMaBYWHpcFRHdrN6f9PK43KA8_t1Io0MR_La6K5a1uhAXwFlkaBuiYFtU9-qwlMUJqV03a4WQdIcf_2Qcm_1A4Erkman3YWn7WIzb_QG4stbGTfnX4TBgPC9MjN0W0H1-0SnMlLLJc3aFTEheqtrpT8xO8ucqznXuQ3PW0EbDmvX8yflmvxMOjLAliaKOCS7f4P4TEJRc4If0bJyP0eV9cxNtjJHzdNT_q0MyagdpHQzb3nPI1-OEMfvsrDKbqbNWD8CQmaezopgwBDUZrvHQ2zKTbuPXa3CpT_w4dGVIgyA6DCK0vO06UpF4LL2rXLt6-HbAAUmKd5fnb5tUUPVPFNtvyQSfcHKGdiTyzOwplNJRxDyFdkFmg9nkaWuKIPpJuJE6WP2zXeMkAovPOglDBMsyBiypi64tJf6i=w1248-h936-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Je fais une longue pause au niveau du col et hésite même à y poser mon bivouac. Le spot est vraiment idéal: herbe, à plat, vue magnifique, à l&#39;abri des arbres. Mais l&#39;affluence de radonneurs et l&#39;heure encore précose m&#39;insite à repartir. A cette période de l&#39;année le chemin qui mène au sommet du Klizkopf est interdit d&#39;accès pour protéger la faune (période de reproduction). Mais ce n&#39;est pas très grave car il y a un itinéraire alterntif qui passe légèrement plus bas. D&#39;ailleur le bivouac aussi est interdit dans cette zone (réserve biologique de Guebwiller) je ne peut donc pas m&#39;arrêter ou je veux. Il y a un abri au nivveau du col du Lauchen mais l&#39;endroit ne donne pas envie de s&#39;y installer. Je continue encore un peu. Je jette mon dévolu sur un bout de prairie presque plat non loin du Hilsenfirst. Ca fait du bien de poser, la fatigue commençant quand même à se faire sentir après cette grosse journée de marche. J&#39;ai une vue imprenable sur le Grand ballon à droite, le Petit Ballon à gauche et la plaine d&#39;Alsace en face. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-4"><span class="image fit"><img src="https://lh3.googleusercontent.com/SkmGYHJwXYBzdVLqir4TK89SAlUs1ZdzxXvp7G6IqnoAjCmI2ugAFinYZ3zx1fWtmrSgHToHAoJw_hFYeYLu52Itcex-NnWbK5ht9Gw08zzllJaNRx9khru4745NoW3qC61HEyJI7O-L2ptb0C5UizwGEoRS2_bsDTiiaVlYzJ44f9sg4LvW8IRs0Gr-e2fo6739UV_i_ZZlPFRH84uvmAiNLBHTVYSRM4G03wBmhWGPwSXnWK4dyHSKJI2VDFxWWEXD6p7HNKaikcHfViS08cq-q4IBtFTZxq3LTU8zLIijdhtjmlwttP0Xy73m93tJ5-machFBIMdG9q8dUv94951Jj6T6Dov-qPjlANkIvlIR6XwYB83ZlIgP6fu1EP50GBPp6i_OOhVaEpBrfVfQA7favxN_ov_3LFyDnACNvWsDSbOjCBw5WyCMa6TMsoD3O7mNX4eHFWwT2cJXGT8GBbmI9tsOw_U4tTLy0tAiCxnA2GnwlMhDTtXAy8gvV61M8OOqX-X596jQm82G28o9jX7rylzn7wq-1z32pgas2wbB8BmUv-mo6wwLozILTUHuN8jsnBtoMzuQrwqU_8btlEXnrcxO03XhU_p_gSk6iIed97fMKL9AOhLku76f6f_QTWDZqFYU3ZtF4wehcD05MbKIh5YTyVLo=w1246-h937-no" alt="" /></span></div>
+														  
+															
+																<div class="col-4"><span class="image fit"><img src="https://lh3.googleusercontent.com/CVDZ2pPMSoq3CVuQXViPs6LX19J7LyYNokCnc10uzJ7NXjtLJDijS9DkGQG9s9Xx8dg0LQxE0vlAAf_HR8E3pq_0bQYBOnqymALcQcH_n5ayqOhPibd8onMN9gPco2hPg6PdsQHFYV5XjzWzpgmlciqLTUJq3hklrLLDBdJKT89LC6htW2iL6Sc3oYOdcNYj3KkAnlxYtmbY2tzgff3lhvdJPJWsUvnwc8p9fO2YaTEp3lnvpvN5Bw9S34Gq2eeyb9UNCxjg6x8fsK3p2a9LcyASzUsPVZOsWbhJvLnt_r4D0dEdj00VULnPaDSEI2cZ8KFQfpXmCCQuhhG4Ezskzx6XGxee2hLFPaenLBw_FoX8i3ZujJZqFrKq7H3IpvdwLe3gjS8_na3fyJ_AhfLafgfqi3plh4n57xNBS_0Bz29sfy-ARVuA2oAMT4g6jTZNdqZtOhuVoudkL9i1z8koM1Ss1TNV_Q72KRFB0cnjhfdZILCE2_UGGxTDxa-78mqOV2NCOkxMnIC0lGXclD0oZNUJ-tfRV0hChN7PbkVPcizHL2HM4KlSTYKfLNwBl9jUUSb0k_zbf-XEif739rm6Zm0pNTRYKjPzC2os10ADnvYNby_dpms2RVP84QEgiGqDcGD8AjFaPgu-tAeJfhbnWdX-ZvDflWbJ=w1246-h937-no" alt="" /></span></div>
+														  
+															
+																<div class="col-4"><span class="image fit"><img src="https://lh3.googleusercontent.com/0A1Ko-jX-Kht_dAl81iciktmhZ5GiK2AlEOeBFjom2-R6lG0kdAaxpuU6Ocue-RLUw4pXOYSS6teBklEhVn2f0ycBQMkqVFumDAXdBybW1LecEb11EvrXWVDFw2q-GwBrR-Xjn8LL5EO-Td1Q70WhoIYF2UP9otuaVPPX7E2i3Mw5t7Kco01bi4V3DXB0O2TYjrQVuyFYKn8eFuu7pbdDmzP4B-5GOjRyQwY4MGlg9WIUx6vj9YZ3htQ9NrmmKCuToNl9vx1bhMJ-Vi2FAzTL3PWIGZZeS6sdabb4FLVBRYoLgFn3OalaKUDbzEl7Q-cZ1-FvRDPMrUKOgKwS9pHhveZ2jPDn-YPvj0mRSDwyzhlW52zdDIwRN-JSWJD73o54K2kmADlFYl9_FUMUO42-cOR24D3HtlfEluDbd_FlhaDYMK9YIfEyTG7N83X1xzjq-UZQuDOwrggNAzGJGGPcWE71LJVfBgxsT1uTsp716hBIIIfkYqQW0jybW1RtWDStlO-fkZZKHccKBBj7BFYeEjv6qmVhWvuiRneT5Uh_FPiYo-uUHpGucDHnfGavxu_-_2Md17nMMpOx2FNH6PZ-mUFFbgFQKIzV3C6noLU6tc0ByNgSFCGD3TQxYi2vNhE490kbsR2X_F3J1WIbVHIbktkBqxaKLpi=w702-h936-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+										
+
+										
+										
+									</div>
+								</section>
+							
+								
+								<section id="Jour 3">
+								
+									<div class="container">
+										   <h3>Petit Ballon</h3> 
+											
+												
+													<p> Cette nuit a été agitée. Vers 2h du matin je suis réveillé par le cri d&#39;un animal non identifié (un renard peut-être). Je sors de ma tente pour voir et même si il ne semble pas loin au son je ne vois absolument rien. La température extérieur est étonnament agréable et le ciel étoilé est magnifique malgré la pollution lumioneuse des villes en contrebas. Je reste quelque minutes à adminer la voute céleste. Il fait bon mais pas assez pour rester dehors en caleçon. Je rentre à l&#39;abri dans mon sac de couchage. A peine couché qu&#39;un autre son vient perturbé mon sommeil mais cette fois-ci ce n&#39;est pas un animal mais de la musique. Cela semble venir de loin mais je ne saurais dire d&#39;ou exactement. Moi qui pensais être tranquille au milieu de la nature. Je finis par retomber dans les bras de Morphée et m&#39;en échappe à l&#39;aube. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-6"><span class="image fit"><img src="https://lh3.googleusercontent.com/UabN8dblLhLIlGdZ80XMwi9_c_oEyvnjXAwDS_ZJqU8wqLEPoxP6WVHphhI1sW9AnR2uQMI6m1PecZyRFiSccqb9eo0BUe1Wf83HdUnuMf134xo4-ZYoyosuCC-lOpefb5ZkmZ_NrCI12h-ZOB8sn2G2AQHQkepEnVl3Y-NGz0qmafLZeBfbt5kbzocFBWSsqZTzKv4zJDS3rEyXTOvbMZgDu1S5ySrA_vgqCi0iAAcNnvFa4X4CMWrX3rYAslA_XE8L1OjwFEDGU3YGqhBLi6DXM6s4IImACUAB2ZhcINTf-gzNZubYwIJc0_t_m7e9fmibfRe1lDvAh9VEGckpdmuxHWsjRJcxzxXuaOWzboemnlLf6k4StNbQMsL9z-5gfutXs9_MNw5hZrDQl8I66L4_imZ7EUuwn1YoSG4dZcigH5sY-4Nv9AfwA1XpNkOkKolg2q9wbGp05TIfjkroHwhQp_FNnlmhayuvD2K_88Af9zYxLa8JuZTVXH_Cl9mBJ0a7g2NCVCjP7fgCiA-tFiho4s42O_nu7YicCCXffsRgbu_u-fr30jMwqjjNFomMK1u2iwh5jxML1UgOgBznswQk8A-sACjsw07tUZDDM4yh5TDmuyewMvQCe_sMHYfGmxWeIQqLjGbrGNY7CEKLPMSy60Cp0B40=w1248-h937-no" alt="" /></span></div>
+														  
+															
+																<div class="col-6"><span class="image fit"><img src="https://lh3.googleusercontent.com/cxWFaLvF7cCydkC4_L_uSmDZXFF-t2B24gAh1RRCwh-dHU0Y9WoR5rtFdPKIwWbOscJieOPQhvLpB8hw0-vC3hY5RDw42pyIAZC6XLc-nBmw5scksUpdrLaZmhpPqsLHd90fsuXZEyrNeRyMDCJ_mZiynh1L9sY9oQheLqEmuI2GC0Xah02VLee8wcHG0KuKARqt17_mzwvdo972sUj3QY4KPWbWZZVYXIeEWJ1E5brYCOo9NRNk0xpgRvId-iDu9UH9Jub28Fsy7W2d5s7tEGsMTiXJnP0P0ImHF55DlbVB9O_2PAQObTgrEI_enGc2enGo_Fuq-w0WSB4D7jdtAEr169RftAK8KeBfr35kWiRLnkgvgXqZxQKlntzL2a74325rzMD3u2vR4M0YBQKj_udK9EMtB-x_5icpHbGcGhZgQBgSsknl_ZQRxrDbo4C9JQUZuhCzix5AyQKkKddDoOYaTgzjoJx_4Z9ZPVkNLHkRtyU_6fWwj7NrqYUWETk8Gd9pMf_Zr7LI8jvbz5JTKvAKaZa0SI_BYzlneNwTsLTrb0Odt0PByUky5jkZy4WuSuYUkUrU-Muhn-vsqVGqrY4o7bgWfKR0d43vCa5uEU6YWRgDiqCM46b8eBgpXeODsBH8CML2M7qIPlV2DP0ZJpNlOJ5t4m_c=w1353-h937-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Vers 7h le ciel est bien dégagé et le soleil brille déja assez fort. La journée va être très chaude. Je reste à l&#39;ombre de ma tente pour prendre mon petit déjeuner. L&#39;étape d&#39;ajourd&#39;hui continue sur les crêtes. Il y a quelque randonneurs qui ont planté leur bivouac dans les environs. Le chemin repasse du côté de la vallée de Munster et j&#39;aperçois le Hohneck de l&#39;autre côté de la vallée. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/qKfq0tlknRRdsKjSVFThGv_LNiriPbeUakrQgKNPOTX1dOblPUxTnZG_m7O-R5-ZUrc6Bh1dDXxzQUzuuUKNx2XSispiUJu-3WFRCICBtmJUzQZp2Tvbc-N0NFyBs8b6z5UJs03uRKxEgAkqYg0CLZIRL-MJSeQn4tFAJoKA3k5fL4c5xjgN3ZAAVAUTEwxRaSNPrmvB6pnHhlc4DcJut0-4EHfZumTNpJ8QVILb3gR61igchdIb0iYTAVET0megWOTt6qdN1Si0CFKXfsUNOQxVFAl1qX_a5kdJ5pFfjFy06q1wJ0uRDszgdqPqn4HB3P8_0xhfxd8jI62ZxIy6qwYmBBbUhjPhNEwirdQJpo8E2iPyXP8RWrwT6abcHYa08IxXrBk-Hs64dCthPoIIR2FhP5llsertxPiDjxeV56T77RK_x6ArQIEzLHjvUVcZdnZgYcE8z5ZRpqVFPoiAnRer35itjamgwt7sBsYTAoly4QJbqfqY3qVwyip96ONm7NEp7fn3BXDrwlS28xWM7VRl9pt1ItBmeVhag1ljpJ2lvuWwYh0Ft5j8hOnzNOd2mNeIJdyWwHvPLOLqKORIB6aw2fceFYONzNRdvDSIBlw24KJ4d9ko7krd4w07BsEQMpynbUlB5M6vSY24qa-O3FnwqF5ll1gR=w1680-h877-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Une belle petite côte et me voila au sommet du Petit Ballon. Il ya plusieurs tente plantés au pied ou au sommet. La vue panoramique sur les sommets vosgiens est superbe. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/TJoP_Vhgu3b9vut_1dAUahHoZ1xv41-pD3qQmYdUbO3QtmRweGpoPDHRKMPkqDG8Wcc4f5UcSq3MWxI7bCtfm5A60C7fB3E4dB8fCxk184s4taAhMCydOZYW_CIZISoJcut1QDtGAoLleTgNqYdlRvtU1lDsruGM5JwgF9FWrWEHFBeQgpbxcg0n89Oud8nOnASGzdDa__VBzKmbFusrsEXww-6vuRpznjG8Lnv_rOE3UNKKjyp_mJuiDipX81669K9-AKFGWwJElcxRabBmYXz6eOzdAOQ104hds8HYntLND7kO4oe8DY5mH2tKx7ne2S8Vts8V0wAGcOZ7x5QaLSAxgay5j9MHzff89ymRGXTOt2h5c5aeaJfDcD_N5sFVbPXSi-ihrlETg8O3RE9vu7vegxBY58DPjfJIXm60l2waShxb4XuUx64u3PNSdwolGn4m-KYtmBpEu0VyNRAVF7sdu6nx-ggYNueWL9vb9OkY56p8r0RCab_buTfUErt7l0pFaQAiCbPazXEStvnXQcZ3TJ71ff2nlZqLbqzc7tvgk5DPNrhbRXh_aES94kQaIeisuQqIsMRnYPBAFv54l3gz8TaG-pCBHbRCvErhsshcpfVuTXsqo64LaMu0buAGxLsE4OaU1uiGkMOzvTBJiXVvss_ewAu1=w1680-h628-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/braoePjeXbXKlsbcbXc8UAXFDE66HTJHR-L84v8rUa1WP62vu6tBFrGRsuv3HzgbHQBRSRdwE1b29KBV7OSYVFZQ4jQfdbpVSkHvlyU4kzhNvg4u65YmYcWwFLJZodlLgA8Pn00igPo7omR9d6G9LnCzaU2OrseJS36uEnCIowG1cBkvyweTR4C_lB7I2Qf7Wl6zI28RBNvJT0LzHBm3vrWES89gj89OlBAVyXVj0YkhB45VjGiNVAGne0O8urmaN1MRDPX1l6sUY6dPYxG8rDLzqr-tQ5b3FP1RExW4rgRoZr9LV7H-j7hCXo8kLPL-cncUKVw7Loe-0l-SfwB9VQyFi4_kSRwdQT5KXG8atitxZ-N_-79qQTNrsGT6_KWpXPH_0DDfyd0mJeo5w6xxp2OUiun1CT-kKGikhN51PRA6IPPgueljDhX_6chsrVOdad4tA5OyV9q1HoPzLclVg4IY1V0dzoOHMPXkk9JGczkvxoSU3KtYk4iA6A0sQIKhRiLo1oMc1lxib7YE8Ul7eP3hhu6DxI0GTDd-1nrgrOaaxJ41f7d6oYwaCZuYmsc1BI2wwU6wYyPXLytxf5RkTTs-ZXAkogES6vy0H1HEXGkStPlijRIEEoXT4gJhbPVj41tkvKORff7lgga61DN7HX4_UymLyTPm=w1680-h694-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> C&#39;était le dernier objectif de la journée et de la randonnée. Il ne me reste plus qu&#39;à redescendre jusqu&#39;à Munster. Le début de la descente en plein soleil est éprouvant. C&#39;est un peu mieux une fois que je rejoins la forêt. LA fin de la descente est assez douce le long d&#39;un ruisseau, c&#39;est plutôt agréable. Bientôt j&#39;aperçois la ville. Plus que quelque hectomètres et la traversée du marché local (épreuve ultime avec l&#39;énorme sac) pour rejoindre la voiture. La route du retour qui passe par le célèbre col de la Schlucht est saturée de cycliste, motos et aussi par un rassemblement de voitures de collection </p>
+												 
+
+
+											
+										
+
+										
+										
+									</div>
+								</section>
+							
+						 
+						<!-- Three 
+							<section id="three">
+							
+							
+								<div class="container">
+									<ul class="feature-icons">
+										<li class="icon solid fa-code">Write all the code</li>
+										<li class="icon solid fa-cubes">Stack small boxes</li>
+										<li class="icon solid fa-book">Read books and stuff</li>
+										<li class="icon solid fa-coffee">Drink much coffee</li>
+										<li class="icon solid fa-bolt">Lightning bolt</li>
+										<li class="icon solid fa-users">Shadow clone technique</li>
+									</ul>
+								
+									
+									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Possibly broke spacetime</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Terraformed a small moon</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Snapped dark matter in the wild</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+-->
+						<!-- Four 
+							<section id="four">
+								<div class="container">
+									<h3>Contact Me</h3>
+									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+									<form method="post" action="#">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="Send Message" /></li>
+													<li><input type="reset" value="Reset Form" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
+							</section>
+-->
+						<!-- Five 
+						
+							<section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+
+									<section>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
 }
 
-function off() {
-  document.getElementById("overlay").style.display = "none";
-} 
-</script>  
-</body>
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="col-6 col-12-xsmall">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button primary small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6 col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Primary</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary large">Large</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button primary fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button primary disabled">Primary</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+												<div class="col-12">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									<section>
+										<h4>Image</h4>
+										<h5>Fit</h5>
+										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+												
+												<div class="col-8"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											</div>
+										</div>
+										<h5>Left &amp; Right</h5>
+										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									</section>
+
+								</div>
+							</section>
+						
+
+					</div> 
+					-->
+
+				<!-- Footer 
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>-->
+
+		<!-- Scripts -->
+			<script src="/static/js/jquery.min.js"></script>
+			<script src="/static/js/jquery.scrollex.min.js"></script>
+			<script src="/static/js/jquery.scrolly.min.js"></script>
+			<script src="/static/js/browser.min.js"></script>
+			<script src="/static/js/breakpoints.min.js"></script>
+			<script src="/static/js/util.js"></script>
+			<script src="/static/js/main.js"></script>
+
+	</body>
 </html>

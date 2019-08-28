@@ -1,489 +1,905 @@
-<!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Timeline</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  
-  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600'>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="/static/css/style.css">
-
-  <style type="text/css">
-  .header{
-  background-image: url("https://lh3.googleusercontent.com/Jn7gVpIGurO8bNSSP0yGYT39eAYIYVHug1kB99aOkxTnlapZVCQoD_3dRcRkcjE34nwFwktlwAjl8xuQWEdcRgEcUzFQJ1RvfEyMV0XLhJXngo_0Ww2s2WKJrFTxhhjZ4NEkklsqp2NiLneVaK2WQv-zx6y7GH1fyXcF1tnUdSBrlGsCkFxTVwghdxrNZ0i9KZzlxZQGHvZr_BALZAzxBJ6JeTyh09V0ieo62WxIohTal4dh91kqhrnnFY-h1ZPkeVXkgrXxVGlA85PWNwQvWn8aJZjRrljIvAbHNXvg4Pdbw1GPasTu_klRl8_5_oh-5OLNL-_aoIzEuCz61OivbJUOCOaRgzTqifcEI73OuAB3Gkqz1lscBXpU8U6Kq5MM_8NC5yVQgMD-xd5EnRcO1kBUnSJ23aTRupq4POzRrVnfpoFx4RABpXyNsrxtEcTfeqSpzy-0EhBxwQzm7Wok_3AcsmS8YWQ-fwE7Iykav8DWZ0fSEDLTkNNb3k0KRplcn_-TGa59HhcXoZgMwlkDJ0NuZrZCWrIehOM9oROdxTRhdVzHgjugoIXUW5qZOtU-W3fG9683_kxpq_h-Vv3B7SlL9RcG8MeZse1e7Qe0K5lKWGtUpzKfJ2Qu9NZtMxXdQRYYmKEnaMKDfGczqTQJuxATCw=w1259-h944-no");
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  width: 100%;
-  height: 80vh;  
-  padding: 40px 0px;
-  margin-top:0;
-  position: relative;}
-  </style>
-</head>
-
-<body>
-  <div id="overlay" onclick="off()">
-    <div id="text"><h2>Liste des Etapes</h2>
-    
-      
-    
-       <h3>Alpe du Grand Serre - Col d&#39;Ornon - Col de Corbiere</h3> 
-    
-       <h3>Col de Corbiere - Villard-Reymond - Plateau du Taillefer</h3> 
-    
-       <h3>Plateau du Taillefer - Alpe du Grand Serre</h3> 
-    
-    
-    </div>
-    
-  </div>
-  <div class="header">
-      <div class="content">
-        <h1> Tour du Taillefer </h1>
-        <div class="row">
-          <div class="col-4">
-            <h3> Massifs des Ecrins</h3>
-          </div>
-          <div class="col-4">
-            <h3> Ocotbre 2018</h3>
-          </div>
-          <div class="col-4">
-            <h3><a href="#" onclick="on()"> 3 étapes </a></h3>
-          </div>
-        </div>
-      </div>
-  </div>
-  
-  <div class="timeline">
-    
-      <div class="entry">
-        
-        <div class="body">
-        
-          
-            
-                <p> Petite rando de trois jours dans le massif des Ecrins. </p>
-             
-
-
-          
-            
-                <iframe scrolling="no" src="/static/maps/tour_taillefer.html" class="noScrolling"></iframe>
-                
-             
-
-
-          
-        </div>
-      </div>
-    
-      <div class="entry">
-        
-        <div class="title">
-          <h3>Jour 1</h3>
-        </div>
-        
-        <div class="body">
-           <h2>Alpe du Grand Serre - Col d&#39;Ornon - Col de Corbiere</h2> 
-          
-            
-                <p> Apres une nuit a Grenoble, je fais 40 minutes de route pour rejoindre le point de depart de la randonnee, l&#39;Alpe du Grand Serre. Je me gare, j&#39;enfile nes chaussures et me voila parti. Mais avec l&#39;excitation du départ je n&#39;ai pas pensé a vérifier que j&#39;avais bien tout et au bout de 10 minutes je me rends compte que je n&#39;ai pas mis le rechaud dans mon sac. Marche arriere, retour a la case départ. Cette fois ci c&#39;est bon j&#39;ai tout, on peut y aller. </p>
-             
-
-
-          
-            
-                <p> Il est environ 9h30, le ciel est quelque peu bouché mais j&#39;ai bon espoir que ca se degage. Pas le temps de s&#39;échauffer, la journée commence directemeent par une bonne montée, pas tres longue mais qui suffit a me faire suer. Le chemin redescend assez vite a travers une pistee de ski puis dans le foret ou il y a enormement de champignon, comestible (probablement) ou pas. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-4">
-                
-                  <img src="https://lh3.googleusercontent.com/mDPlHq_0a5f77AuHXD_CdzglC4Qex8k-HBgZ73wK5MSBjRFKShA99e7pCGOfW4vy2PI8hQxu7U7iXoPMefm-00JJDj_1xK8Xae_y0gM8RMH2BLyLKp83zFCJA39UUst8jOZqWevj7IJZanSHuPUFy5pPAZmrO7zLfm8FrI_VOwh4ddj-qvQr8wxLNIUALmU2dXHjRxEuinXRcvawbk4cxjtSy54IHnFDwLhzXNQcvyDak1yt_A_FPSh92vyz3mI3cdqrYsLoaCIj9AnUKnSdpqmidJCeUH4acSeYULMjOxmzr3U0dEwogKfkPs7G4Jhxa0gv3PO8dWsiDhsoJjJIebU99_HgH9uU90syhITEvTB319d9pHjcPrIiK-5pf_MOJLSEmNHNg0k2PBL-kdfaDUstSD2drowLtkbtZxZWoZ9XsOp22AqmOlciKXlgqm6Je9-yG079J2TxxXwGozeflzM6h5pnYrfyXbp42EUT-T_qoEbuabSRXbIemGqOi5TcDWlevuw8XDPPefcIyr3iOrbO3mwvCMZSKJTANQd7TKYLGHt6bYbi5-nbR5mCV7hjSsOpCPaexRuOSXTPPRdygdAcujh09x1riS9L7nJJ17yHMbZf-dbgD-Uq2f-4TPxiv7rF9co9h9loZGdPccUvH116uA=w708-h944-no">
-                
-                </div>
-              
-              
-                <div class="col-4">
-                
-                  <img src="https://lh3.googleusercontent.com/5Br3_EN_6OZjpkWH450dBvfoHPUTek9bWVCIPT6GtbdT2TAOsa893FV-SCDo5QBQF9rclOEnElRcVFcz_LA07IHp5ernHGsNBb_7AH0cMXq33sKV5yxZhcBSjPmgKTVM8gswAe5U_W4g8Ekj6IPsPrb1TE70Y1mYoDcfr435ZIbLYEj-e1SLATkhzPOPwnW_yMVRNJiZmYUd6juKS9N228aljEKHBQlRtgoi-woNGLeqW6cKnJjUgngMo3egPrQnPWoGzY9LzRYnMnXexRgZ2ovuJWWxcv-UVA27J2uK1Vn4QnGLB_DhQzoN9BpuJIse6Usj8XLMMhfHKE6Bl4lfxYqPLuuECTzLL4hlccc3X-yLRiU57vYLyupz0VHU7SmKgvYpaC54Sat2SYl8dThaOCLyAlaMLmfXTrF04AB8C2V5XULtNQGcTJ_eAW36BdhHVmyIYLVMY2l8Atf7ZLIXRaKaSsqPUpRD4tmyrW1aoGukaki8cdazi9LRjdiudla_1T77z-3emFubnCG9GtdURZS6HNEGlH9iho0vKWe8jzII44nF8cymqELzMoM7xNucVCnVyTJ2wsT0EPdofgLFn4vSUcufPyFeK75c1C-YjCBK1Pd0OjV4byegJJ_TVRG8lsJa8h7Nwj4uIYbEmLwYtU_2JQ=w708-h944-no">
-                
-                </div>
-              
-              
-                <div class="col-4">
-                
-                  <img src="https://lh3.googleusercontent.com/jQuVo2rRw2W4kJ_yKWuH7jlK2qizto7pBn_T0u6CtkKibCInTgEyRIzkmu8XC_EfNjuFfEJO2fiUHFcCGcJWtxIGUkvqqvolPQSBwzD3FVZCTIB4q3vMFe8RcGkJWDMfvneKoqi5Wg0dVMb5d6H-ffuTBhXwsiuIu94ECoJQg-o5I1v9x7qxEhlQmEaA6Bi_pssUQDA-JFvBVzgRmOBvYHc3uh6BhGBV0QNZxHZ6szWVsgcZjl4EWYiTl_E9tnQ3XF3GyFeTgGejOS4SPR1IByz-y4QOKd-3cEcIBIOZNXqlOO023RRLD0tYt6zpRZK3cRiZLPnQEsjYM44U8p1xkephQjj4UndTxd451L2l7LTieHLmI0MaODdgxROyspT7hUJUo38FafEN7gg1r5w8T-D8V5b58DffjRXRBmYPGYxPd196xypMeQh07TZ22cqmMs10ixWjeaPj2oyutkKh0kqx1N0rurMA69QMbNXFf0gSuadwHCvCJUhvOiVWcEoqWgjZaUoMbjWeAqmedaKrNN09J3v-0g-VvXaW1wWrufbzvDpgjXCvd_t5OImqkn4-wS78c7a_r4IGA_8loJCFYPzlDeVvqtcUDZFfdeQhqxAfCER95bCJ6M7uZZyWeS9nEdE70z21xhl_TRU9T1ql22ttgA=w54-h72-k-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Le descente continue jusqu&#39;a retouver la route que l&#39;on longe jusqu&#39;a Moulin Vieux. Le ciel commence a se degager. A la sortie du village le sentier remonte dans la foret pour redescendre immediatemment. C&#39;est possible d&#39;eviter cette petite difficulye en passant par la route en contrebas (qui ne doit pas etre tres fréquentée). A partir de la commence les choses sérieuses. Le chemin se poursuit le long d&#39;un ruisseau avec un pente assez douces. Les couleurs de l&#39;automne commencent a faire leur apparition, c&#39;est assez joli. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/nolut5SlUWmPOGNdfy5duReMl_vNj-Hb__k8kE6FyM7A83ClOkijnV_71juH-3NgU2MQcDsTWVAztbj1m0wpS7lhAl3yDlDEQvMjQB-VxUdI3wDkbRmjrCJnL4gvztCl_FaBhvGuu5fXt7sRwI3FfETxnlKgT-xQdWmAH87GyqbFA4--pm2ENMek4SY4WVHm1XvCaqcISjALtZ6WA9PcfZGtWCHhklZ1BYDZ90NK16UAiTBAGmE02naxDM2hf5_I6uAM8QhvFTsRsNIYCzL4rVVgbFeaaTOGbBmf6hP-jBJZZ7ZYO8W2N1igAqCA-VVz9i6kwAg0u6bbHfNYBFqc6wxRnX-HszP8lEviL6ukFz7cEdtewqY-yMTTsblVpxS9q-VCcscmM7XEsbCWgOZgFAO2lvrGL_gcP_dJuTaMJtsLlLaeCGuqnuTip-3DtxPxBFzi8oEw_ryNlubF-17DzdvN9VTe6KDa0nK9VVV_LRUUGJRbkx1aAAynuFpBUCoBC9Bwo9QlklgiAW40HphwYXnJYF3deOjYW_W_mk5xtswnfQy_c3szenIqb_HzDgGAgJYmcl-CVhhzgQHuB7RgJm5SoLCsxMAMoSdTydk06JS4bEoIgBBQS5ToPUfnIrxd7rdP5WCJCZqH5b45E2SFwcsYnQ=w1920-h910-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Plus j&#39;avance plus la montée se fait difficile. On quitte la foret et se retrouve en plein soleil. Ca tape pour un mois d&#39;octobre. Comme je suis tout seul j&#39;ai un peu de mal a trouver mon rythme. Je ne sais pas si je suis simplement en galere physiquement ou je vis tout simplement trop vite. Surement un peu des deux. J&#39;arrive bien claqué a Plan Col sur les coup de 13h. Pause déjeuner bien méritée. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/vZOQ-F8r0hpJSdbq81oXIUjcaRXh1vRm_F_fpQJ1FB0IJkSrLxHIXs_qTh7UhqpfoT89KJyWzusLZRsJto76R-7pArNjLtRW-ddZWFwn5R6s6d1ek00b5zl4cGzS-Sid_zVFh4qAAwU8oxjIwj8uYCqKxiwLgkUzh36r3Zf_8JO4smETsX-qmF7WYnIU_afRJud4F7RKATtphcU6uh_kj3lKFvOKa8WhZKN1wCtj85kKYufkDrcHJmODuuse5rA8RlhEA0P5Tk8dvAhx3hr34DJcYxHiUz1g9WYw7KAh4zVJF-bcPq1okGctrdp5qLV6lL-tC1_6bZGV9pXB708KI71MUkLAvzbGHjKnPRDQtJHd2hPqtHGq7XdwBFwfYOy-PH_9E17nBr4YneZh_NZQ1yPhdirMuL3BpjhVP6rfZwVMheLj7Aej8ECnVKlkVFK0Jc-_gXnF6ZcU9NMJl96axK5GpzkjsNn3aTfUzbsJ8OOHH-0nucV-5ijZkS9Rq5U39bik1JqoS2RdqrzjcpKEKDnDH8ZWL8S5m_xYxh_BUtMuCnUFWtlaB6M1hUfseMi6dRhZOJCuIY0mPaftMOi27tTk_Quvx9kvqwSJCsCv58yqbLXZFePcleSaezV2Nk7VSiGEk1OFad83mroP3dvb6EYRQA=w892-h306-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> La descente vers le col d&#39;Ornon, d&#39;abord assez calme, empreinte ensuite des passages assez techniques avec du vide sur la droite. Mieux vaut rester concentré. Je creve de chaud. En descendant en re-entre dans la foret, la pente est bien raide. Le chemin débouche sur la route qui mene au col d&#39;Ornon. Je fais une pause dans un gite/bar/restaurant. Je suis bien content quíl soit encore ouvert malgré la saison avancée. Je me d&#39;ailleurs assez surpris de la fréquentation pour cette époque de l&#39;année. Le col d&#39;Ornon est normalement la fin de la premiere etape de l&#39;itineraire que j&#39;ai choisi. Mais le soleil est encore bien haut dans le ciel et je compte bien en profiter. Je demande conseil au gerant sur un endroit pour bivouaquer. Il me recommande le col de Corbiere. Meme si la nuit risaque d&#39;etre froide, c&#39;est le meilleur endroit pour profiter du coucher et du lever de soleil. On remet le sac sur les épaules et c&#39;est reparti. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/8B0PEAValh44VS6Rne0IqoNAhZsbQsquVFD9olXxG1pmwriBHk-3VOMpq_X-a_iRa-nWeVobmLc_xvAV54XftbHqKToBL-Br11M1RovdMt7EWGtkJlgdXl3QXMka-BEawYefQ5n_swyv1ENxdMZqS3PCf9v3bz5wU4u8BN97SN6MLAfgJIEY9DKwW33x57Ub3QJoWv0fuwQssvzWzoBlta-7S5-5SEehxpcIB-ywDKljOxht5kzbfXnQ8bve4UYVuA7t_w1J7Xuaj6Ti4oxh1NilUfDRiZgDUorE1SobfSUfTGsv1tLPKfUTfZdMdvxa3k8Q7xw-waLTxA-sUoV_BZ8S9VnLok4BIFgN4n9zDNzOmVYKZXf97JYGWPNPkLKIZwGMlacbyrW-evHKtrlT4QE9Qh0Moz4CRQHyHqOkGqXWnz6DZEtfEws2bxPuyYwQJZ4DQp5pq1B-ff69-iay6NWdOqikopuDr0nB2I6As9dNspJdrrzq5lVVmiPNOQ7NMweHC5mnEQER8tZhkXKeF8V6Kn3scDHnJ14VGyXmWJAQ9Gj8Ns_fAxFevrOOk4fbp_KayExjJmaTJ485AZBA_lYNJ3QTYsZOSctBTVY_pTjgb9-TSIwH3U4MOzQ3H6zU811Gzn7MgbAjGai0VMFGhmSRAA=w477-h358-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Je commence par redescendre legerement mais pas pour longtemps. Je tourne sur la droite et commence a remonter sur un grand sentier. Je croise alors deux enormes groupes de randonneurs (les premiers de la journée). A un momemt donné je crois que je me suis planté de chemin et je me retrouve a monter droit dans la pente. Je finis par retouvé la bonne trace et un panneau qui indique le col a 1h. Encore un petit effort et nous y voila. Le col est bien plat, plein de place pour monter ma petite tente. C&#39;est la premiere fois que j&#39;utilise cette tente donc je met un peu de temps pour l&#39;installer. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-4">
-                
-                  <img src="https://lh3.googleusercontent.com/L8JAfHp4Px8-nm_kOms22rH3kJtFrmaIDh2SJpMphzry9xVe4dcvCwOxeC1TFxN-mQpKkYVfa1CK5zc9v0fvgJD4GaYlgGt-ESbJVg6sti_Buojutc6SB1vKXrojgQmjCQsUqM2OuogZrruXQXUajTiocWHyin9WvdjqmVo-QAnZjGjMclyNBTcz6Bv0VGBy4mwBAJ6lbIvaQzolbfvn4X7pZCkhyy-6a-JxQJBhkXZXmnu5SNsrslTDLa68damSHdR8b0MuRyRiaVLYEN9D0qEqbqzEc2KNjQA7jQwGPDrQKrek15PIFQa1YryrRurvun2SblusRgjwJOe3yJlhdCDBykS6z5bmSVOy4gzVHYkvk5d8d19gv6nr3XjQJIaXu_rDPXNLmPQb7nh1e08JG7kDnc4ZKEuG1sXlShuh2qdHL8E-jJ_n3e1pSeDG4l38u7c6ML2vPvkp8JJX29nU9LZXsOmh40S-g1_I7IvUdFrpACDYkSnUzNYl4WjYXbPlgX2Bf9V319mJiZZQKXccfvmAuuk6bs8PLlBEQhhK-c5uvaWC4rRx-iATA6K1Z4HhiZbURvIs83NZuZSPhedlxNkZvYtraRZQqYQy-jmwEsc6ZlCI347phJvXhRYNbcMOjv-PdjB6-tsSzWdM5x8Or-38-Q=w285-h379-no">
-                
-                </div>
-              
-              
-                <div class="col-4">
-                
-                  <img src="https://lh3.googleusercontent.com/vqk63j3eTlnYawJcBlOLKbVpy513oq-cuPKoGiPuECyHyxgScM2uWtGe0i0VFFR5JOjaYJXsLF1PNg3DecBDq0Kv74GH8v-2Zf62tewwEciCuHr3GOg27QXjwN_FRZwHMWSznypuLKYEVSNEKIiVffRN7yBZdKYr5aizoGvQl5bdPOnUBVTLuAFo7Gs5__xPNCP0xzYqgRSuffZwsxGhZR1raJmfzPqhGl2EUTkxqLLzRxvdpI1eYWAu0RBxijHskgLT8YhtqCoiUv9z3xwk4fJSiOb9MVwdcwfc9IqfI_LHJq214gTGGH0XXdtUAIMjz096222QvW0YEqfdguI_opgqhUgNUuBkkGeeGyr_EKaWfWBanZjmWurrcVkaIKaRn47u9lH1PJRXwwn_SFgj6WtWWqjPcuZjmAqU6woJKZ-e8RNDFM8i8n-yp_b6dG6h8b4PWDjpVjdN3C70QjfkTYrcYZB-c1_WH2E1hkKz_loJw2Sg0j9rcwGLyw8bQI7gbXzdicUF40Z5Eq6o2hLuXy2Zib7Xnwk4RoOnKFtvaZLtUsALW9UD0okId0qJTcapNinx5dTWwD_t3HUKNqm3-0zWOF0-a8pY63k64Wr_Htrcu0ymuanvkirCbaNd9thczn_C21XE69UdPkn3ftUMcEKfbA=w708-h944-no">
-                
-                </div>
-              
-              
-                <div class="col-4">
-                
-                  <img src="https://lh3.googleusercontent.com/Mm110yuQRV1yFRXqwK2J4No08juUT8altWWdOC-byvvf1rlGtGAj04HHNnBq2eCyJ-rtqTRt5YTLwCRsHC6byc4z8TjK0DBMBhBd_yjZHGwRffarYANS3qFTragNgLCZRo-kWJ9YUDbfoRP5DQ2tiRjTXoes74tspWp7TWKkH828TmbVE4A9AcqTPWop2WnpBKxQAkkGIcZsYmiUA4fkpS-IRnhGLCedYXWGbTk6y9K2lFiusqzZpsPqhquEMEoK8SXqCLSaf8MhEaA78eP-RopJ695nns-EuYgAv7H1PlX7PRgaFMz-qFfyjM7f5ST_RQMSmPpzn9JgJi0x7E6lJuVR7NBASJRL4kNnVKz285RakQ4speAcJDkq8mGj0zUQAzzZCQrdFrz8r1yrLO90ada_78HE6XTZdVRTqKKhsjU95a1U6H6tRSKlzQdx46NiWBz8Q16tMIwRsJo9HV5BXT9R5rU6NgcZ6jTWvc4IdrmoaP6jrXJsJqDJAAxK0BK9loBszM-ey91pvGrWFhWIaOvSz1QJjetSzaDZPgABp5LZo5_PfbBc95OilLUP9aO009uWck7TtuYzE7am0sIBuvIK8HiezNvk06M2CXtXXjGB4o9pWhJfTu6VNFS0-pCIKzjpAcZoa3QZJt0NkD3d3qtmyg=w708-h944-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> A la fin du montage, il est 17h30. Je monte a la tete du Louis XVI un peu plus haut pour profiter du paysage. Ca aurait pu faire un bon spot de bivouac. Je profites longuement du soleil et de son coucher sur la montagne. Les couleurs sont magnifiques. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/wO7Sw-b6W21_rVuQDS0o18ih2Ip8JxuGU1GHO-BjjqpUsz-CqKVHBBmXUMh2bxFhG4HGpL2Aw64iqgDuxqcIzelyMYuBWFijuSAjhMTI6QLioi-1SlC6P5twe11RsDvV6u4eTjcFdny1-AgD6LZeyz8X4Lds2lKFp9x1eKryWmZkQ7phBXWbTAGm8DifTzCMOIsmgwkaBf37qZFHEAI6mgb2MSOLgU8O035pEvrCisY6U5prWrFZ6iN4q8aeqRJxYX2I-LWtfMCM7QFxdexX0Ye7SbU6BFSoRGOcW20Zr1dT_Hnag-NHaFMcm6TJ2jN-FNfjhjEPdB7NWd66ZmehDVMs0cHJwfUheprfIvDUsnf4EcCLbKf8BYyP6g0Xc7AX_Gc9i1bJnFRYQ_hVtspZcFt3pqZnU_DEIVuwbtlTgv8Y79wJFV6nlErpwEkTTzT7pr6ipDhu4H2iPcSeZjI02Dje_RFZ3m8l_7qKYBf6piPE0PDJbAWgzPjFgw-58tO7WcTRw_XlTUTMrIzq2UbtWDoeMXchl_R1HI5cHjE-TNgHtmL6bvKBjkcTye3mWvt-Cb9Ne1oZYydjh0-mdpEbgfVc9UuZAwMiJXr5HNs3j1uEtM-uyEaDNr3GVbO7LTLEtTqu93FiaLdpks5dR3wCGZ2Wzg=w1259-h944-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Une fois le soleil caché derriere les montagne, la température chute assez rapidemement. Je me prépare un lyophilisé qui réchauffe bien et je ne tarde pas a aller me coucher. </p>
-             
-
-
-          
-        </div>
-      </div>
-    
-      <div class="entry">
-        
-        <div class="title">
-          <h3>Jour 2</h3>
-        </div>
-        
-        <div class="body">
-           <h2>Col de Corbiere - Villard-Reymond - Plateau du Taillefer</h2> 
-          
-            
-                <p> Je ne vais pas mentir la nuit a été fraiche, tres fraiche. En témoigne le give sur la vegetation et sur le toite de ma tente. Le froid a un avantage, je suis réveillé au aurore et je peux profiter d&#39;un sublime lever de soleil avec la lune en guest star. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-6">
-                
-                  <img src="https://lh3.googleusercontent.com/wS9S7vIuD1ijt_eqk3DbCxE05KX7drnbxI7mI8Q3cj8VqkKrqSvydDHBWtJVlEh4Bw2jDttY9nMmD4z2J0Wlis6kSeUQcUBP1owg6Ajh2oOsB_UAOb3NokWwIMayCEVxSS6zGkYCCp4ZiTBWCTIKsP5mVW_95uN9yYydaZVEuzDzVGlxG-QY5Txh_YMKpxQPQ4ZAbtyDePM8xxoZFrZU3XilNGt7qbdkdokdRSjArI0dUX1MkL-B3Ch5nLPepqXaLuh-c5_dD2qPlpHROAff_APg6E6bQ0ikHHLSiNBdcJPrINz7olsAahtletonhj0kZJ2DBIqXYwGqFSQbP1PJAdyA51vsMv0-un6mq6lmGkTjTkJRHxG9Bru-1jnnlg4tp4L3ZpPh0062wNCsFVwge6J8VhyOjqTn8-h-nZst0QvkAGpwxdvkoQFt0zmAFVuhpaRojP_Hwt2BY-MCR35z2OLiXcOboudO73QhxWusGH6UDT47zzX-OD0cMLDPvDqBX1MB0GQuFSucZMjyTPJzTL7kc9hVKWBw_Lm-qpBfaEIfHojAiN42fHX2Q1esQpUtRLB1Hrre-gGMwHW4l7Nr07LpdkrCfHa6tcNC9QdAHcb9tyc06Zhi35OIZkBXqT6uinO2g9VsMoqSJ5YmPN93pYzACA=w709-h944-no">
-                
-                </div>
-              
-              
-                <div class="col-6">
-                
-                  <img src="https://lh3.googleusercontent.com/Vn1Z_aaKuA1YD5b3-VzwgIyW_H7XU3y00PIPjfoHUDNOvn-YGXXwxbpqUMPVfiiqFbxpU3wlE2hN2LB-5-6zfZ8xjE-i_n0qypxmVYmDfqRSXUO8EVdpxnTBtxW5NvzGQl42tm9uyMeLXXJN21uVnKUnbH5yUqOiU6yweE5xgVf-MTf3G8AoyiPjWyf5OG6H1vW4Cn8hpC7ZzyCzaz2hyTMcopv_8LWr-CVxOiX53vnwcTxysxS0o7XgGKQTmnlDzVicxGqrgs_DDDVTxoPrY7s4VepY5wNT_XPjnvIbHPBrRQb4tU1vebNYMjYmsm7BNvUueuUK5DobTIz0M3UqFasZQJRPpo4YJuc1iDJHremwceIxnlb9G-pSJSQzwa4Tb1PPhBaaUNsHcvc3Qi0H52nxWt0j8dbuHzZRxzLEMfWZ9tCW-5NTbytV3yoYhQkHisRNJmHYtV4QtuJsu6IP4lJl4KeUgp9iouM0ZIK4HUgYcRxKD9G1xQORNCtlNKLfBA7tBiY2o9lRSX8tc9jUPAUABjA7hXT-EscnvxzzkGL1Sd8DPgWCwcnlUqyTuZxMv7Z3PPeiTLaVQ58pU1Gh2cip5FmJ9d_fZTF0FiKPuZk8xcQ1x5f3B-diHiUr-nvRnz8qyMkzl4Gg74C_PB4cNlIngg=w709-h944-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/nGSG9jmj_YCry1QYvKig2lppQZsOhlBfAG0HhdD-TGQQ65VExH3-zWs6wnM10-OtuWmgKfX7gnrfKn5RJ-hnB-ELCCIt4ZvTUqbbdaDeCd4UjQSQJKZJot7b-czg5fBApuJSsU_v7j89H0koCrf2od8-JY1YJeyP-lq5owwZI-w9H_NmqgHjtw7ivmnkCyQEfqx5ZGQSgZv9Nat29Z-xO1iioHORR3NzuYGuAPk8w75q74gUI_nyqJbTKnEeG-Dab8qmzxfGpNc9_3M6O2C9JEIC4DldMTY3SDa-ApUbFcjuKcNQD_l-CJbJprdHHivJTZ_0FCNEcuPM6Zbr8tE20NCkbQluBra87zVbR6gb711yXeyDQP9R_n4JqFnJYolkoX-TNL2rxMowYjaAMI10arwgKeZpyo2vdO5idGqdWc213D9tU2QvF7CpMRW499XZCvDLjmBBNcl_m78UNUixyBhZOF5nboZzTVI7TLMEDv_g26Djbz1RUrZBS_y7PlGtZuaTsTHJHkFsB2iT_ZKTZYQO4H8aCY8FQ27PhKHJeg7sED4YSHVH2hsGW68PAi1Udn5HOoO9waYZRSYYxI_b5UyjlU08U_tXtJj19iC4OXzB_ag5mben4PODJ_B9OC03k4_BICYSu-OnZNzIURmng1_fkg=w1259-h944-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Le temps d&#39;avaler un petit-dejeuner et c&#39;est parti pour la descente. Ca descend fort des le depart. Je traverse un torrent qui descend en une enfilade de cascade avec de petite piscines naturelles. Ca doit etre sympa en ete mais je ne m&#39;y tenterai pas aujourd&#39;&#39;hui. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-4">
-                
-                  <img src="https://lh3.googleusercontent.com/XE80kzKFO3IzbIrDpzos0muMddb0p359zOxZkiZZ4S50RPw83PjEdb2WhNHg9bz1asxQw2khUl8kuAzVvKhJgIovGvzdZGtOm1fJIT17Tn_ucxc-ZAHkEyCBPNG4XeFZI5oUL0YKK2U598hemZMlmhIctWPKEhSc-4mp3jHKyh8i_l0_PebVa6JC7zV6YrloO-kOM4PK5nU0Jw7QJaZqPKpNtbl06to9YKMxKFW8uD7gGr-7OdI4DYh8foTHi3ENprkfxrSJTFjAnpj8R52e8GYvOZO0v36cKVMhFJADgragqDeVAERnph36KpwPfL1Y4CbHQlavwTamzRWnhsXZKCUHU05wcL5CdUT5gem-JtZp0Ko_8sQ-xIuCshPboWtEB_ddds5vuCPRxjfODfiWoXr7waKD_MH_dv-6huI-l4wj8XrnoxJVkYKosnDf4gboFnFzRz_eB1dIIefd-zo4sS83tKEJwGPDU0E57AoyVVnsSWELEoT_wovs6O-e5rJMOHJHT-zKnfLFIqRXnwyYC-uy337I54L5kBoVz9sYtrgDXLzu2CJsd9FxcUigFDV9VeU2fp9GQFkWLaq3EftYY2hmmzCfO0UTxPoUoy7-cmhlh2mEagDIENFyUie8kOQEpeB5A0doL9AC_2YUy6W61ItcuQ=w247-h328-no">
-                
-                </div>
-              
-              
-                <div class="col-4">
-                
-                  <img src="https://lh3.googleusercontent.com/cvMdXLPTwJf6BYCDk3HhGAOEuVYfrhJis-xGiZ8vPPQjf3wjEIG5aA0TmB-Azma9mf_9ehO2I1KBqvqjaKfN9HTk8EZfjm17w11y6rn18aDf_VZzJQRmduSS3-eFKCPfZ8sB-7JubwrYOK0XhDuAE1h2Efeem3I5-12NGNGplbp6PlyJud-8NnqGc7uM0cXdfyogQna5EhFNQTyEEbXERQEh41PI7uBE64GcMVrDtwwN2Ve7LVP-UBMleblaxIEyuyw-JjiFfWxC8rs1wNOxRrbzC2l7ZS86UO7bJj3eE9KCOfgq-tHQFOZq-nJX2EyWaAa768Havel2ZYDntEU_OXLg7qvVj0J6zJ2HfUJoV1v6TUMPu-dS5C7kDdLClGSqENydO0jKYskUidIz9opegxOg21sofiXnvB0kTP_HxljrZ-CQJAoyRis8kjONfYJi-AAYAhL30tEt2QgrOFLrpFir8hCnDaIkoAr2FUKPen74zr1LD0tr7CmvR4eKNT_KiygZedQdPSIddUQFGqbWnZ2BIyyf0VPY7oUi_7GTn-a2SVX-1g5jXsz4Cnvptou3e-1nCO2gAst7PttK7NG5MtvAa7o3Dh1tzZJDJSDzuMCRXCfkkcnc-d40xDb6WlxLHM31wwy6GDA-1IPPrRMF6_X6iA=w709-h944-no">
-                
-                </div>
-              
-              
-                <div class="col-4">
-                
-                  <img src="https://lh3.googleusercontent.com/OHmRjBnzbz-HXHnCofmQwoAbDrIVbdTSaOT5YxeQqCB_72vjCHey-0H5AY9AcRJXPJL6W1PSmd6fjerjdjfqqNNmrSG-fnsRUGmcEWbFsiLL1PGP0wn6HFMtlUotJGShu9BcrI8TMsTz4WaYmLaMfGlqf4KOX6-o9lQ2mkTTqKAoV3ywCsXVeAwV9sHgfG4fEMT4uMJPOQnHF3fLxPBEsKrydLWbINhwW7EdQ8yPfk-s37gx3Z6trky-s_CXpidwhOkuKr3MRDik3IVNKAtVVyAsLRMbQ5krUOq2DSTElfuXhUvBYIZL_H9cixpSTTZDmKXdp1Hny7CY8yQQyNh-i4EFMsf-NBOuiI0Ec2z5M-SZhmlxg86bEORxJ9mO6D2QRj-71goSZMIpwppQnpDTDFMp4Ix3MLBGohLs0WweB0vZMESVNo2bnDHuEVUyIbbKSsn4J_7uIZJ3-CVwdakM966DLNXyxKGILuSLcSBnd6WM05Oh2QtTrYOXey7rTGBfN5maxttK_kvZRYB-5-dyNZQXFJqg6RPOp2Mts8rRxYL-UCuQKwWj4UNZBzx_0SNAbYQCy7QmUyKbfgPVm2guSvZDhH_e3HIPumgf6e83dVxsxJ5RiDbqwd5YUxJZ-lnL-giWgcIr-etyxmH2zIxUDe6CeA=w709-h944-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> La pente se fait plus douce jusqu&#39;au village de Villard-Reymond. Petite pause au village pour faire le plein d&#39;eau.  La descente continue dans un pres a vache. Apres une petite erreur de parcours je retruve la trace qui descend bien raide a travers la foret et debouche sur la rouche. S&#39;en suit une portion assez longue le long de la route jusqu&#39;a Villaret. Il fait encore tres chaud aujourd&#39;hui. Encore une petite heure de montée pour rejoindre Ornon et remplir mes reserves d&#39;eau. Je continue un peu pour trouver un endroit pour manger ce midi. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/8gqPTXkaxH_WsoPdTFHO9tIxMD9UmSpiNcu2TFieTw7Qd2_Sqx4-eNhSppT9SB8P5Afg7P0_Cj85N-tsGwFuaZLOveciMo80AaESjbK9Cl02HCRIUX6NIpj6F2_VOvEVjuIQ_vFW3apBu-VYBz685UmZwC4HrDloGXdXcODqce2nnxwE3ZbIQLX0_Pbd1WFyqysjPsZ-2ii9kQHcbWOnvunTY9H7hgjsLMGuQXw1QQ9PI_czZKvZnOzdhzrpDKHDWNIl9NzlAzslnRazZw22nGVmVkZ5bHo2589l2jB7ptGXWf-VRNvNmD-Aw4uyudFdwZcewsU9XCWCCtKrsqQYSG5_AU3zsdm0rkhJ55KtWhouLbuoio5WPy4NMzsE3Z8M-lj9uhTYIx2ktn_zOOjzRxowZiCtWgzYot0aNjIIyBdlg7uBXAI9s1Sd5-6Oe0MLeDx_DaVYQZNtpk9Z8jrNp5Uoa-KLMxo_MpPylFtdMjAhuzqz0MWyn38sP_S058DzNOtCHVa777YE2L2Olq-2uYZissTxuWm9zsdNXptfIKcoyxQ_rcR5KFLuxeiUmjUjeXNL42U0_QF34YeLp5un8ojGP8rY9ShfBoV0Kr87meavPuvAgDxCspCmer5wMXxmbMvjTbFxQhsGknzHVoBUKgkIog=w1259-h944-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> La montée continue sur un grand sentier en plein cagnard. Puis ca bifurque sur la droite et la pente se durcit. Je m&#39;arrete a chaque coin d&#39;ombre que je trouve. Apres presque deux heures de grimpette j&#39;arrive sur le platequ du Taillefer. A ce moment je croise une radonneuse qui m&#39;indique une cabane ouverte pour passer la nuit (car le refuge est deja fermé). Je continue donc ma marche jusqu&#39;a la cabane de la Jasse. La cabane vient d&#39;etre renovée et il y a tout ce qu&#39;il fqut pour passer une bonne nuit: un toit, des matelas et un poele pour faire du feu.  </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/uKi5msHtWOwESiBIespbhu2TbZmEQK7VmqRKo4bv_39dQBk9lTKTV-v30y6baHT3jbyS36oETMZtA3DgJ8D79GAlQgWXEs0miyVb5HwOVJogP7TKOsAHCDSzkAVUN_mLb_yAwpQuq_z-CV4RFIjEfV8Q9BjgdU0Jb1CEPijzuIXkRUyBQUggipEH5WdezBDBlc8UgDMmeQ5c0ZQOQODuwn4B4dnDbbo2MSLvyi7q1B9ADdwpLQQRErORG1wH9aW0ELwEJJb9lChEikgqoyKXJJ8GD_jcCfCCY3LCWXOGVze7yEUOeHMv1tEyGNgaGUCyUKid8d7BwC13ewGc4S0Ya_YrG0VD1f6FqDhNoYhrBVX6AjH1AMS6DRU_JOG523ppsA4rBWR1mfx_Ry0F_104opQdbULFQJlsUd49TBcbbrBdaXypEwMkQHrXDbSyKa6hOU7XHh0NC6uYpwleIh6-Iyg9-6Xjawxu0ZmgFl-RGuy6fpZE31ThVWxxcdCe-LKflVnj0J3iD4X9dCeeLvT-Je4aFBk6fFO9wTrCE51fmAeDTBvBmXC5Wa_T8ys64Alzx1EIk_PkddJZiqvhLMTFepAnQW658_hhSCZWyXJNqAZnqu4TPv4sMKeBukbRwZYaX0KDOD4OLNs61YA--zX5e6kM6w=w407-h306-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Pendant que je suis posé pour profiter su soleil je verrai passer plusieurs randonneurs dont certains bivouaqueront dans les parrages (l&#39;éclairage de leur frontale trahissant leur presence). Encore un beau coucher de soleil ce soir.  Vers 19h je suis rejoint par deux papas et leur enfants qui viennent passer la nuit a la cabane. Le ciel etoilé est incroyable cette nuit. </p>
-             
-
-
-          
-        </div>
-      </div>
-    
-      <div class="entry">
-        
-        <div class="title">
-          <h3>Jour 3</h3>
-        </div>
-        
-        <div class="body">
-           <h2>Plateau du Taillefer - Alpe du Grand Serre</h2> 
-          
-            
-                <p> Le lendemain le ciel est quelque peu couvert mais le soelil arrive quand meme a percer. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/DxvOkMb51wNNvMAURN9YOygwoRtMFiH_z3FlGm3yTFbkr-5TWzCB3ddrYTQ5EhEU1p9zbFNGUQ6XIenbavTnVBMTIrwXy5juMslJ30gjjOVxFl8kSyRkApdKMHTbPLyw8kj5_tcAYMQM0Y2UuQyaDTmILSkMVPIdn7mOiS4fCBZ21ifYVvuS96m_9k2eVdH0QJes9jQl8rxFlQSsjWiibm3S9KbhYXKLbPx4dTFSF9SlKC-Va1gbs6upGdr1mHkZroL9ytzkEIAqReF4XhajCOx9bpjtgVoPLGBBp5OZKcSvBtPKGqPiT2u--0t2RCKXV82qh8VeEyyudxSrZV7Ao6XMpncZsq015xkYeodAfYn-AXeA3PIFhSDLutjDfZSigiCXEJ6zmM8c9EGDAwt8ANKELMWWpd6mwlwipkLf0wDaeNZ6EgJRcfJCmFg16KKdwxtO7QzOH22F9-jdcr2NdOK9M6MCmqgWvPVl7-bTWeMBwfAr58Anxb5z7JYQn5kRFbZsEY8--sLjydBkp8eb1FrgSvdPaF_oF_zD9ImkpsUHXUXLGNQkihagAfSayNDWNMrfL1KOZUwaaU5GyvtFybf7XtX_i2wxIM6r2AYNZ0TbpG1A5PMPHw9RC1bR6eUgHDuRdS9zcs5dBMznawf8nzn6Mg=w477-h358-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> L&#39;étape commence par traverser le plateau du Taillefer. C&#39;est une vaste étendue de prairie humide avec de nombreux lacs dont le lac Fourchu.  </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/oESdlKbjcYG_GpxxSJ8OQ-DgpyZ5DCt88MsZRqCKHprDOYSdZIkIKl3yjurIVc_U2YzopC2oplnv94z2rlPCDyPXMdDGp6_CILTN2_XoCTZSyJ1kBCFehVuvxpAvRvtb_gWxyVbTqEOa-i5dCC07QEctUXuw0uxmCelHLh31VFzX3ZfcJoLNybZGl39vt55gLyHmnNlpuuJup4cJ66f82MJDGSIDXenc5RFZA_kNzn305a5_rZijyZBFTaxzPltboODL3HXLo_wt0w0HQS-ur-vfODpZYtgC0zJDctmjGTk4YhNQBb7SIYJPI4-PwCao9kIpNjdMUUmglRt-yJipK94XIMSocns0EtpUDL4RhrP6JkXcty1PqTqKNiYGOO_rQAL4naKT9bs5C6NIigohKBL11MCezsMfZv30gO-NO2S-PCeaMP6m9aGFBaytjHe6IX5GquOpiv1c7DAtY4R8YcvVQWS1SFXEo4UOiZjj-iVtQY3Ymsj_OnIwIBWxp5SvuP9RiIqkcoKA3dft1Ho6DbAzmw1NeiJxpibSgFpxvvnKhtWb54G1h7GFczVAI3Q7XRIBT3TWx6h_C6ozGJvvMKfJTNhIzO124ISG-FepUxYGkIVCgrFVYZUR60mR0aaIBkXLztAIchFDWrlufWMzBgxIjg=w927-h382-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-            
-                <p> Viens ensuite la descente qui plonge d&#39;un coup vers le lac du Poursollet. Je croise pas mal de randonneurs qui montent vers le plateau. En bas de la descente je rate un chemin sur la gauche et descends un peu trop bas. En plus je n&#39;ai pas bien regardé le profil de l&#39;étape et je pensais avoir seulement de la descente alors les quelques petites montées suivantes m&#39;ont fait mal aux jambes et au moral. Le reste de l&#39;étape est en descente plutot calme jusqu&#39;a l&#39;Alpe du Grand Serre. La boucle est bouclée. </p>
-             
-
-
-          
-            
-              <div class="row">
-              
-                <div class="col-12">
-                
-                  <img src="https://lh3.googleusercontent.com/kwZQ7imhGC3ILy5CTHreLLlRJvl8L8CcAn0JM_YWyncsz1gKQs5X6bihmJjZfYHhXNg_H6Hcf6xEv1XQATJKvkBeRDzlUWJOFMRgatgbPWO40lQUpm4pB4EqzjP-BuvDQooNKJ5uD2AipnV7B6eLn4YKeWOGq-RYI0amUdy0vHdu-kOkCMhX_0QB9QORo31WZds05kxUSVgkorZ8KqOJ_12KjwHwJr0nVXh8aALLpxs-4I9GDt98Wt40ycbkXmHxH41U6VtIEGvQ97n6vpOm80gFUlnw0kocIo6mvn8zqwF_8yg3rAJcjTkUpNH_Yh4oiuSufbY2ws4ln-8VWlnYGTpitj5DvTVC3A_zXVVJBSOi6CmNcBZdKkb-wmUOL7gffSN8ipa5YafxfKE3YRotgr7QF1ou_Rg7Q6Hbt_TMp9sTRv0waWWV62FhKLIcjDTDCvdrYSwUMTt8BWxKnqLmqE7V4ak2Dn1ndHBxYP6-yI3tusyMzRRvrwakErZYk00a30eZrhiuNiC_8tmhnA28R5AvWZwr6Y7BHnE92wqb3O0t80QgSXiPhsUJPpE9XHXFktGcbISOmNMKflUr17JRsZLz0TsQFzjATftTiWkvuaRTsByxVooVQcKrrer3bVRDzbXFRu5QOxll0sSD0IiExMRnSQ=w415-h311-no">
-                
-                </div>
-              
-              
-              </div>
-             
-
-
-          
-        </div>
-      </div>
-    
-
-
-
-    </div>
-  
-
-<script>
-function on() {
-  document.getElementById("overlay").style.display = "block";
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title> Sam </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/static/css/main.css" />
+
+	
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+			
+				<header>
+					<span class="image avatar"><img src="/static/img/avatar.png" alt="" /></span>
+					<h1 id="logo">Tour du Taillefer</h1>
+					
+				</header>
+				<nav id="nav">
+				
+					<ul>
+							
+						
+							
+								<li><a href="#Jour 1">Alpe du Grand Serre - Col d&#39;Ornon - Col de Corbiere</a></li>
+							
+						
+							
+								<li><a href="#Jour 2">Col de Corbiere - Villard-Reymond - Plateau du Taillefer</a></li>
+							
+						
+							
+								<li><a href="#Jour 3">Plateau du Taillefer - Alpe du Grand Serre</a></li>
+							
+						
+					</ul>
+				</nav>
+			
+				
+				<footer>
+					<ul class="icons">
+
+						<li><a href="https://www.instagram.com/thmartin/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/thomasmrt" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.strava.com/athletes/5070956" class="icon brands fa-strava"><span class="label">Github</span></a></li>
+						<li><a href="mailto:thomas.martin55@gmail.com"" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						
+							<!-- One -->
+								<section id="one">
+									<div class="image main" data-position="center">
+										<img src="https://lh3.googleusercontent.com/Jn7gVpIGurO8bNSSP0yGYT39eAYIYVHug1kB99aOkxTnlapZVCQoD_3dRcRkcjE34nwFwktlwAjl8xuQWEdcRgEcUzFQJ1RvfEyMV0XLhJXngo_0Ww2s2WKJrFTxhhjZ4NEkklsqp2NiLneVaK2WQv-zx6y7GH1fyXcF1tnUdSBrlGsCkFxTVwghdxrNZ0i9KZzlxZQGHvZr_BALZAzxBJ6JeTyh09V0ieo62WxIohTal4dh91kqhrnnFY-h1ZPkeVXkgrXxVGlA85PWNwQvWn8aJZjRrljIvAbHNXvg4Pdbw1GPasTu_klRl8_5_oh-5OLNL-_aoIzEuCz61OivbJUOCOaRgzTqifcEI73OuAB3Gkqz1lscBXpU8U6Kq5MM_8NC5yVQgMD-xd5EnRcO1kBUnSJ23aTRupq4POzRrVnfpoFx4RABpXyNsrxtEcTfeqSpzy-0EhBxwQzm7Wok_3AcsmS8YWQ-fwE7Iykav8DWZ0fSEDLTkNNb3k0KRplcn_-TGa59HhcXoZgMwlkDJ0NuZrZCWrIehOM9oROdxTRhdVzHgjugoIXUW5qZOtU-W3fG9683_kxpq_h-Vv3B7SlL9RcG8MeZse1e7Qe0K5lKWGtUpzKfJ2Qu9NZtMxXdQRYYmKEnaMKDfGczqTQJuxATCw=w1259-h944-no" alt="" />
+									</div>
+									<div class="container">
+										<header class="major">
+											<h2>Tour du Taillefer</h2>
+											<p>Massifs des Ecrins - Ocotbre 2018</p>
+										</header>
+									</div>
+								</section>
+
+							<!-- Two -->
+							
+								
+								<section id="#">
+								
+									<div class="container">
+										
+											
+												
+													<p> Petite rando de trois jours dans le massif des Ecrins. </p>
+												 
+
+
+											
+												
+													<iframe scrolling="no" src="/static/maps/tour_taillefer.html" class="noScrolling"></iframe>
+													
+												 
+
+
+											
+										
+
+										
+										
+									</div>
+								</section>
+							
+								
+								<section id="Jour 1">
+								
+									<div class="container">
+										   <h3>Alpe du Grand Serre - Col d&#39;Ornon - Col de Corbiere</h3> 
+											
+												
+													<p> Apres une nuit a Grenoble, je fais 40 minutes de route pour rejoindre le point de depart de la randonnee, l&#39;Alpe du Grand Serre. Je me gare, j&#39;enfile nes chaussures et me voila parti. Mais avec l&#39;excitation du départ je n&#39;ai pas pensé a vérifier que j&#39;avais bien tout et au bout de 10 minutes je me rends compte que je n&#39;ai pas mis le rechaud dans mon sac. Marche arriere, retour a la case départ. Cette fois ci c&#39;est bon j&#39;ai tout, on peut y aller. </p>
+												 
+
+
+											
+												
+													<p> Il est environ 9h30, le ciel est quelque peu bouché mais j&#39;ai bon espoir que ca se degage. Pas le temps de s&#39;échauffer, la journée commence directemeent par une bonne montée, pas tres longue mais qui suffit a me faire suer. Le chemin redescend assez vite a travers une pistee de ski puis dans le foret ou il y a enormement de champignon, comestible (probablement) ou pas. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-4"><span class="image fit"><img src="https://lh3.googleusercontent.com/mDPlHq_0a5f77AuHXD_CdzglC4Qex8k-HBgZ73wK5MSBjRFKShA99e7pCGOfW4vy2PI8hQxu7U7iXoPMefm-00JJDj_1xK8Xae_y0gM8RMH2BLyLKp83zFCJA39UUst8jOZqWevj7IJZanSHuPUFy5pPAZmrO7zLfm8FrI_VOwh4ddj-qvQr8wxLNIUALmU2dXHjRxEuinXRcvawbk4cxjtSy54IHnFDwLhzXNQcvyDak1yt_A_FPSh92vyz3mI3cdqrYsLoaCIj9AnUKnSdpqmidJCeUH4acSeYULMjOxmzr3U0dEwogKfkPs7G4Jhxa0gv3PO8dWsiDhsoJjJIebU99_HgH9uU90syhITEvTB319d9pHjcPrIiK-5pf_MOJLSEmNHNg0k2PBL-kdfaDUstSD2drowLtkbtZxZWoZ9XsOp22AqmOlciKXlgqm6Je9-yG079J2TxxXwGozeflzM6h5pnYrfyXbp42EUT-T_qoEbuabSRXbIemGqOi5TcDWlevuw8XDPPefcIyr3iOrbO3mwvCMZSKJTANQd7TKYLGHt6bYbi5-nbR5mCV7hjSsOpCPaexRuOSXTPPRdygdAcujh09x1riS9L7nJJ17yHMbZf-dbgD-Uq2f-4TPxiv7rF9co9h9loZGdPccUvH116uA=w708-h944-no" alt="" /></span></div>
+														  
+															
+																<div class="col-4"><span class="image fit"><img src="https://lh3.googleusercontent.com/5Br3_EN_6OZjpkWH450dBvfoHPUTek9bWVCIPT6GtbdT2TAOsa893FV-SCDo5QBQF9rclOEnElRcVFcz_LA07IHp5ernHGsNBb_7AH0cMXq33sKV5yxZhcBSjPmgKTVM8gswAe5U_W4g8Ekj6IPsPrb1TE70Y1mYoDcfr435ZIbLYEj-e1SLATkhzPOPwnW_yMVRNJiZmYUd6juKS9N228aljEKHBQlRtgoi-woNGLeqW6cKnJjUgngMo3egPrQnPWoGzY9LzRYnMnXexRgZ2ovuJWWxcv-UVA27J2uK1Vn4QnGLB_DhQzoN9BpuJIse6Usj8XLMMhfHKE6Bl4lfxYqPLuuECTzLL4hlccc3X-yLRiU57vYLyupz0VHU7SmKgvYpaC54Sat2SYl8dThaOCLyAlaMLmfXTrF04AB8C2V5XULtNQGcTJ_eAW36BdhHVmyIYLVMY2l8Atf7ZLIXRaKaSsqPUpRD4tmyrW1aoGukaki8cdazi9LRjdiudla_1T77z-3emFubnCG9GtdURZS6HNEGlH9iho0vKWe8jzII44nF8cymqELzMoM7xNucVCnVyTJ2wsT0EPdofgLFn4vSUcufPyFeK75c1C-YjCBK1Pd0OjV4byegJJ_TVRG8lsJa8h7Nwj4uIYbEmLwYtU_2JQ=w708-h944-no" alt="" /></span></div>
+														  
+															
+																<div class="col-4"><span class="image fit"><img src="https://lh3.googleusercontent.com/jQuVo2rRw2W4kJ_yKWuH7jlK2qizto7pBn_T0u6CtkKibCInTgEyRIzkmu8XC_EfNjuFfEJO2fiUHFcCGcJWtxIGUkvqqvolPQSBwzD3FVZCTIB4q3vMFe8RcGkJWDMfvneKoqi5Wg0dVMb5d6H-ffuTBhXwsiuIu94ECoJQg-o5I1v9x7qxEhlQmEaA6Bi_pssUQDA-JFvBVzgRmOBvYHc3uh6BhGBV0QNZxHZ6szWVsgcZjl4EWYiTl_E9tnQ3XF3GyFeTgGejOS4SPR1IByz-y4QOKd-3cEcIBIOZNXqlOO023RRLD0tYt6zpRZK3cRiZLPnQEsjYM44U8p1xkephQjj4UndTxd451L2l7LTieHLmI0MaODdgxROyspT7hUJUo38FafEN7gg1r5w8T-D8V5b58DffjRXRBmYPGYxPd196xypMeQh07TZ22cqmMs10ixWjeaPj2oyutkKh0kqx1N0rurMA69QMbNXFf0gSuadwHCvCJUhvOiVWcEoqWgjZaUoMbjWeAqmedaKrNN09J3v-0g-VvXaW1wWrufbzvDpgjXCvd_t5OImqkn4-wS78c7a_r4IGA_8loJCFYPzlDeVvqtcUDZFfdeQhqxAfCER95bCJ6M7uZZyWeS9nEdE70z21xhl_TRU9T1ql22ttgA=w54-h72-k-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Le descente continue jusqu&#39;a retouver la route que l&#39;on longe jusqu&#39;a Moulin Vieux. Le ciel commence a se degager. A la sortie du village le sentier remonte dans la foret pour redescendre immediatemment. C&#39;est possible d&#39;eviter cette petite difficulye en passant par la route en contrebas (qui ne doit pas etre tres fréquentée). A partir de la commence les choses sérieuses. Le chemin se poursuit le long d&#39;un ruisseau avec un pente assez douces. Les couleurs de l&#39;automne commencent a faire leur apparition, c&#39;est assez joli. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/nolut5SlUWmPOGNdfy5duReMl_vNj-Hb__k8kE6FyM7A83ClOkijnV_71juH-3NgU2MQcDsTWVAztbj1m0wpS7lhAl3yDlDEQvMjQB-VxUdI3wDkbRmjrCJnL4gvztCl_FaBhvGuu5fXt7sRwI3FfETxnlKgT-xQdWmAH87GyqbFA4--pm2ENMek4SY4WVHm1XvCaqcISjALtZ6WA9PcfZGtWCHhklZ1BYDZ90NK16UAiTBAGmE02naxDM2hf5_I6uAM8QhvFTsRsNIYCzL4rVVgbFeaaTOGbBmf6hP-jBJZZ7ZYO8W2N1igAqCA-VVz9i6kwAg0u6bbHfNYBFqc6wxRnX-HszP8lEviL6ukFz7cEdtewqY-yMTTsblVpxS9q-VCcscmM7XEsbCWgOZgFAO2lvrGL_gcP_dJuTaMJtsLlLaeCGuqnuTip-3DtxPxBFzi8oEw_ryNlubF-17DzdvN9VTe6KDa0nK9VVV_LRUUGJRbkx1aAAynuFpBUCoBC9Bwo9QlklgiAW40HphwYXnJYF3deOjYW_W_mk5xtswnfQy_c3szenIqb_HzDgGAgJYmcl-CVhhzgQHuB7RgJm5SoLCsxMAMoSdTydk06JS4bEoIgBBQS5ToPUfnIrxd7rdP5WCJCZqH5b45E2SFwcsYnQ=w1920-h910-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Plus j&#39;avance plus la montée se fait difficile. On quitte la foret et se retrouve en plein soleil. Ca tape pour un mois d&#39;octobre. Comme je suis tout seul j&#39;ai un peu de mal a trouver mon rythme. Je ne sais pas si je suis simplement en galere physiquement ou je vis tout simplement trop vite. Surement un peu des deux. J&#39;arrive bien claqué a Plan Col sur les coup de 13h. Pause déjeuner bien méritée. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/vZOQ-F8r0hpJSdbq81oXIUjcaRXh1vRm_F_fpQJ1FB0IJkSrLxHIXs_qTh7UhqpfoT89KJyWzusLZRsJto76R-7pArNjLtRW-ddZWFwn5R6s6d1ek00b5zl4cGzS-Sid_zVFh4qAAwU8oxjIwj8uYCqKxiwLgkUzh36r3Zf_8JO4smETsX-qmF7WYnIU_afRJud4F7RKATtphcU6uh_kj3lKFvOKa8WhZKN1wCtj85kKYufkDrcHJmODuuse5rA8RlhEA0P5Tk8dvAhx3hr34DJcYxHiUz1g9WYw7KAh4zVJF-bcPq1okGctrdp5qLV6lL-tC1_6bZGV9pXB708KI71MUkLAvzbGHjKnPRDQtJHd2hPqtHGq7XdwBFwfYOy-PH_9E17nBr4YneZh_NZQ1yPhdirMuL3BpjhVP6rfZwVMheLj7Aej8ECnVKlkVFK0Jc-_gXnF6ZcU9NMJl96axK5GpzkjsNn3aTfUzbsJ8OOHH-0nucV-5ijZkS9Rq5U39bik1JqoS2RdqrzjcpKEKDnDH8ZWL8S5m_xYxh_BUtMuCnUFWtlaB6M1hUfseMi6dRhZOJCuIY0mPaftMOi27tTk_Quvx9kvqwSJCsCv58yqbLXZFePcleSaezV2Nk7VSiGEk1OFad83mroP3dvb6EYRQA=w892-h306-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> La descente vers le col d&#39;Ornon, d&#39;abord assez calme, empreinte ensuite des passages assez techniques avec du vide sur la droite. Mieux vaut rester concentré. Je creve de chaud. En descendant en re-entre dans la foret, la pente est bien raide. Le chemin débouche sur la route qui mene au col d&#39;Ornon. Je fais une pause dans un gite/bar/restaurant. Je suis bien content quíl soit encore ouvert malgré la saison avancée. Je me d&#39;ailleurs assez surpris de la fréquentation pour cette époque de l&#39;année. Le col d&#39;Ornon est normalement la fin de la premiere etape de l&#39;itineraire que j&#39;ai choisi. Mais le soleil est encore bien haut dans le ciel et je compte bien en profiter. Je demande conseil au gerant sur un endroit pour bivouaquer. Il me recommande le col de Corbiere. Meme si la nuit risaque d&#39;etre froide, c&#39;est le meilleur endroit pour profiter du coucher et du lever de soleil. On remet le sac sur les épaules et c&#39;est reparti. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/8B0PEAValh44VS6Rne0IqoNAhZsbQsquVFD9olXxG1pmwriBHk-3VOMpq_X-a_iRa-nWeVobmLc_xvAV54XftbHqKToBL-Br11M1RovdMt7EWGtkJlgdXl3QXMka-BEawYefQ5n_swyv1ENxdMZqS3PCf9v3bz5wU4u8BN97SN6MLAfgJIEY9DKwW33x57Ub3QJoWv0fuwQssvzWzoBlta-7S5-5SEehxpcIB-ywDKljOxht5kzbfXnQ8bve4UYVuA7t_w1J7Xuaj6Ti4oxh1NilUfDRiZgDUorE1SobfSUfTGsv1tLPKfUTfZdMdvxa3k8Q7xw-waLTxA-sUoV_BZ8S9VnLok4BIFgN4n9zDNzOmVYKZXf97JYGWPNPkLKIZwGMlacbyrW-evHKtrlT4QE9Qh0Moz4CRQHyHqOkGqXWnz6DZEtfEws2bxPuyYwQJZ4DQp5pq1B-ff69-iay6NWdOqikopuDr0nB2I6As9dNspJdrrzq5lVVmiPNOQ7NMweHC5mnEQER8tZhkXKeF8V6Kn3scDHnJ14VGyXmWJAQ9Gj8Ns_fAxFevrOOk4fbp_KayExjJmaTJ485AZBA_lYNJ3QTYsZOSctBTVY_pTjgb9-TSIwH3U4MOzQ3H6zU811Gzn7MgbAjGai0VMFGhmSRAA=w477-h358-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Je commence par redescendre legerement mais pas pour longtemps. Je tourne sur la droite et commence a remonter sur un grand sentier. Je croise alors deux enormes groupes de randonneurs (les premiers de la journée). A un momemt donné je crois que je me suis planté de chemin et je me retrouve a monter droit dans la pente. Je finis par retouvé la bonne trace et un panneau qui indique le col a 1h. Encore un petit effort et nous y voila. Le col est bien plat, plein de place pour monter ma petite tente. C&#39;est la premiere fois que j&#39;utilise cette tente donc je met un peu de temps pour l&#39;installer. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-4"><span class="image fit"><img src="https://lh3.googleusercontent.com/L8JAfHp4Px8-nm_kOms22rH3kJtFrmaIDh2SJpMphzry9xVe4dcvCwOxeC1TFxN-mQpKkYVfa1CK5zc9v0fvgJD4GaYlgGt-ESbJVg6sti_Buojutc6SB1vKXrojgQmjCQsUqM2OuogZrruXQXUajTiocWHyin9WvdjqmVo-QAnZjGjMclyNBTcz6Bv0VGBy4mwBAJ6lbIvaQzolbfvn4X7pZCkhyy-6a-JxQJBhkXZXmnu5SNsrslTDLa68damSHdR8b0MuRyRiaVLYEN9D0qEqbqzEc2KNjQA7jQwGPDrQKrek15PIFQa1YryrRurvun2SblusRgjwJOe3yJlhdCDBykS6z5bmSVOy4gzVHYkvk5d8d19gv6nr3XjQJIaXu_rDPXNLmPQb7nh1e08JG7kDnc4ZKEuG1sXlShuh2qdHL8E-jJ_n3e1pSeDG4l38u7c6ML2vPvkp8JJX29nU9LZXsOmh40S-g1_I7IvUdFrpACDYkSnUzNYl4WjYXbPlgX2Bf9V319mJiZZQKXccfvmAuuk6bs8PLlBEQhhK-c5uvaWC4rRx-iATA6K1Z4HhiZbURvIs83NZuZSPhedlxNkZvYtraRZQqYQy-jmwEsc6ZlCI347phJvXhRYNbcMOjv-PdjB6-tsSzWdM5x8Or-38-Q=w285-h379-no" alt="" /></span></div>
+														  
+															
+																<div class="col-4"><span class="image fit"><img src="https://lh3.googleusercontent.com/vqk63j3eTlnYawJcBlOLKbVpy513oq-cuPKoGiPuECyHyxgScM2uWtGe0i0VFFR5JOjaYJXsLF1PNg3DecBDq0Kv74GH8v-2Zf62tewwEciCuHr3GOg27QXjwN_FRZwHMWSznypuLKYEVSNEKIiVffRN7yBZdKYr5aizoGvQl5bdPOnUBVTLuAFo7Gs5__xPNCP0xzYqgRSuffZwsxGhZR1raJmfzPqhGl2EUTkxqLLzRxvdpI1eYWAu0RBxijHskgLT8YhtqCoiUv9z3xwk4fJSiOb9MVwdcwfc9IqfI_LHJq214gTGGH0XXdtUAIMjz096222QvW0YEqfdguI_opgqhUgNUuBkkGeeGyr_EKaWfWBanZjmWurrcVkaIKaRn47u9lH1PJRXwwn_SFgj6WtWWqjPcuZjmAqU6woJKZ-e8RNDFM8i8n-yp_b6dG6h8b4PWDjpVjdN3C70QjfkTYrcYZB-c1_WH2E1hkKz_loJw2Sg0j9rcwGLyw8bQI7gbXzdicUF40Z5Eq6o2hLuXy2Zib7Xnwk4RoOnKFtvaZLtUsALW9UD0okId0qJTcapNinx5dTWwD_t3HUKNqm3-0zWOF0-a8pY63k64Wr_Htrcu0ymuanvkirCbaNd9thczn_C21XE69UdPkn3ftUMcEKfbA=w708-h944-no" alt="" /></span></div>
+														  
+															
+																<div class="col-4"><span class="image fit"><img src="https://lh3.googleusercontent.com/Mm110yuQRV1yFRXqwK2J4No08juUT8altWWdOC-byvvf1rlGtGAj04HHNnBq2eCyJ-rtqTRt5YTLwCRsHC6byc4z8TjK0DBMBhBd_yjZHGwRffarYANS3qFTragNgLCZRo-kWJ9YUDbfoRP5DQ2tiRjTXoes74tspWp7TWKkH828TmbVE4A9AcqTPWop2WnpBKxQAkkGIcZsYmiUA4fkpS-IRnhGLCedYXWGbTk6y9K2lFiusqzZpsPqhquEMEoK8SXqCLSaf8MhEaA78eP-RopJ695nns-EuYgAv7H1PlX7PRgaFMz-qFfyjM7f5ST_RQMSmPpzn9JgJi0x7E6lJuVR7NBASJRL4kNnVKz285RakQ4speAcJDkq8mGj0zUQAzzZCQrdFrz8r1yrLO90ada_78HE6XTZdVRTqKKhsjU95a1U6H6tRSKlzQdx46NiWBz8Q16tMIwRsJo9HV5BXT9R5rU6NgcZ6jTWvc4IdrmoaP6jrXJsJqDJAAxK0BK9loBszM-ey91pvGrWFhWIaOvSz1QJjetSzaDZPgABp5LZo5_PfbBc95OilLUP9aO009uWck7TtuYzE7am0sIBuvIK8HiezNvk06M2CXtXXjGB4o9pWhJfTu6VNFS0-pCIKzjpAcZoa3QZJt0NkD3d3qtmyg=w708-h944-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> A la fin du montage, il est 17h30. Je monte a la tete du Louis XVI un peu plus haut pour profiter du paysage. Ca aurait pu faire un bon spot de bivouac. Je profites longuement du soleil et de son coucher sur la montagne. Les couleurs sont magnifiques. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/wO7Sw-b6W21_rVuQDS0o18ih2Ip8JxuGU1GHO-BjjqpUsz-CqKVHBBmXUMh2bxFhG4HGpL2Aw64iqgDuxqcIzelyMYuBWFijuSAjhMTI6QLioi-1SlC6P5twe11RsDvV6u4eTjcFdny1-AgD6LZeyz8X4Lds2lKFp9x1eKryWmZkQ7phBXWbTAGm8DifTzCMOIsmgwkaBf37qZFHEAI6mgb2MSOLgU8O035pEvrCisY6U5prWrFZ6iN4q8aeqRJxYX2I-LWtfMCM7QFxdexX0Ye7SbU6BFSoRGOcW20Zr1dT_Hnag-NHaFMcm6TJ2jN-FNfjhjEPdB7NWd66ZmehDVMs0cHJwfUheprfIvDUsnf4EcCLbKf8BYyP6g0Xc7AX_Gc9i1bJnFRYQ_hVtspZcFt3pqZnU_DEIVuwbtlTgv8Y79wJFV6nlErpwEkTTzT7pr6ipDhu4H2iPcSeZjI02Dje_RFZ3m8l_7qKYBf6piPE0PDJbAWgzPjFgw-58tO7WcTRw_XlTUTMrIzq2UbtWDoeMXchl_R1HI5cHjE-TNgHtmL6bvKBjkcTye3mWvt-Cb9Ne1oZYydjh0-mdpEbgfVc9UuZAwMiJXr5HNs3j1uEtM-uyEaDNr3GVbO7LTLEtTqu93FiaLdpks5dR3wCGZ2Wzg=w1259-h944-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Une fois le soleil caché derriere les montagne, la température chute assez rapidemement. Je me prépare un lyophilisé qui réchauffe bien et je ne tarde pas a aller me coucher. </p>
+												 
+
+
+											
+										
+
+										
+										
+									</div>
+								</section>
+							
+								
+								<section id="Jour 2">
+								
+									<div class="container">
+										   <h3>Col de Corbiere - Villard-Reymond - Plateau du Taillefer</h3> 
+											
+												
+													<p> Je ne vais pas mentir la nuit a été fraiche, tres fraiche. En témoigne le give sur la vegetation et sur le toite de ma tente. Le froid a un avantage, je suis réveillé au aurore et je peux profiter d&#39;un sublime lever de soleil avec la lune en guest star. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-6"><span class="image fit"><img src="https://lh3.googleusercontent.com/wS9S7vIuD1ijt_eqk3DbCxE05KX7drnbxI7mI8Q3cj8VqkKrqSvydDHBWtJVlEh4Bw2jDttY9nMmD4z2J0Wlis6kSeUQcUBP1owg6Ajh2oOsB_UAOb3NokWwIMayCEVxSS6zGkYCCp4ZiTBWCTIKsP5mVW_95uN9yYydaZVEuzDzVGlxG-QY5Txh_YMKpxQPQ4ZAbtyDePM8xxoZFrZU3XilNGt7qbdkdokdRSjArI0dUX1MkL-B3Ch5nLPepqXaLuh-c5_dD2qPlpHROAff_APg6E6bQ0ikHHLSiNBdcJPrINz7olsAahtletonhj0kZJ2DBIqXYwGqFSQbP1PJAdyA51vsMv0-un6mq6lmGkTjTkJRHxG9Bru-1jnnlg4tp4L3ZpPh0062wNCsFVwge6J8VhyOjqTn8-h-nZst0QvkAGpwxdvkoQFt0zmAFVuhpaRojP_Hwt2BY-MCR35z2OLiXcOboudO73QhxWusGH6UDT47zzX-OD0cMLDPvDqBX1MB0GQuFSucZMjyTPJzTL7kc9hVKWBw_Lm-qpBfaEIfHojAiN42fHX2Q1esQpUtRLB1Hrre-gGMwHW4l7Nr07LpdkrCfHa6tcNC9QdAHcb9tyc06Zhi35OIZkBXqT6uinO2g9VsMoqSJ5YmPN93pYzACA=w709-h944-no" alt="" /></span></div>
+														  
+															
+																<div class="col-6"><span class="image fit"><img src="https://lh3.googleusercontent.com/Vn1Z_aaKuA1YD5b3-VzwgIyW_H7XU3y00PIPjfoHUDNOvn-YGXXwxbpqUMPVfiiqFbxpU3wlE2hN2LB-5-6zfZ8xjE-i_n0qypxmVYmDfqRSXUO8EVdpxnTBtxW5NvzGQl42tm9uyMeLXXJN21uVnKUnbH5yUqOiU6yweE5xgVf-MTf3G8AoyiPjWyf5OG6H1vW4Cn8hpC7ZzyCzaz2hyTMcopv_8LWr-CVxOiX53vnwcTxysxS0o7XgGKQTmnlDzVicxGqrgs_DDDVTxoPrY7s4VepY5wNT_XPjnvIbHPBrRQb4tU1vebNYMjYmsm7BNvUueuUK5DobTIz0M3UqFasZQJRPpo4YJuc1iDJHremwceIxnlb9G-pSJSQzwa4Tb1PPhBaaUNsHcvc3Qi0H52nxWt0j8dbuHzZRxzLEMfWZ9tCW-5NTbytV3yoYhQkHisRNJmHYtV4QtuJsu6IP4lJl4KeUgp9iouM0ZIK4HUgYcRxKD9G1xQORNCtlNKLfBA7tBiY2o9lRSX8tc9jUPAUABjA7hXT-EscnvxzzkGL1Sd8DPgWCwcnlUqyTuZxMv7Z3PPeiTLaVQ58pU1Gh2cip5FmJ9d_fZTF0FiKPuZk8xcQ1x5f3B-diHiUr-nvRnz8qyMkzl4Gg74C_PB4cNlIngg=w709-h944-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/nGSG9jmj_YCry1QYvKig2lppQZsOhlBfAG0HhdD-TGQQ65VExH3-zWs6wnM10-OtuWmgKfX7gnrfKn5RJ-hnB-ELCCIt4ZvTUqbbdaDeCd4UjQSQJKZJot7b-czg5fBApuJSsU_v7j89H0koCrf2od8-JY1YJeyP-lq5owwZI-w9H_NmqgHjtw7ivmnkCyQEfqx5ZGQSgZv9Nat29Z-xO1iioHORR3NzuYGuAPk8w75q74gUI_nyqJbTKnEeG-Dab8qmzxfGpNc9_3M6O2C9JEIC4DldMTY3SDa-ApUbFcjuKcNQD_l-CJbJprdHHivJTZ_0FCNEcuPM6Zbr8tE20NCkbQluBra87zVbR6gb711yXeyDQP9R_n4JqFnJYolkoX-TNL2rxMowYjaAMI10arwgKeZpyo2vdO5idGqdWc213D9tU2QvF7CpMRW499XZCvDLjmBBNcl_m78UNUixyBhZOF5nboZzTVI7TLMEDv_g26Djbz1RUrZBS_y7PlGtZuaTsTHJHkFsB2iT_ZKTZYQO4H8aCY8FQ27PhKHJeg7sED4YSHVH2hsGW68PAi1Udn5HOoO9waYZRSYYxI_b5UyjlU08U_tXtJj19iC4OXzB_ag5mben4PODJ_B9OC03k4_BICYSu-OnZNzIURmng1_fkg=w1259-h944-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Le temps d&#39;avaler un petit-dejeuner et c&#39;est parti pour la descente. Ca descend fort des le depart. Je traverse un torrent qui descend en une enfilade de cascade avec de petite piscines naturelles. Ca doit etre sympa en ete mais je ne m&#39;y tenterai pas aujourd&#39;&#39;hui. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-4"><span class="image fit"><img src="https://lh3.googleusercontent.com/XE80kzKFO3IzbIrDpzos0muMddb0p359zOxZkiZZ4S50RPw83PjEdb2WhNHg9bz1asxQw2khUl8kuAzVvKhJgIovGvzdZGtOm1fJIT17Tn_ucxc-ZAHkEyCBPNG4XeFZI5oUL0YKK2U598hemZMlmhIctWPKEhSc-4mp3jHKyh8i_l0_PebVa6JC7zV6YrloO-kOM4PK5nU0Jw7QJaZqPKpNtbl06to9YKMxKFW8uD7gGr-7OdI4DYh8foTHi3ENprkfxrSJTFjAnpj8R52e8GYvOZO0v36cKVMhFJADgragqDeVAERnph36KpwPfL1Y4CbHQlavwTamzRWnhsXZKCUHU05wcL5CdUT5gem-JtZp0Ko_8sQ-xIuCshPboWtEB_ddds5vuCPRxjfODfiWoXr7waKD_MH_dv-6huI-l4wj8XrnoxJVkYKosnDf4gboFnFzRz_eB1dIIefd-zo4sS83tKEJwGPDU0E57AoyVVnsSWELEoT_wovs6O-e5rJMOHJHT-zKnfLFIqRXnwyYC-uy337I54L5kBoVz9sYtrgDXLzu2CJsd9FxcUigFDV9VeU2fp9GQFkWLaq3EftYY2hmmzCfO0UTxPoUoy7-cmhlh2mEagDIENFyUie8kOQEpeB5A0doL9AC_2YUy6W61ItcuQ=w247-h328-no" alt="" /></span></div>
+														  
+															
+																<div class="col-4"><span class="image fit"><img src="https://lh3.googleusercontent.com/cvMdXLPTwJf6BYCDk3HhGAOEuVYfrhJis-xGiZ8vPPQjf3wjEIG5aA0TmB-Azma9mf_9ehO2I1KBqvqjaKfN9HTk8EZfjm17w11y6rn18aDf_VZzJQRmduSS3-eFKCPfZ8sB-7JubwrYOK0XhDuAE1h2Efeem3I5-12NGNGplbp6PlyJud-8NnqGc7uM0cXdfyogQna5EhFNQTyEEbXERQEh41PI7uBE64GcMVrDtwwN2Ve7LVP-UBMleblaxIEyuyw-JjiFfWxC8rs1wNOxRrbzC2l7ZS86UO7bJj3eE9KCOfgq-tHQFOZq-nJX2EyWaAa768Havel2ZYDntEU_OXLg7qvVj0J6zJ2HfUJoV1v6TUMPu-dS5C7kDdLClGSqENydO0jKYskUidIz9opegxOg21sofiXnvB0kTP_HxljrZ-CQJAoyRis8kjONfYJi-AAYAhL30tEt2QgrOFLrpFir8hCnDaIkoAr2FUKPen74zr1LD0tr7CmvR4eKNT_KiygZedQdPSIddUQFGqbWnZ2BIyyf0VPY7oUi_7GTn-a2SVX-1g5jXsz4Cnvptou3e-1nCO2gAst7PttK7NG5MtvAa7o3Dh1tzZJDJSDzuMCRXCfkkcnc-d40xDb6WlxLHM31wwy6GDA-1IPPrRMF6_X6iA=w709-h944-no" alt="" /></span></div>
+														  
+															
+																<div class="col-4"><span class="image fit"><img src="https://lh3.googleusercontent.com/OHmRjBnzbz-HXHnCofmQwoAbDrIVbdTSaOT5YxeQqCB_72vjCHey-0H5AY9AcRJXPJL6W1PSmd6fjerjdjfqqNNmrSG-fnsRUGmcEWbFsiLL1PGP0wn6HFMtlUotJGShu9BcrI8TMsTz4WaYmLaMfGlqf4KOX6-o9lQ2mkTTqKAoV3ywCsXVeAwV9sHgfG4fEMT4uMJPOQnHF3fLxPBEsKrydLWbINhwW7EdQ8yPfk-s37gx3Z6trky-s_CXpidwhOkuKr3MRDik3IVNKAtVVyAsLRMbQ5krUOq2DSTElfuXhUvBYIZL_H9cixpSTTZDmKXdp1Hny7CY8yQQyNh-i4EFMsf-NBOuiI0Ec2z5M-SZhmlxg86bEORxJ9mO6D2QRj-71goSZMIpwppQnpDTDFMp4Ix3MLBGohLs0WweB0vZMESVNo2bnDHuEVUyIbbKSsn4J_7uIZJ3-CVwdakM966DLNXyxKGILuSLcSBnd6WM05Oh2QtTrYOXey7rTGBfN5maxttK_kvZRYB-5-dyNZQXFJqg6RPOp2Mts8rRxYL-UCuQKwWj4UNZBzx_0SNAbYQCy7QmUyKbfgPVm2guSvZDhH_e3HIPumgf6e83dVxsxJ5RiDbqwd5YUxJZ-lnL-giWgcIr-etyxmH2zIxUDe6CeA=w709-h944-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> La pente se fait plus douce jusqu&#39;au village de Villard-Reymond. Petite pause au village pour faire le plein d&#39;eau.  La descente continue dans un pres a vache. Apres une petite erreur de parcours je retruve la trace qui descend bien raide a travers la foret et debouche sur la rouche. S&#39;en suit une portion assez longue le long de la route jusqu&#39;a Villaret. Il fait encore tres chaud aujourd&#39;hui. Encore une petite heure de montée pour rejoindre Ornon et remplir mes reserves d&#39;eau. Je continue un peu pour trouver un endroit pour manger ce midi. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/8gqPTXkaxH_WsoPdTFHO9tIxMD9UmSpiNcu2TFieTw7Qd2_Sqx4-eNhSppT9SB8P5Afg7P0_Cj85N-tsGwFuaZLOveciMo80AaESjbK9Cl02HCRIUX6NIpj6F2_VOvEVjuIQ_vFW3apBu-VYBz685UmZwC4HrDloGXdXcODqce2nnxwE3ZbIQLX0_Pbd1WFyqysjPsZ-2ii9kQHcbWOnvunTY9H7hgjsLMGuQXw1QQ9PI_czZKvZnOzdhzrpDKHDWNIl9NzlAzslnRazZw22nGVmVkZ5bHo2589l2jB7ptGXWf-VRNvNmD-Aw4uyudFdwZcewsU9XCWCCtKrsqQYSG5_AU3zsdm0rkhJ55KtWhouLbuoio5WPy4NMzsE3Z8M-lj9uhTYIx2ktn_zOOjzRxowZiCtWgzYot0aNjIIyBdlg7uBXAI9s1Sd5-6Oe0MLeDx_DaVYQZNtpk9Z8jrNp5Uoa-KLMxo_MpPylFtdMjAhuzqz0MWyn38sP_S058DzNOtCHVa777YE2L2Olq-2uYZissTxuWm9zsdNXptfIKcoyxQ_rcR5KFLuxeiUmjUjeXNL42U0_QF34YeLp5un8ojGP8rY9ShfBoV0Kr87meavPuvAgDxCspCmer5wMXxmbMvjTbFxQhsGknzHVoBUKgkIog=w1259-h944-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> La montée continue sur un grand sentier en plein cagnard. Puis ca bifurque sur la droite et la pente se durcit. Je m&#39;arrete a chaque coin d&#39;ombre que je trouve. Apres presque deux heures de grimpette j&#39;arrive sur le platequ du Taillefer. A ce moment je croise une radonneuse qui m&#39;indique une cabane ouverte pour passer la nuit (car le refuge est deja fermé). Je continue donc ma marche jusqu&#39;a la cabane de la Jasse. La cabane vient d&#39;etre renovée et il y a tout ce qu&#39;il fqut pour passer une bonne nuit: un toit, des matelas et un poele pour faire du feu.  </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/uKi5msHtWOwESiBIespbhu2TbZmEQK7VmqRKo4bv_39dQBk9lTKTV-v30y6baHT3jbyS36oETMZtA3DgJ8D79GAlQgWXEs0miyVb5HwOVJogP7TKOsAHCDSzkAVUN_mLb_yAwpQuq_z-CV4RFIjEfV8Q9BjgdU0Jb1CEPijzuIXkRUyBQUggipEH5WdezBDBlc8UgDMmeQ5c0ZQOQODuwn4B4dnDbbo2MSLvyi7q1B9ADdwpLQQRErORG1wH9aW0ELwEJJb9lChEikgqoyKXJJ8GD_jcCfCCY3LCWXOGVze7yEUOeHMv1tEyGNgaGUCyUKid8d7BwC13ewGc4S0Ya_YrG0VD1f6FqDhNoYhrBVX6AjH1AMS6DRU_JOG523ppsA4rBWR1mfx_Ry0F_104opQdbULFQJlsUd49TBcbbrBdaXypEwMkQHrXDbSyKa6hOU7XHh0NC6uYpwleIh6-Iyg9-6Xjawxu0ZmgFl-RGuy6fpZE31ThVWxxcdCe-LKflVnj0J3iD4X9dCeeLvT-Je4aFBk6fFO9wTrCE51fmAeDTBvBmXC5Wa_T8ys64Alzx1EIk_PkddJZiqvhLMTFepAnQW658_hhSCZWyXJNqAZnqu4TPv4sMKeBukbRwZYaX0KDOD4OLNs61YA--zX5e6kM6w=w407-h306-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Pendant que je suis posé pour profiter su soleil je verrai passer plusieurs randonneurs dont certains bivouaqueront dans les parrages (l&#39;éclairage de leur frontale trahissant leur presence). Encore un beau coucher de soleil ce soir.  Vers 19h je suis rejoint par deux papas et leur enfants qui viennent passer la nuit a la cabane. Le ciel etoilé est incroyable cette nuit. </p>
+												 
+
+
+											
+										
+
+										
+										
+									</div>
+								</section>
+							
+								
+								<section id="Jour 3">
+								
+									<div class="container">
+										   <h3>Plateau du Taillefer - Alpe du Grand Serre</h3> 
+											
+												
+													<p> Le lendemain le ciel est quelque peu couvert mais le soelil arrive quand meme a percer. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/DxvOkMb51wNNvMAURN9YOygwoRtMFiH_z3FlGm3yTFbkr-5TWzCB3ddrYTQ5EhEU1p9zbFNGUQ6XIenbavTnVBMTIrwXy5juMslJ30gjjOVxFl8kSyRkApdKMHTbPLyw8kj5_tcAYMQM0Y2UuQyaDTmILSkMVPIdn7mOiS4fCBZ21ifYVvuS96m_9k2eVdH0QJes9jQl8rxFlQSsjWiibm3S9KbhYXKLbPx4dTFSF9SlKC-Va1gbs6upGdr1mHkZroL9ytzkEIAqReF4XhajCOx9bpjtgVoPLGBBp5OZKcSvBtPKGqPiT2u--0t2RCKXV82qh8VeEyyudxSrZV7Ao6XMpncZsq015xkYeodAfYn-AXeA3PIFhSDLutjDfZSigiCXEJ6zmM8c9EGDAwt8ANKELMWWpd6mwlwipkLf0wDaeNZ6EgJRcfJCmFg16KKdwxtO7QzOH22F9-jdcr2NdOK9M6MCmqgWvPVl7-bTWeMBwfAr58Anxb5z7JYQn5kRFbZsEY8--sLjydBkp8eb1FrgSvdPaF_oF_zD9ImkpsUHXUXLGNQkihagAfSayNDWNMrfL1KOZUwaaU5GyvtFybf7XtX_i2wxIM6r2AYNZ0TbpG1A5PMPHw9RC1bR6eUgHDuRdS9zcs5dBMznawf8nzn6Mg=w477-h358-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> L&#39;étape commence par traverser le plateau du Taillefer. C&#39;est une vaste étendue de prairie humide avec de nombreux lacs dont le lac Fourchu.  </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/oESdlKbjcYG_GpxxSJ8OQ-DgpyZ5DCt88MsZRqCKHprDOYSdZIkIKl3yjurIVc_U2YzopC2oplnv94z2rlPCDyPXMdDGp6_CILTN2_XoCTZSyJ1kBCFehVuvxpAvRvtb_gWxyVbTqEOa-i5dCC07QEctUXuw0uxmCelHLh31VFzX3ZfcJoLNybZGl39vt55gLyHmnNlpuuJup4cJ66f82MJDGSIDXenc5RFZA_kNzn305a5_rZijyZBFTaxzPltboODL3HXLo_wt0w0HQS-ur-vfODpZYtgC0zJDctmjGTk4YhNQBb7SIYJPI4-PwCao9kIpNjdMUUmglRt-yJipK94XIMSocns0EtpUDL4RhrP6JkXcty1PqTqKNiYGOO_rQAL4naKT9bs5C6NIigohKBL11MCezsMfZv30gO-NO2S-PCeaMP6m9aGFBaytjHe6IX5GquOpiv1c7DAtY4R8YcvVQWS1SFXEo4UOiZjj-iVtQY3Ymsj_OnIwIBWxp5SvuP9RiIqkcoKA3dft1Ho6DbAzmw1NeiJxpibSgFpxvvnKhtWb54G1h7GFczVAI3Q7XRIBT3TWx6h_C6ozGJvvMKfJTNhIzO124ISG-FepUxYGkIVCgrFVYZUR60mR0aaIBkXLztAIchFDWrlufWMzBgxIjg=w927-h382-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+												
+													<p> Viens ensuite la descente qui plonge d&#39;un coup vers le lac du Poursollet. Je croise pas mal de randonneurs qui montent vers le plateau. En bas de la descente je rate un chemin sur la gauche et descends un peu trop bas. En plus je n&#39;ai pas bien regardé le profil de l&#39;étape et je pensais avoir seulement de la descente alors les quelques petites montées suivantes m&#39;ont fait mal aux jambes et au moral. Le reste de l&#39;étape est en descente plutot calme jusqu&#39;a l&#39;Alpe du Grand Serre. La boucle est bouclée. </p>
+												 
+
+
+											
+												
+													<div class="box alt">
+														<div class="row gtr-50 gtr-uniform">
+													
+
+											
+															
+																<div class="col-12"><span class="image fit"><img src="https://lh3.googleusercontent.com/kwZQ7imhGC3ILy5CTHreLLlRJvl8L8CcAn0JM_YWyncsz1gKQs5X6bihmJjZfYHhXNg_H6Hcf6xEv1XQATJKvkBeRDzlUWJOFMRgatgbPWO40lQUpm4pB4EqzjP-BuvDQooNKJ5uD2AipnV7B6eLn4YKeWOGq-RYI0amUdy0vHdu-kOkCMhX_0QB9QORo31WZds05kxUSVgkorZ8KqOJ_12KjwHwJr0nVXh8aALLpxs-4I9GDt98Wt40ycbkXmHxH41U6VtIEGvQ97n6vpOm80gFUlnw0kocIo6mvn8zqwF_8yg3rAJcjTkUpNH_Yh4oiuSufbY2ws4ln-8VWlnYGTpitj5DvTVC3A_zXVVJBSOi6CmNcBZdKkb-wmUOL7gffSN8ipa5YafxfKE3YRotgr7QF1ou_Rg7Q6Hbt_TMp9sTRv0waWWV62FhKLIcjDTDCvdrYSwUMTt8BWxKnqLmqE7V4ak2Dn1ndHBxYP6-yI3tusyMzRRvrwakErZYk00a30eZrhiuNiC_8tmhnA28R5AvWZwr6Y7BHnE92wqb3O0t80QgSXiPhsUJPpE9XHXFktGcbISOmNMKflUr17JRsZLz0TsQFzjATftTiWkvuaRTsByxVooVQcKrrer3bVRDzbXFRu5QOxll0sSD0IiExMRnSQ=w415-h311-no" alt="" /></span></div>
+														  
+															
+														</div>
+													</div>
+												 
+
+
+											
+										
+
+										
+										
+									</div>
+								</section>
+							
+						 
+						<!-- Three 
+							<section id="three">
+							
+							
+								<div class="container">
+									<ul class="feature-icons">
+										<li class="icon solid fa-code">Write all the code</li>
+										<li class="icon solid fa-cubes">Stack small boxes</li>
+										<li class="icon solid fa-book">Read books and stuff</li>
+										<li class="icon solid fa-coffee">Drink much coffee</li>
+										<li class="icon solid fa-bolt">Lightning bolt</li>
+										<li class="icon solid fa-users">Shadow clone technique</li>
+									</ul>
+								
+									
+									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Possibly broke spacetime</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Terraformed a small moon</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Snapped dark matter in the wild</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+-->
+						<!-- Four 
+							<section id="four">
+								<div class="container">
+									<h3>Contact Me</h3>
+									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+									<form method="post" action="#">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="Send Message" /></li>
+													<li><input type="reset" value="Reset Form" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
+							</section>
+-->
+						<!-- Five 
+						
+							<section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+
+									<section>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
 }
 
-function off() {
-  document.getElementById("overlay").style.display = "none";
-} 
-</script>  
-</body>
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="col-6 col-12-xsmall">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button primary small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6 col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Primary</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary large">Large</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button primary fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button primary disabled">Primary</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+												<div class="col-12">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									<section>
+										<h4>Image</h4>
+										<h5>Fit</h5>
+										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+												
+												<div class="col-8"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											</div>
+										</div>
+										<h5>Left &amp; Right</h5>
+										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									</section>
+
+								</div>
+							</section>
+						
+
+					</div> 
+					-->
+
+				<!-- Footer 
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>-->
+
+		<!-- Scripts -->
+			<script src="/static/js/jquery.min.js"></script>
+			<script src="/static/js/jquery.scrollex.min.js"></script>
+			<script src="/static/js/jquery.scrolly.min.js"></script>
+			<script src="/static/js/browser.min.js"></script>
+			<script src="/static/js/breakpoints.min.js"></script>
+			<script src="/static/js/util.js"></script>
+			<script src="/static/js/main.js"></script>
+
+	</body>
 </html>
