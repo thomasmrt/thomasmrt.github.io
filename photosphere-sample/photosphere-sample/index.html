@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photo Sphere Demo</title>
+
+        <link rel="stylesheet" type="text/css" href="photo-sphere-viewer/photo-sphere-viewer.min.css">
+    </head>
+
+    <body>
+        <script src="js/three.js"></script>
+        <script src="js/D.min.js"></script>
+        <script src="js/uevent.min.js"></script>
+        <script src="js/dot.min.js"></script>
+        <script src="js/three-canvasrenderer.js"></script>
+        <script src="js/three-devicecontrol.js"></script>
+        <script src="js/three-projector.js"></script>
+        <script src="photo-sphere-viewer/photo-sphere-viewer.min.js"></script>
+
+        
+        <div id="viewer" style="width: 100%; height: 500px;"></div>
+        <script>
+            var viewer = new PhotoSphereViewer({
+                container: 'viewer',
+                panorama: 'canyon.jpg',
+                caption: "Hello World",
+                loading_txt: "Wait for it!",
+                gyroscope: true,
+                time_anim: false,
+                navbar: [
+                    'zoom',
+                    'markers',
+                    {
+                        id: 'my-button',
+                        title: 'Hello world',
+                        className: 'custom-button',
+                        content: 'Custom',
+                        onClick: function() {
+                            alert('Hello from custom button!');
+                        }
+                    },
+                    'caption',
+                    'gyroscope',
+                    'fullscreen'
+                ],
+                markers: [
+                    {
+                        id: "a",
+                        x: 3150,
+                        y: 1800,
+                        html: "<b>Bold marker</b>"
+                    },
+                    {
+                        id: "b",
+                        x: 3150,
+                        y: 1500,
+                        html:"<button onclick=\"viewer.clearMarkers(); viewer.setPanorama('alma.jpg'); viewer.setCaption('Alma');\">Go to Alma</button>",
+                        tooltip: "click me!!!!"
+                    }
+                ]
+            });
+        </script>
+    </body>
+</html>
+
+
