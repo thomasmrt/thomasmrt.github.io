@@ -958,12 +958,10 @@
 				padding: 4em 2em 2.5em 2em ;
 				width: 100%;
 			}
-
 				#main .avatar:before {
 					left: -2em;
 					width: calc(100% + 4em);
 				}
-
 		}
 
 		body.is-preload #main {
@@ -1008,7 +1006,6 @@
 				}
 
 /* Wrapper */
-
 	#wrapper {
 		display: -moz-flex;
 		display: -webkit-flex;
