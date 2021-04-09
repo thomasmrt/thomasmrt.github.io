@@ -58,11 +58,6 @@
   </url>
   
   <url>
-    <loc>/posts/dummy/</loc>
-    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/projects/dummy/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
   </url>
@@ -74,11 +69,6 @@
   
   <url>
     <loc>/tags/i18n/</loc>
-    <lastmod>2018-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -124,6 +114,11 @@
   
   <url>
     <loc>/authors/john-doe/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
