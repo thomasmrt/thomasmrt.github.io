@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/trips/vosges/</loc>
-    <lastmod>2020-07-16T22:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2021-08-16T22:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-07-16T22:00:00+00:00</lastmod>
+    <loc>/trips/tour-du-mont-blanc-en-4-jours/</loc>
+    <lastmod>2021-08-16T22:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/trips/</loc>
+    <lastmod>2021-08-16T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/trips/vosges/</loc>
     <lastmod>2020-07-16T22:00:00+00:00</lastmod>
   </url>
   
