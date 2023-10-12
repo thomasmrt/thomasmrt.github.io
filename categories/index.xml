@@ -5,6 +5,25 @@
     <link>/categories/</link>
     <description>Recent content in Categories on CARNET DE ROUTE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Sep 2023 22:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bivouac</title>
+      <link>/categories/bivouac/</link>
+      <pubDate>Sat, 09 Sep 2023 22:00:00 +0000</pubDate>
+      
+      <guid>/categories/bivouac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GR10</title>
+      <link>/categories/gr10/</link>
+      <pubDate>Sat, 09 Sep 2023 22:00:00 +0000</pubDate>
+      
+      <guid>/categories/gr10/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
