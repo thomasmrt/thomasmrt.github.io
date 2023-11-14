@@ -25,5 +25,59 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Trek</title>
+      <link>/categories/trek/</link>
+      <pubDate>Sat, 05 Aug 2023 22:00:00 +0000</pubDate>
+      
+      <guid>/categories/trek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alpes</title>
+      <link>/categories/alpes/</link>
+      <pubDate>Mon, 16 Aug 2021 22:00:00 +0000</pubDate>
+      
+      <guid>/categories/alpes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vosges</title>
+      <link>/categories/vosges/</link>
+      <pubDate>Thu, 16 Jul 2020 22:00:00 +0000</pubDate>
+      
+      <guid>/categories/vosges/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GVosges</title>
+      <link>/categories/gvosges/</link>
+      <pubDate>Mon, 10 Jun 2019 22:00:00 +0000</pubDate>
+      
+      <guid>/categories/gvosges/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>World</title>
+      <link>/categories/world/</link>
+      <pubDate>Thu, 13 Jul 2017 22:00:00 +0000</pubDate>
+      
+      <guid>/categories/world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GR20</title>
+      <link>/categories/gr20/</link>
+      <pubDate>Mon, 30 May 2016 22:00:00 +0000</pubDate>
+      
+      <guid>/categories/gr20/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
